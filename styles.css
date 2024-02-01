@@ -7,3 +7,10 @@
     --clr-light: #f0f0f0;
     --clr-white: #ffffff;
 }
+
+
+/* Resets */
+
+*::before::after {
+    box-sizing: border-box;
+}
