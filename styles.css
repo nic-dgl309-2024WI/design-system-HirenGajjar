@@ -18,3 +18,8 @@
 * {
     margin: 0;
 }
+
+ol,
+ul {
+    padding: 0;
+}
