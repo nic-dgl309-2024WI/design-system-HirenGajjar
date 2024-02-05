@@ -1,3 +1,6 @@
+/* Mobile First Style */
+
+
 /* Nav bar styles */
 
 
@@ -57,5 +60,15 @@
 /* Top navigation links layout style */
 
 .l-topnav-links {
+    display: none;
+}
+
+
+/* Side bar menu Links style */
+
+
+/* Side bar menu layout style */
+
+.l-sidebar-menu-link {
     display: none;
 }
