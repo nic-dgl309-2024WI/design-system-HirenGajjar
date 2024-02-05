@@ -1,0 +1,6 @@
+/* Hamburger icon component */
+
+.c-hamburger {
+    display: block;
+    cursor: pointer;
+}
