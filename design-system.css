@@ -1,8 +1,14 @@
 /* Nav bar styles */
 
+
+/* Nav tag component styles */
+
 .c-nav {
     width: 100%;
 }
+
+
+/* Nav tag layout styles */
 
 .l-nav {
     display: flex;
@@ -42,4 +48,14 @@
 .s-hamburger__line:nth-child(3) {
     transform: rotate(-45deg) translate(-8px, 7px);
     transition: all ease-in-out 0.5s;
+}
+
+
+/* Top navigation Links Style */
+
+
+/* Top navigation links layout style */
+
+.l-topnav-links {
+    display: none;
 }
