@@ -1,6 +1,15 @@
-/* Hamburger icon component */
+/* Hamburger icon layout style */
 
 .l-hamburger {
     display: block;
     cursor: pointer;
+}
+
+
+/* Hamburger icon utility style */
+
+.c-hamburger__line {
+    width: 30px;
+    height: 5px;
+    margin: 6px 0;
 }
