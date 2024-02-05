@@ -1,3 +1,11 @@
+/* Nav bar styles */
+
+.l-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* Hamburger icon layout style */
 
 .l-hamburger {
@@ -6,10 +14,28 @@
 }
 
 
-/* Hamburger icon utility style */
+/* Hamburger icon lines utility style */
 
 .c-hamburger__line {
     width: 30px;
     height: 5px;
     margin: 6px 0;
+}
+
+
+/* Hamburger icon lines transition style as a state */
+
+.s-hamburger__line:nth-child(1) {
+    transform: rotate(-45deg) translate(-8px, 7px);
+    transition: all ease-in-out 0.5s;
+}
+
+.s-hamburger__line:nth-child(2) {
+    transform: rotate(-45deg) translate(-8px, 7px);
+    transition: all ease-in-out 0.5s;
+}
+
+.s-hamburger__line:nth-child(3) {
+    transform: rotate(-45deg) translate(-8px, 7px);
+    transition: all ease-in-out 0.5s;
 }
