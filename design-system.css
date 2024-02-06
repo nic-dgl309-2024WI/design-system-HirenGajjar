@@ -188,6 +188,13 @@ a:hover {
 }
 
 
+/* Secondary background color as a text color */
+
+.u-clr-secondary-background-text {
+    color: var(--clr-secondary-background);
+}
+
+
 /* Primary text color */
 
 .u-clr-primary-text {
