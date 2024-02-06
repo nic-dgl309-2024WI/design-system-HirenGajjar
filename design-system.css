@@ -169,3 +169,7 @@ a:hover {
 .u-clr-primary-background {
     background-color: var(--clr-primary-background);
 }
+
+.u-clr-secondary-background {
+    background-color: var(--clr-secondary-background);
+}
