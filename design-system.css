@@ -122,4 +122,8 @@
     .l-nav__links ul {
         display: flex;
     }
+    /* List item list style type */
+    .l-nav__links ul li {
+        list-style-type: none;
+    }
 }
