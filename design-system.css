@@ -113,4 +113,13 @@
     .l-hamburger {
         display: none
     }
+    /* Wide screen make top navigation links visible */
+    /* Top nav links  layout style*/
+    .nav__links {
+        display: block;
+    }
+    /* Wide screen Top nav links unordered list layout style */
+    .l-nav__links ul {
+        display: flex;
+    }
 }
