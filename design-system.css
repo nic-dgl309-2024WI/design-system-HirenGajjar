@@ -200,3 +200,10 @@ a:hover {
 .u-clr-primary-accent {
     background-color: var(--clr-primary-accent);
 }
+
+
+/* Secondary accent color */
+
+.u-clr-secondary-accent {
+    background-color: var(--clr-secondary-accent);
+}
