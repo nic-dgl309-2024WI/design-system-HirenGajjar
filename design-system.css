@@ -74,8 +74,8 @@
 }
 
 
-/* Side bar menu states style for javascript  */
+/* Side bar menu view style after adding javascript  */
 
-.s-sidebar-menu-view {
+.l-sidebar-menu.view {
     display: block;
 }
