@@ -5,6 +5,13 @@ a:hover {
 }
 
 
+/* Active state style to current page */
+
+.s-active-page {
+    text-transform: uppercase;
+}
+
+
 /* Mobile First Style */
 
 
