@@ -33,6 +33,7 @@
     width: 30px;
     height: 5px;
     margin: 6px 0;
+    background-color: var(--clr-primary-text);
 }
 
 
