@@ -79,3 +79,30 @@
 .l-sidebar-menu.view {
     display: block;
 }
+
+
+/* Side bar menu links are Menu links only visisble for wide screen  */
+
+
+/* Side bar menu links layout style */
+
+.l-sidebar-menu__links {
+    display: none;
+}
+
+
+/* Following style contains style for third part of side bar menu which is only visible for screen wider then 600px , so as for mobile first approach it is not visible on small screen.*/
+
+.wide-screen-sidebar-menu {
+    display: none;
+}
+
+
+/* After Adding view class on click of hamburger icon third portion of side bar menu gets visible */
+
+.wide-screen-sidebar-menu.view {
+    display: block;
+}
+
+
+/* Media query for wide screen >600px */
