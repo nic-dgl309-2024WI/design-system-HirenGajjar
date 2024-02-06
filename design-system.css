@@ -1,3 +1,16 @@
+/* 
+
+1. Top navigation and side bar style
+2. Colours Page styles
+
+
+
+*/
+
+
+/*********** 01. Top navigation and side bar style ***********/
+
+
 /* Hover stat for links */
 
 a:hover {
@@ -148,4 +161,11 @@ a:hover {
     .wide-screen-sidebar-menu {
         display: block;
     }
+}
+
+
+/*********** 2. Colours Page styles ***********/
+
+.u-clr-primary-background {
+    background-color: var(--clr-primary-background);
 }
