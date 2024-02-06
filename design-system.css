@@ -41,17 +41,14 @@
 
 .hamburger.open .line:nth-child(1) {
     transform: rotate(-45deg) translate(-8px, 7px);
-    transition: all ease-in-out 0.5s;
 }
 
 .hamburger.open .line:nth-child(2) {
     opacity: 0;
-    transition: all ease-in-out 0.5s;
 }
 
 .hamburger.open .line:nth-child(3) {
     transform: rotate(45deg) translate(-8px, -7px);
-    transition: all ease-in-out 0.5s;
 }
 
 
