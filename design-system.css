@@ -174,7 +174,7 @@ a:hover {
 }
 
 
-/* Primary background color as text color */
+/* Primary background color as foreground color */
 
 .u-clr-primary-background-text {
     color: var(--clr-primary-background);
@@ -188,7 +188,7 @@ a:hover {
 }
 
 
-/* Secondary background color as a text color */
+/* Secondary background color as a foreground color */
 
 .u-clr-secondary-background-text {
     color: var(--clr-secondary-background);
@@ -213,6 +213,13 @@ a:hover {
 
 .u-clr-primary-accent {
     background-color: var(--clr-primary-accent);
+}
+
+
+/* Primary accent color as a foreground color */
+
+.u-clr-primary-accent-text {
+    color: var(--clr-primary-accent);
 }
 
 
