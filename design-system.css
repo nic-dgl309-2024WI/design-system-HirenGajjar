@@ -228,3 +228,10 @@ a:hover {
 .u-clr-secondary-accent {
     background-color: var(--clr-secondary-accent);
 }
+
+
+/* Secondary accent color as a foreground color */
+
+.u-clr-secondary-accent-text {
+    color: var(--clr-secondary-accent);
+}
