@@ -29,7 +29,7 @@
 
 /* Hamburger icon lines utility style */
 
-.c-hamburger__line {
+.u-hamburger__line {
     width: 30px;
     height: 5px;
     margin: 6px 0;
@@ -38,18 +38,18 @@
 
 /* Hamburger icon lines transition style as a state */
 
-.s-hamburger__line:nth-child(1) {
+.hamburger.open .line:nth-child(1) {
     transform: rotate(-45deg) translate(-8px, 7px);
     transition: all ease-in-out 0.5s;
 }
 
-.s-hamburger__line:nth-child(2) {
-    transform: rotate(-45deg) translate(-8px, 7px);
+.hamburger.open .line:nth-child(2) {
+    opacity: 0;
     transition: all ease-in-out 0.5s;
 }
 
-.s-hamburger__line:nth-child(3) {
-    transform: rotate(-45deg) translate(-8px, 7px);
+.hamburger.open .line:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -7px);
     transition: all ease-in-out 0.5s;
 }
 
@@ -59,7 +59,7 @@
 
 /* Top navigation links layout style */
 
-.l-topnav-links {
+.l-nav__links {
     display: none;
 }
 
@@ -69,6 +69,13 @@
 
 /* Side bar menu layout style */
 
-.l-sidebar-menu-link {
+.l-sidebar-menu {
     display: none;
+}
+
+
+/* Side bar menu states style for javascript  */
+
+.s-sidebar-menu-view {
+    display: block;
 }
