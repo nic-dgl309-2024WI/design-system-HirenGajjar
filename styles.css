@@ -1,11 +1,11 @@
-/* Colors */
-
 :root {
-    --clr-primary: #000;
-    --clr-secondary: #444444;
-    --clr-accent: #444444;
-    --clr-light: #f0f0f0;
-    --clr-white: #ffffff;
+    /* Colors */
+    --clr-primary-background: #F9F9F9;
+    --clr-secondary-background: #ffffff;
+    --clr-primary-text: #000000;
+    --clr-secondary-text: #808080;
+    --clr-primary-accent: #2D2E32;
+    --clr-secondary-accent: #147EFB;
 }
 
 
