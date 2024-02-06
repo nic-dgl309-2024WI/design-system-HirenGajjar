@@ -166,10 +166,23 @@ a:hover {
 
 /*********** 2. Colours Page styles ***********/
 
+
+/* Primary background color */
+
 .u-clr-primary-background {
     background-color: var(--clr-primary-background);
 }
 
+
+/* Secondary background color */
+
 .u-clr-secondary-background {
     background-color: var(--clr-secondary-background);
+}
+
+
+/* Primary text color */
+
+.--clr-primary-text {
+    background-color: var(--clr-primary-text);
 }
