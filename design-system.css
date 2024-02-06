@@ -183,6 +183,13 @@ a:hover {
 
 /* Primary text color */
 
-.--clr-primary-text {
+.u-clr-primary-text {
     background-color: var(--clr-primary-text);
+}
+
+
+/* Secondary text color */
+
+.u-clr-secondary-text {
+    background-color: var(--clr-secondary-text);
 }
