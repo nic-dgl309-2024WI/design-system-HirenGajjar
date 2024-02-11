@@ -50,6 +50,8 @@
     --text-align-center: center;
     --text-align-right: right;
     --text-align-justify: justify;
+    /* Line height  */
+    --line-height-normal: normal;
     /* List property variables */
     --list-style-type-none: none;
 }
