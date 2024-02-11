@@ -243,3 +243,11 @@ a:hover {
 .u-text-primary {
     font-family: url(--primary-font);
 }
+
+.u-text-secondary {
+    font-family: url(--secondary-font);
+}
+
+.u-text-accent {
+    font-family: url(--accent-font);
+}
