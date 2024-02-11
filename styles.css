@@ -39,6 +39,8 @@
     /* Text decoration */
     --text-decoration-none: none;
     --text-decoration-underline: underline;
+    /* List property variables */
+    --list-style-type-none: none;
 }
 
 
