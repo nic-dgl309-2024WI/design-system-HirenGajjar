@@ -60,6 +60,7 @@
     --list-style-type-none: none;
     /* Text Transform Variables */
     --text-transform-none: none;
+    --text-transform-uppercase: uppercase;
 }
 
 
