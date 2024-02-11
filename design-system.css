@@ -270,3 +270,7 @@ a:hover {
 .u-fw-400 {
     font-weight: var(--font-weight-regular);
 }
+
+.u-fw-500 {
+    font-weight: var(--font-weight-medium);
+}
