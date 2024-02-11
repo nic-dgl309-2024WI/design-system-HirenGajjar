@@ -40,7 +40,7 @@ a:hover {
 /* Nav tag layout styles */
 
 .l-nav {
-    display: flex;
+    display: var(--display-flex);
     justify-content: space-between;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 /* Hamburger icon layout style */
 
 .l-hamburger {
-    display: block;
+    display: var(--display-block);
 }
 
 
@@ -100,7 +100,7 @@ a:hover {
 /* Side bar menu view style after adding javascript  */
 
 .l-sidebar-menu.view {
-    display: block;
+    display: var(--display-block);
 }
 
 
@@ -124,7 +124,7 @@ a:hover {
 /* After Adding view class on click of hamburger icon third portion of side bar menu gets visible */
 
 .wide-screen-sidebar-menu.view {
-    display: block;
+    display: var(--display-block);
 }
 
 
@@ -139,11 +139,11 @@ a:hover {
     /* Wide screen make top navigation links visible */
     /* Top nav links  layout style*/
     .nav__links {
-        display: block;
+        display: var(--display-block);
     }
     /* Wide screen Top nav links unordered list layout style */
     .l-nav__links ul {
-        display: flex;
+        display: var(--display-flex);
     }
     /* List item list style type */
     .l-nav__links ul li {
@@ -154,10 +154,10 @@ a:hover {
         text-decoration: none;
     }
     .l-sidebar-menu__links {
-        display: block;
+        display: var(--display-block);
     }
     .wide-screen-sidebar-menu {
-        display: block;
+        display: var(--display-block);
     }
 }
 
