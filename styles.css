@@ -35,6 +35,7 @@
     /* Layout Variables */
     --display-flex: flex;
     --display-block: block;
+    --display-none: none;
 }
 
 
