@@ -83,7 +83,7 @@ a:hover {
 /* Top navigation links layout style */
 
 .l-nav__links {
-    display: none;
+    display: var(--display-none);
 }
 
 
@@ -93,7 +93,7 @@ a:hover {
 /* Side bar menu layout style */
 
 .l-sidebar-menu {
-    display: none;
+    display: var(--display-none);
 }
 
 
@@ -110,14 +110,14 @@ a:hover {
 /* Side bar menu links layout style */
 
 .l-sidebar-menu__links {
-    display: none;
+    display: var(--display-none);
 }
 
 
 /* Following style contains style for third part of side bar menu which is only visible for screen wider then 600px , so as for mobile first approach it is not visible on small screen.*/
 
 .wide-screen-sidebar-menu {
-    display: none;
+    display: var(--display-none);
 }
 
 
