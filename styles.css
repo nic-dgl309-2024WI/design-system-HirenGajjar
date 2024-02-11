@@ -54,6 +54,8 @@
     --line-height-normal: normal;
     /* Letter Spacing Variables */
     --letter-spacing-normal: normal;
+    /* Word Spacing Variable */
+    --word-spacing-normal: normal;
     /* List property variables */
     --list-style-type-none: none;
 }
