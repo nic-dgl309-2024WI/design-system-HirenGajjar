@@ -62,6 +62,7 @@
     --text-transform-uppercase: uppercase;
     --text-transform-lowercase: lowercase;
     --text-transform-none: none;
+    --text-transform-capitalize: capitalize;
 }
 
 
