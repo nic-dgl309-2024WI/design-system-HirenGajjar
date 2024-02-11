@@ -45,6 +45,8 @@
     --text-decoration-underline: underline;
     --text-decoration-overline: overline;
     --text-decoration-line-through: line-through;
+    /* Text Align Variables */
+    --text-align-left: left;
     /* List property variables */
     --list-style-type-none: none;
 }
