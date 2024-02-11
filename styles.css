@@ -48,6 +48,7 @@
     /* Text Align Variables */
     --text-align-left: left;
     --text-align-center: center;
+    --text-align-right: right;
     /* List property variables */
     --list-style-type-none: none;
 }
