@@ -20,7 +20,7 @@ a:hover {
 /* Active state style to current page */
 
 .s-active-page {
-    text-transform: uppercase;
+    text-transform: var(--text-decoration-uppercase);
 }
 
 
