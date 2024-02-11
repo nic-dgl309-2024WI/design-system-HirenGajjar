@@ -41,7 +41,7 @@ a:hover {
 
 .l-nav {
     display: var(--display-flex);
-    justify-content: space-between;
+    justify-content: var(--justify-content-space-between);
 }
 
 
