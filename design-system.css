@@ -262,3 +262,7 @@ a:hover {
 .u-fw-200 {
     font-weight: var(--font-weight-extra-light);
 }
+
+.u-fw-300 {
+    font-weight: var(--font-weight-light);
+}
