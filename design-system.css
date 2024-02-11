@@ -274,3 +274,7 @@ a:hover {
 .u-fw-500 {
     font-weight: var(--font-weight-medium);
 }
+
+.u-fw-600 {
+    font-weight: var(--font-weight-semibold);
+}
