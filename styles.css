@@ -47,6 +47,7 @@
     --text-decoration-line-through: line-through;
     /* Text Align Variables */
     --text-align-left: left;
+    --text-align-center: center;
     /* List property variables */
     --list-style-type-none: none;
 }
