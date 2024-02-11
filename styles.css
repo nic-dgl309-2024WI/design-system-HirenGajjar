@@ -36,6 +36,9 @@
     --display-flex: flex;
     --display-block: block;
     --display-none: none;
+    /* Text decoration */
+    --text-decoration-none: none;
+    --text-decoration-underline: underline;
 }
 
 
