@@ -236,3 +236,10 @@ a:hover {
 
 
 /*********** 03. Typography Page styles ***********/
+
+
+/* Primary, secondary and accent text */
+
+.u-text-primary {
+    font-family: url(--primary-font);
+}
