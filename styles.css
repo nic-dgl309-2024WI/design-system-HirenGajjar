@@ -6,7 +6,7 @@
     --clr-secondary-text: #4d4d4d;
     --clr-primary-accent: #2D2E32;
     --clr-secondary-accent: #0351AB;
-    /* Fonts */
+    /* Font family */
     --primary-font: 'Open Sans', sans-serif;
     --secondary-font: 'Epilogue', sans-serif;
     --accent-font: 'Roboto', sans-serif;
@@ -19,6 +19,19 @@
     --font-weight-light: 300;
     --font-weight-extra-light: 200;
     --font-weight-thin: 100;
+    /* Font size  */
+    --font-size-micro: 10px;
+    --font-size-tiny: 12px;
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 18px;
+    --font-size-huge: 24px;
+    --font-size-gargantuan: 30px;
+    --font-size-colossal: 36px;
+    --font-size-monumental: 48px;
+    --font-size-titanic: 60px;
+    --font-size-mammoth: 72px;
+    --font-size-stupendous: 84px;
 }
 
 
