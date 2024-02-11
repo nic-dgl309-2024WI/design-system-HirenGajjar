@@ -134,7 +134,7 @@ a:hover {
     /* on a Wide screen  hamburger icon is not visible*/
     /* hamburger icon wide screen layout style */
     .l-hamburger {
-        display: none
+        display: var(--display-none);
     }
     /* Wide screen make top navigation links visible */
     /* Top nav links  layout style*/
@@ -151,7 +151,7 @@ a:hover {
     }
     /* Top nav link list anchor tag style */
     .l-nav__links ul li a {
-        text-decoration: none;
+        text-decoration: var(--text-decoration-none);
     }
     .l-sidebar-menu__links {
         display: var(--display-block);

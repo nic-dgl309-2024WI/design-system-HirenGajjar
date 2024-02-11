@@ -58,6 +58,8 @@
     --word-spacing-normal: normal;
     /* List property variables */
     --list-style-type-none: none;
+    /* Text Transform Variables */
+    --text-transform-none: none;
 }
 
 
