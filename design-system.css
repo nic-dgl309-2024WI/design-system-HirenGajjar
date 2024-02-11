@@ -241,13 +241,20 @@ a:hover {
 /* Primary, secondary and accent text */
 
 .u-text-primary {
-    font-family: url(--primary-font);
+    font-family: var(--primary-font);
 }
 
 .u-text-secondary {
-    font-family: url(--secondary-font);
+    font-family: var(--secondary-font);
 }
 
 .u-text-accent {
-    font-family: url(--accent-font);
+    font-family: var(--accent-font);
+}
+
+
+/* Font weight */
+
+.u-fw-100 {
+    font-weight: var(--font-weight-thin);
 }
