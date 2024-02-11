@@ -13,7 +13,7 @@
 /* Hover stat for links */
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: var(--text-decoration-underline);
 }
 
 
