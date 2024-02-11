@@ -147,7 +147,7 @@ a:hover {
     }
     /* List item list style type */
     .l-nav__links ul li {
-        list-style-type: none;
+        list-style-type: var(--list-style-type-none);
     }
     /* Top nav link list anchor tag style */
     .l-nav__links ul li a {

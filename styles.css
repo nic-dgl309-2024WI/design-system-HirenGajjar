@@ -39,6 +39,7 @@
     /* Text decoration */
     --text-decoration-none: none;
     --text-decoration-underline: underline;
+    --text-decoration-uppercase: uppercase;
     /* List property variables */
     --list-style-type-none: none;
 }
