@@ -32,6 +32,9 @@
     --font-size-titanic: 60px;
     --font-size-mammoth: 72px;
     --font-size-stupendous: 84px;
+    /* Layout Variables */
+    --display-flex: flex;
+    --display-block: block;
 }
 
 
