@@ -49,6 +49,7 @@
     --text-align-left: left;
     --text-align-center: center;
     --text-align-right: right;
+    --text-align-justify: justify;
     /* List property variables */
     --list-style-type-none: none;
 }
