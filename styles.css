@@ -6,6 +6,10 @@
     --clr-secondary-text: #4d4d4d;
     --clr-primary-accent: #2D2E32;
     --clr-secondary-accent: #0351AB;
+    /* Fonts */
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Cormorant', serif;
+    --accent-font: 'Roboto', sans-serif;
 }
 
 

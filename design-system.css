@@ -2,7 +2,7 @@
 
 1. Top navigation and side bar style
 2. Colours Page styles
-
+3, Typography page styles
 
 
 */
@@ -50,7 +50,6 @@ a:hover {
 
 .l-hamburger {
     display: block;
-    cursor: pointer;
 }
 
 
@@ -235,3 +234,6 @@ a:hover {
 .u-clr-secondary-accent-text {
     color: var(--clr-secondary-accent);
 }
+
+
+/*********** 03. Typography Page styles ***********/
