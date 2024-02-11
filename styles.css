@@ -43,7 +43,8 @@
     /* Text decoration */
     --text-decoration-none: none;
     --text-decoration-underline: underline;
-    --text-decoration-uppercase: uppercase;
+    --text-decoration-overline: overline;
+    --text-decoration-line-through: line-through;
     /* List property variables */
     --list-style-type-none: none;
 }
