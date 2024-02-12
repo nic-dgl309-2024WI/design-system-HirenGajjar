@@ -337,3 +337,7 @@ a:hover {
 .u-fs-mammoth {
     font-size: var(--font-size-mammoth);
 }
+
+.u-fs-stupendous {
+    font-size: var(--font-size-stupendous);
+}
