@@ -333,3 +333,7 @@ a:hover {
 .u-fs-titanic {
     font-size: var(--font-size-titanic);
 }
+
+.u-fs-mammoth {
+    font-size: var(--font-size-mammoth);
+}
