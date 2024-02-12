@@ -33,6 +33,10 @@
     --font-size-titanic: 60px;
     --font-size-mammoth: 72px;
     --font-size-stupendous: 84px;
+    /* Font Style Variables */
+    --font-style-normal: normal;
+    --font-style-italic: italic;
+    --font-style-oblique: oblique;
     /* Layout Variables */
     --display-flex: flex;
     --display-block: block;
