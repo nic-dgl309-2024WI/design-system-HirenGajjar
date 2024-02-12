@@ -325,3 +325,7 @@ a:hover {
 .u-fs-xxxl {
     font-size: var(--font-size-colossal);
 }
+
+.u-fs-monumental {
+    font-size: var(--font-size-monumental);
+}
