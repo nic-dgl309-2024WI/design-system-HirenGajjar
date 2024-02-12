@@ -329,3 +329,7 @@ a:hover {
 .u-fs-monumental {
     font-size: var(--font-size-monumental);
 }
+
+.u-fs-titanic {
+    font-size: var(--font-size-titanic);
+}
