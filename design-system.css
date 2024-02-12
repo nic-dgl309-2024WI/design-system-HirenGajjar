@@ -1,358 +1,286 @@
-/* 
+    /* 
 
 1. Top navigation and side bar style
 2. Colours Page styles
 3. Typography page styles
 
 */
-
-
-/*********** 01. Top navigation and side bar style ***********/
-
-
-/* Hover stat for links */
-
-a:hover {
-    text-decoration: var(--text-decoration-underline);
-}
-
-
-/* Active state style to current page */
-
-.s-active-page {
-    text-transform: var(--text-transform-uppercase);
-}
-
-
-/* Mobile First Style */
-
-
-/* Nav bar styles */
-
-
-/* Nav tag component styles */
-
-.c-nav {
-    width: 100%;
-}
-
-
-/* Nav tag layout styles */
-
-.l-nav {
-    display: var(--display-flex);
-    justify-content: var(--justify-content-space-between);
-}
-
-
-/* Hamburger icon layout style */
-
-.l-hamburger {
-    display: var(--display-block);
-}
-
-
-/* Hamburger icon lines utility style */
-
-.u-hamburger__line {
-    width: 30px;
-    height: 5px;
-    margin: 6px 0;
-    background-color: var(--clr-primary-text);
-}
-
-
-/* Hamburger icon lines transition style as a state */
-
-.hamburger.open .line:nth-child(1) {
-    transform: rotate(-45deg) translate(-8px, 7px);
-}
-
-.hamburger.open .line:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger.open .line:nth-child(3) {
-    transform: rotate(45deg) translate(-8px, -7px);
-}
-
-
-/* Top navigation Links Style */
-
-
-/* Top navigation links layout style */
-
-.l-nav__links {
-    display: var(--display-none);
-}
-
-
-/* Side bar menu Links style */
-
-
-/* Side bar menu layout style */
-
-.l-sidebar-menu {
-    display: var(--display-none);
-}
-
-
-/* Side bar menu view style after adding javascript  */
-
-.l-sidebar-menu.view {
-    display: var(--display-block);
-}
-
-
-/* Side bar menu links are Menu links only visisble for wide screen  */
-
-
-/* Side bar menu links layout style */
-
-.l-sidebar-menu__links {
-    display: var(--display-none);
-}
-
-
-/* Following style contains style for third part of side bar menu which is only visible for screen wider then 600px , so as for mobile first approach it is not visible on small screen.*/
-
-.wide-screen-sidebar-menu {
-    display: var(--display-none);
-}
-
-
-/* After Adding view class on click of hamburger icon third portion of side bar menu gets visible */
-
-.wide-screen-sidebar-menu.view {
-    display: var(--display-block);
-}
-
-
-/* Media query for wide screen >600px */
-
-@media(min-width: 600px) {
-    /* on a Wide screen  hamburger icon is not visible*/
-    /* hamburger icon wide screen layout style */
+    /*********** 01. Top navigation and side bar style ***********/
+    /* Hover stat for links */
+    
+    a:hover {
+        text-decoration: var(--text-decoration-underline);
+    }
+    /* Active state style to current page */
+    
+    .s-active-page {
+        text-transform: var(--text-transform-uppercase);
+    }
+    /* Mobile First Style */
+    /* Nav bar styles */
+    /* Nav tag component styles */
+    
+    .c-nav {
+        width: 100%;
+    }
+    /* Nav tag layout styles */
+    
+    .l-nav {
+        display: var(--display-flex);
+        justify-content: var(--justify-content-space-between);
+    }
+    /* Hamburger icon layout style */
+    
     .l-hamburger {
+        display: var(--display-block);
+    }
+    /* Hamburger icon lines utility style */
+    
+    .u-hamburger__line {
+        width: 30px;
+        height: 5px;
+        margin: 6px 0;
+        background-color: var(--clr-primary-text);
+    }
+    /* Hamburger icon lines transition style as a state */
+    
+    .hamburger.open .line:nth-child(1) {
+        transform: rotate(-45deg) translate(-8px, 7px);
+    }
+    
+    .hamburger.open .line:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.open .line:nth-child(3) {
+        transform: rotate(45deg) translate(-8px, -7px);
+    }
+    /* Top navigation Links Style */
+    /* Top navigation links layout style */
+    
+    .l-nav__links {
         display: var(--display-none);
     }
-    /* Wide screen make top navigation links visible */
-    /* Top nav links  layout style*/
-    .nav__links {
+    /* Side bar menu Links style */
+    /* Side bar menu layout style */
+    
+    .l-sidebar-menu {
+        display: var(--display-none);
+    }
+    /* Side bar menu view style after adding javascript  */
+    
+    .l-sidebar-menu.view {
         display: var(--display-block);
     }
-    /* Wide screen Top nav links unordered list layout style */
-    .l-nav__links ul {
-        display: var(--display-flex);
-    }
-    /* List item list style type */
-    .l-nav__links ul li {
-        list-style-type: var(--list-style-type-none);
-    }
-    /* Top nav link list anchor tag style */
-    .l-nav__links ul li a {
-        text-decoration: var(--text-decoration-none);
-    }
+    /* Side bar menu links are Menu links only visisble for wide screen  */
+    /* Side bar menu links layout style */
+    
     .l-sidebar-menu__links {
-        display: var(--display-block);
+        display: var(--display-none);
     }
+    /* Following style contains style for third part of side bar menu which is only visible for screen wider then 600px , so as for mobile first approach it is not visible on small screen.*/
+    
     .wide-screen-sidebar-menu {
+        display: var(--display-none);
+    }
+    /* After Adding view class on click of hamburger icon third portion of side bar menu gets visible */
+    
+    .wide-screen-sidebar-menu.view {
         display: var(--display-block);
     }
-}
-
-
-/*********** 2. Colours Page styles ***********/
-
-
-/* Primary background color */
-
-.u-clr-primary-background {
-    background-color: var(--clr-primary-background);
-}
-
-
-/* Primary background color as foreground color */
-
-.u-clr-primary-background-text {
-    color: var(--clr-primary-background);
-}
-
-
-/* Secondary background color */
-
-.u-clr-secondary-background {
-    background-color: var(--clr-secondary-background);
-}
-
-
-/* Secondary background color as a foreground color */
-
-.u-clr-secondary-background-text {
-    color: var(--clr-secondary-background);
-}
-
-
-/* Primary text color */
-
-.u-clr-primary-text {
-    color: var(--clr-primary-text);
-}
-
-
-/* Secondary text color */
-
-.u-clr-secondary-text {
-    color: var(--clr-secondary-text);
-}
-
-
-/* Primary accent color */
-
-.u-clr-primary-accent {
-    background-color: var(--clr-primary-accent);
-}
-
-
-/* Primary accent color as a foreground color */
-
-.u-clr-primary-accent-text {
-    color: var(--clr-primary-accent);
-}
-
-
-/* Secondary accent color */
-
-.u-clr-secondary-accent {
-    background-color: var(--clr-secondary-accent);
-}
-
-
-/* Secondary accent color as a foreground color */
-
-.u-clr-secondary-accent-text {
-    color: var(--clr-secondary-accent);
-}
-
-
-/*********** 03. Typography Page styles ***********/
-
-
-/* Primary, secondary and accent text */
-
-.u-text-primary {
-    font-family: var(--primary-font);
-}
-
-.u-text-secondary {
-    font-family: var(--secondary-font);
-}
-
-.u-text-accent {
-    font-family: var(--accent-font);
-}
-
-
-/* Font weight */
-
-.u-fw-100 {
-    font-weight: var(--font-weight-thin);
-}
-
-.u-fw-200 {
-    font-weight: var(--font-weight-extra-light);
-}
-
-.u-fw-300 {
-    font-weight: var(--font-weight-light);
-}
-
-.u-fw-400 {
-    font-weight: var(--font-weight-regular);
-}
-
-.u-fw-500 {
-    font-weight: var(--font-weight-medium);
-}
-
-.u-fw-600 {
-    font-weight: var(--font-weight-semibold);
-}
-
-.u-fw-700 {
-    font-weight: var(--font-weight-bold);
-}
-
-.u-fw-800 {
-    font-weight: var(--font-weight-semi-extra-bold);
-}
-
-.u-fw-900 {
-    font-weight: var(--font-weight-extra-bold);
-}
-
-
-/* Utility classes for font styles */
-
-.u-fs-normal {
-    font-style: var(--font-style-normal);
-}
-
-.u-fs-italic {
-    font-style: var(--font-style-italic);
-}
-
-.u-fs-oblique {
-    font-style: var(--font-style-oblique);
-}
-
-
-/* font size */
-
-.u-fs-xxs {
-    font-size: var(--font-size-micro);
-}
-
-.u-fs-xs {
-    font-size: var(--font-size-tiny);
-}
-
-.u-fs-s {
-    font-size: var(--font-size-small);
-}
-
-.u-fs-m {
-    font-size: var(--font-size-medium);
-}
-
-.u-fs-l {
-    font-size: var(--font-size-large);
-}
-
-.u-fs-xl {
-    font-size: var(--font-size-huge);
-}
-
-.u-fs-xxl {
-    font-size: var(--font-size-gargantuan);
-}
-
-.u-fs-xxxl {
-    font-size: var(--font-size-colossal);
-}
-
-.u-fs-monumental {
-    font-size: var(--font-size-monumental);
-}
-
-.u-fs-titanic {
-    font-size: var(--font-size-titanic);
-}
-
-.u-fs-mammoth {
-    font-size: var(--font-size-mammoth);
-}
-
-.u-fs-stupendous {
-    font-size: var(--font-size-stupendous);
-}
+    /* Media query for wide screen >600px */
+    
+    @media(min-width: 600px) {
+        /* on a Wide screen  hamburger icon is not visible*/
+        /* hamburger icon wide screen layout style */
+        .l-hamburger {
+            display: var(--display-none);
+        }
+        /* Wide screen make top navigation links visible */
+        /* Top nav links  layout style*/
+        .nav__links {
+            display: var(--display-block);
+        }
+        /* Wide screen Top nav links unordered list layout style */
+        .l-nav__links ul {
+            display: var(--display-flex);
+        }
+        /* List item list style type */
+        .l-nav__links ul li {
+            list-style-type: var(--list-style-type-none);
+        }
+        /* Top nav link list anchor tag style */
+        .l-nav__links ul li a {
+            text-decoration: var(--text-decoration-none);
+        }
+        .l-sidebar-menu__links {
+            display: var(--display-block);
+        }
+        .wide-screen-sidebar-menu {
+            display: var(--display-block);
+        }
+    }
+    /*********** 2. Colours Page styles ***********/
+    /* Primary background color */
+    
+    .u-clr-primary-background {
+        background-color: var(--clr-primary-background);
+    }
+    /* Primary background color as foreground color */
+    
+    .u-clr-primary-background-text {
+        color: var(--clr-primary-background);
+    }
+    /* Secondary background color */
+    
+    .u-clr-secondary-background {
+        background-color: var(--clr-secondary-background);
+    }
+    /* Secondary background color as a foreground color */
+    
+    .u-clr-secondary-background-text {
+        color: var(--clr-secondary-background);
+    }
+    /* Primary text color */
+    
+    .u-clr-primary-text {
+        color: var(--clr-primary-text);
+    }
+    /* Secondary text color */
+    
+    .u-clr-secondary-text {
+        color: var(--clr-secondary-text);
+    }
+    /* Primary accent color */
+    
+    .u-clr-primary-accent {
+        background-color: var(--clr-primary-accent);
+    }
+    /* Primary accent color as a foreground color */
+    
+    .u-clr-primary-accent-text {
+        color: var(--clr-primary-accent);
+    }
+    /* Secondary accent color */
+    
+    .u-clr-secondary-accent {
+        background-color: var(--clr-secondary-accent);
+    }
+    /* Secondary accent color as a foreground color */
+    
+    .u-clr-secondary-accent-text {
+        color: var(--clr-secondary-accent);
+    }
+    /*********** 03. Typography Page styles ***********/
+    /* Primary, secondary and accent text */
+    
+    .u-text-primary {
+        font-family: var(--primary-font);
+    }
+    
+    .u-text-secondary {
+        font-family: var(--secondary-font);
+    }
+    
+    .u-text-accent {
+        font-family: var(--accent-font);
+    }
+    /* Font weight */
+    
+    .u-fw-100 {
+        font-weight: var(--font-weight-thin);
+    }
+    
+    .u-fw-200 {
+        font-weight: var(--font-weight-extra-light);
+    }
+    
+    .u-fw-300 {
+        font-weight: var(--font-weight-light);
+    }
+    
+    .u-fw-400 {
+        font-weight: var(--font-weight-regular);
+    }
+    
+    .u-fw-500 {
+        font-weight: var(--font-weight-medium);
+    }
+    
+    .u-fw-600 {
+        font-weight: var(--font-weight-semibold);
+    }
+    
+    .u-fw-700 {
+        font-weight: var(--font-weight-bold);
+    }
+    
+    .u-fw-800 {
+        font-weight: var(--font-weight-semi-extra-bold);
+    }
+    
+    .u-fw-900 {
+        font-weight: var(--font-weight-extra-bold);
+    }
+    /* Utility classes for font styles */
+    
+    .u-fs-normal {
+        font-style: var(--font-style-normal);
+    }
+    
+    .u-fs-italic {
+        font-style: var(--font-style-italic);
+    }
+    
+    .u-fs-oblique {
+        font-style: var(--font-style-oblique);
+    }
+    /* font size */
+    
+    .u-fs-xxs {
+        font-size: var(--font-size-micro);
+    }
+    
+    .u-fs-xs {
+        font-size: var(--font-size-tiny);
+    }
+    
+    .u-fs-s {
+        font-size: var(--font-size-small);
+    }
+    
+    .u-fs-m {
+        font-size: var(--font-size-medium);
+    }
+    
+    .u-fs-l {
+        font-size: var(--font-size-large);
+    }
+    
+    .u-fs-xl {
+        font-size: var(--font-size-huge);
+    }
+    
+    .u-fs-xxl {
+        font-size: var(--font-size-gargantuan);
+    }
+    
+    .u-fs-xxxl {
+        font-size: var(--font-size-colossal);
+    }
+    
+    .u-fs-monumental {
+        font-size: var(--font-size-monumental);
+    }
+    
+    .u-fs-titanic {
+        font-size: var(--font-size-titanic);
+    }
+    
+    .u-fs-mammoth {
+        font-size: var(--font-size-mammoth);
+    }
+    
+    .u-fs-stupendous {
+        font-size: var(--font-size-stupendous);
+    }

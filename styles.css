@@ -37,6 +37,10 @@
     --font-style-normal: normal;
     --font-style-italic: italic;
     --font-style-oblique: oblique;
+    /* Font Kerning Variables */
+    --font-kerning-auto: auto;
+    --font-kerning-normal: normal;
+    --font-kerning-none: none;
     /* Layout Variables */
     --display-flex: flex;
     --display-block: block;
