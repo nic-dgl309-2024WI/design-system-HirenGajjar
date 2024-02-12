@@ -298,6 +298,10 @@ a:hover {
     font-style: var(--font-style-normal);
 }
 
+.u-fs-italic {
+    font-style: var(--font-style-italic);
+}
+
 
 /* font size */
 
