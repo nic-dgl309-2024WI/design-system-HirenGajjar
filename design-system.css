@@ -289,3 +289,7 @@
     .u-fk-auto {
         font-kerning: var(--font-kerning-auto);
     }
+    
+    .u-fk-normal {
+        font-kerning: var(--font-kerning-normal);
+    }
