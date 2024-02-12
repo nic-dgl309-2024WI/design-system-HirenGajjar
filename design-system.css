@@ -20,7 +20,7 @@ a:hover {
 /* Active state style to current page */
 
 .s-active-page {
-    text-transform: var(--text-decoration-uppercase);
+    text-transform: var(--text-transform-uppercase);
 }
 
 
@@ -293,3 +293,7 @@ a:hover {
 
 
 /* font size */
+
+.u-fs-m {
+    font-size: var(--font-size-medium);
+}
