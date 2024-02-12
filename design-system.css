@@ -292,6 +292,13 @@ a:hover {
 }
 
 
+/* Utility classes for font styles */
+
+.u-fs-normal {
+    font-style: var(--font-style-normal);
+}
+
+
 /* font size */
 
 .u-fs-xxs {
