@@ -294,6 +294,10 @@ a:hover {
 
 /* font size */
 
+.u-fs-xs {
+    font-size: var(--font-size-tiny);
+}
+
 .u-fs-s {
     font-size: var(--font-size-small);
 }
