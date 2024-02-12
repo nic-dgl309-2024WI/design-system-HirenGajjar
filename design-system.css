@@ -185,7 +185,7 @@
     .u-text-accent {
         font-family: var(--accent-font);
     }
-    /* Font weight */
+    /*Utility classes for Font weight */
     
     .u-fw-100 {
         font-weight: var(--font-weight-thin);
@@ -235,7 +235,7 @@
     .u-fs-oblique {
         font-style: var(--font-style-oblique);
     }
-    /* font size */
+    /*Utility classes for font size */
     
     .u-fs-xxs {
         font-size: var(--font-size-micro);
