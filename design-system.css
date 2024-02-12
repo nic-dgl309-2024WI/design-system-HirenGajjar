@@ -302,6 +302,10 @@ a:hover {
     font-style: var(--font-style-italic);
 }
 
+.u-fs-oblique {
+    font-style: var(--font-style-oblique);
+}
+
 
 /* font size */
 
