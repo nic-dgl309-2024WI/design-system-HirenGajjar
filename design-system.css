@@ -309,3 +309,7 @@ a:hover {
 .u-fs-m {
     font-size: var(--font-size-medium);
 }
+
+.u-fs-l {
+    font-size: var(--font-size-large);
+}
