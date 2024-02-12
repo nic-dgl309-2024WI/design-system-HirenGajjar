@@ -11,7 +11,7 @@
     a:hover {
         text-decoration: var(--text-decoration-underline);
     }
-    /* Active state style to current page */
+    /* Active state style  */
     
     .s-active-page {
         text-transform: var(--text-transform-uppercase);
@@ -27,6 +27,9 @@
     
     .l-nav {
         display: var(--display-flex);
+    }
+    
+    .l-nav-space-between {
         justify-content: var(--justify-content-space-between);
     }
     /* Hamburger icon layout style */
