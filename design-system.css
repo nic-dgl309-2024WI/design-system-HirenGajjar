@@ -317,3 +317,7 @@ a:hover {
 .u-fs-xl {
     font-size: var(--font-size-huge);
 }
+
+.u-fs-xxl {
+    font-size: var(--font-size-gargantuan);
+}
