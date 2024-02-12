@@ -293,3 +293,7 @@
     .u-fk-normal {
         font-kerning: var(--font-kerning-normal);
     }
+    
+    .u-fk-none {
+        font-kerning: var(--font-kerning-none);
+    }
