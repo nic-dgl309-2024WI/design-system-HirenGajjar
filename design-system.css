@@ -284,3 +284,8 @@
     .u-fs-stupendous {
         font-size: var(--font-size-stupendous);
     }
+    /* Utility classes for font kerning */
+    
+    .u-fk-auto {
+        font-kerning: var(--font-kerning-auto);
+    }
