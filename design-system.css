@@ -1,10 +1,10 @@
     /* 
 
-1. Top navigation and side bar style
-2. Colours Page styles
-3. Typography page styles
+        1. Top navigation and side bar style
+        2. Colours Page styles
+        3. Typography page styles
 
-*/
+    */
     /*********** 01. Top navigation and side bar style ***********/
     /* Hover stat for links */
     
@@ -16,14 +16,11 @@
     .s-active-page {
         text-transform: var(--text-transform-uppercase);
     }
-    /* Mobile First Style */
     /* Nav bar styles */
-    /* Nav tag component styles */
     
     .c-nav {
         width: 100%;
     }
-    /* Nav tag layout styles */
     
     .l-nav {
         display: var(--display-flex);
@@ -32,12 +29,11 @@
     .l-nav-space-between {
         justify-content: var(--justify-content-space-between);
     }
-    /* Hamburger icon layout style */
+    /* Hamburger icon style */
     
     .l-hamburger {
         display: var(--display-block);
     }
-    /* Hamburger icon lines utility style */
     
     .u-hamburger__line {
         width: 30px;
@@ -45,7 +41,6 @@
         margin: 6px 0;
         background-color: var(--clr-primary-text);
     }
-    /* Hamburger icon lines transition style as a state */
     
     .hamburger.open .line:nth-child(1) {
         transform: rotate(-45deg) translate(-8px, 7px);
@@ -58,35 +53,26 @@
     .hamburger.open .line:nth-child(3) {
         transform: rotate(45deg) translate(-8px, -7px);
     }
-    /* Top navigation Links Style */
-    /* Top navigation links layout style */
     
     .l-nav__links {
         display: var(--display-none);
     }
-    /* Side bar menu Links style */
-    /* Side bar menu layout style */
     
     .l-sidebar-menu {
         display: var(--display-none);
     }
-    /* Side bar menu view style after adding javascript  */
     
     .l-sidebar-menu.view {
         display: var(--display-block);
     }
-    /* Side bar menu links are Menu links only visisble for wide screen  */
-    /* Side bar menu links layout style */
     
     .l-sidebar-menu__links {
         display: var(--display-none);
     }
-    /* Following style contains style for third part of side bar menu which is only visible for screen wider then 600px , so as for mobile first approach it is not visible on small screen.*/
     
     .wide-screen-sidebar-menu {
         display: var(--display-none);
     }
-    /* After Adding view class on click of hamburger icon third portion of side bar menu gets visible */
     
     .wide-screen-sidebar-menu.view {
         display: var(--display-block);
@@ -94,25 +80,18 @@
     /* Media query for wide screen >600px */
     
     @media(min-width: 600px) {
-        /* on a Wide screen  hamburger icon is not visible*/
-        /* hamburger icon wide screen layout style */
         .l-hamburger {
             display: var(--display-none);
         }
-        /* Wide screen make top navigation links visible */
-        /* Top nav links  layout style*/
         .nav__links {
             display: var(--display-block);
         }
-        /* Wide screen Top nav links unordered list layout style */
         .l-nav__links ul {
             display: var(--display-flex);
         }
-        /* List item list style type */
         .l-nav__links ul li {
             list-style-type: var(--list-style-type-none);
         }
-        /* Top nav link list anchor tag style */
         .l-nav__links ul li a {
             text-decoration: var(--text-decoration-none);
         }
