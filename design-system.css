@@ -124,52 +124,45 @@
         }
     }
     /*********** 2. Colours Page styles ***********/
-    /* Primary background color */
+    /* Background colors */
     
     .u-clr-primary-background {
         background-color: var(--clr-primary-background);
     }
-    /* Primary background color as foreground color */
-    
-    .u-clr-primary-background-text {
-        color: var(--clr-primary-background);
-    }
-    /* Secondary background color */
     
     .u-clr-secondary-background {
         background-color: var(--clr-secondary-background);
     }
-    /* Secondary background color as a foreground color */
+    /* Text colors */
+    
+    .u-clr-primary-background-text {
+        color: var(--clr-primary-background);
+    }
     
     .u-clr-secondary-background-text {
         color: var(--clr-secondary-background);
     }
-    /* Primary text color */
     
     .u-clr-primary-text {
         color: var(--clr-primary-text);
     }
-    /* Secondary text color */
     
     .u-clr-secondary-text {
         color: var(--clr-secondary-text);
     }
-    /* Primary accent color */
+    /* Accent colors */
     
     .u-clr-primary-accent {
         background-color: var(--clr-primary-accent);
     }
-    /* Primary accent color as a foreground color */
     
     .u-clr-primary-accent-text {
         color: var(--clr-primary-accent);
     }
-    /* Secondary accent color */
     
     .u-clr-secondary-accent {
         background-color: var(--clr-secondary-accent);
     }
-    /* Secondary accent color as a foreground color */
     
     .u-clr-secondary-accent-text {
         color: var(--clr-secondary-accent);
