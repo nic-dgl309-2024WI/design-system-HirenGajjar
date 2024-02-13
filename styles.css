@@ -82,6 +82,10 @@
 
 * {
     margin: 0;
-    text-decoration: none;
+    text-decoration: var(--text-decoration-none);
     padding: 0;
+}
+
+ul li a {
+    color: var(--clr-secondary-accent);
 }
