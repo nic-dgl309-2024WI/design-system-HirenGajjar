@@ -41,13 +41,6 @@
     --font-kerning-auto: auto;
     --font-kerning-normal: normal;
     --font-kerning-none: none;
-    /* Layout Variables */
-    --display-flex: flex;
-    --display-block: block;
-    --display-none: none;
-    --justify-content-center: center;
-    --justify-content-space-between: space-between;
-    --justify-content-space-around: space-around;
     /* Text decoration */
     --text-decoration-none: none;
     --text-decoration-underline: underline;
@@ -71,6 +64,13 @@
     --text-transform-lowercase: lowercase;
     --text-transform-none: none;
     --text-transform-capitalize: capitalize;
+    /* Layout Variables */
+    --display-flex: flex;
+    --display-block: block;
+    --display-none: none;
+    --justify-content-center: center;
+    --justify-content-space-between: space-between;
+    --justify-content-space-around: space-around;
 }
 
 
@@ -88,4 +88,11 @@
 
 ul li a {
     color: var(--clr-secondary-accent);
+}
+
+
+/* Colors utility classes */
+
+.u-clr-primary-bg {
+    background-color: var(--clr-primary);
 }

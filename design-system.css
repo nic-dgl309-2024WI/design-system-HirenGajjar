@@ -102,50 +102,6 @@
             display: var(--display-block);
         }
     }
-    /*********** 2. Colours Page styles ***********/
-    /* Background colors */
-    
-    .u-clr-primary-background {
-        background-color: var(--clr-primary-background);
-    }
-    
-    .u-clr-secondary-background {
-        background-color: var(--clr-secondary-background);
-    }
-    /* Text colors */
-    
-    .u-clr-primary-background-text {
-        color: var(--clr-primary-background);
-    }
-    
-    .u-clr-secondary-background-text {
-        color: var(--clr-secondary-background);
-    }
-    
-    .u-clr-primary-text {
-        color: var(--clr-primary-text);
-    }
-    
-    .u-clr-secondary-text {
-        color: var(--clr-secondary-text);
-    }
-    /* Accent colors */
-    
-    .u-clr-primary-accent {
-        background-color: var(--clr-primary-accent);
-    }
-    
-    .u-clr-primary-accent-text {
-        color: var(--clr-primary-accent);
-    }
-    
-    .u-clr-secondary-accent {
-        background-color: var(--clr-secondary-accent);
-    }
-    
-    .u-clr-secondary-accent-text {
-        color: var(--clr-secondary-accent);
-    }
     /*********** 03. Typography Page styles ***********/
     /* Primary, secondary and accent text */
     
