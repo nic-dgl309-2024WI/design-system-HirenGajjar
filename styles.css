@@ -91,8 +91,55 @@ ul li a {
 }
 
 
-/* Colors utility classes */
+/* Background color utility classes */
 
-.u-clr-primary-bg {
+.u-bg-primary {
     background-color: var(--clr-primary);
+}
+
+.u-bg-primary-lighter {
+    background-color: var(--clr-primary-lighter);
+}
+
+.u-bg-secondary {
+    background-color: var(--clr-secondary);
+}
+
+.u-bg-secondary-darker {
+    background-color: var(--clr-secondary-darker);
+}
+
+.u-bg-accent {
+    background-color: var(--clr-accent);
+}
+
+.u-bg-accent-lighter {
+    background-color: var(--clr-accent-lighter);
+}
+
+
+/* Text color utility classes */
+
+.u-text-primary {
+    color: var(--clr-primary);
+}
+
+.u-text-primary-lighter {
+    color: var(--clr-primary-lighter);
+}
+
+.u-text-secondary {
+    color: var(--clr-secondary);
+}
+
+.u-text-secondary-darker {
+    color: var(--clr-secondary-darker);
+}
+
+.u-text-accent {
+    color: var(--clr-accent);
+}
+
+.u-text-accent-lighter {
+    color: var(--clr-accent-lighter);
 }
