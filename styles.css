@@ -143,3 +143,138 @@ ul li a {
 .u-text-clr-accent-lighter {
     color: var(--clr-accent-lighter);
 }
+
+
+/* Primary, secondary and accent text */
+
+.u-text-primary {
+    font-family: var(--primary-font);
+}
+
+.u-text-secondary {
+    font-family: var(--secondary-font);
+}
+
+.u-text-accent {
+    font-family: var(--accent-font);
+}
+
+
+/*Utility classes for Font weight */
+
+.u-fw-100 {
+    font-weight: var(--font-weight-thin);
+}
+
+.u-fw-200 {
+    font-weight: var(--font-weight-extra-light);
+}
+
+.u-fw-300 {
+    font-weight: var(--font-weight-light);
+}
+
+.u-fw-400 {
+    font-weight: var(--font-weight-regular);
+}
+
+.u-fw-500 {
+    font-weight: var(--font-weight-medium);
+}
+
+.u-fw-600 {
+    font-weight: var(--font-weight-semibold);
+}
+
+.u-fw-700 {
+    font-weight: var(--font-weight-bold);
+}
+
+.u-fw-800 {
+    font-weight: var(--font-weight-semi-extra-bold);
+}
+
+.u-fw-900 {
+    font-weight: var(--font-weight-extra-bold);
+}
+
+
+/* Utility classes for font styles */
+
+.u-fs-normal {
+    font-style: var(--font-style-normal);
+}
+
+.u-fs-italic {
+    font-style: var(--font-style-italic);
+}
+
+.u-fs-oblique {
+    font-style: var(--font-style-oblique);
+}
+
+
+/*Utility classes for font size */
+
+.u-fs-xxs {
+    font-size: var(--font-size-micro);
+}
+
+.u-fs-xs {
+    font-size: var(--font-size-tiny);
+}
+
+.u-fs-s {
+    font-size: var(--font-size-small);
+}
+
+.u-fs-m {
+    font-size: var(--font-size-medium);
+}
+
+.u-fs-l {
+    font-size: var(--font-size-large);
+}
+
+.u-fs-xl {
+    font-size: var(--font-size-huge);
+}
+
+.u-fs-xxl {
+    font-size: var(--font-size-gargantuan);
+}
+
+.u-fs-xxxl {
+    font-size: var(--font-size-colossal);
+}
+
+.u-fs-monumental {
+    font-size: var(--font-size-monumental);
+}
+
+.u-fs-titanic {
+    font-size: var(--font-size-titanic);
+}
+
+.u-fs-mammoth {
+    font-size: var(--font-size-mammoth);
+}
+
+.u-fs-stupendous {
+    font-size: var(--font-size-stupendous);
+}
+
+
+/* Utility classes for font kerning */
+
+.u-fk-auto {
+    font-kerning: var(--font-kerning-auto);
+}
+
+.u-fk-normal {
+    font-kerning: var(--font-kerning-normal);
+}
+
+.u-fk-none {
+    font-kerning: var(--font-kerning-none);
+}
