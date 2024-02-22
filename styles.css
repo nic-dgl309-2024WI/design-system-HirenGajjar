@@ -93,53 +93,53 @@ ul li a {
 
 /* Background color utility classes */
 
-.u-bg-primary {
+.u-bg-clr-primary {
     background-color: var(--clr-primary);
 }
 
-.u-bg-primary-lighter {
+.u-bg-clr-primary-lighter {
     background-color: var(--clr-primary-lighter);
 }
 
-.u-bg-secondary {
+.u-bg-clr-secondary {
     background-color: var(--clr-secondary);
 }
 
-.u-bg-secondary-darker {
+.u-bg-clr-secondary-darker {
     background-color: var(--clr-secondary-darker);
 }
 
-.u-bg-accent {
+.u-bg-clr-accent {
     background-color: var(--clr-accent);
 }
 
-.u-bg-accent-lighter {
+.u-bg-clr-accent-lighter {
     background-color: var(--clr-accent-lighter);
 }
 
 
 /* Text color utility classes */
 
-.u-text-primary {
+.u-text-clr-primary {
     color: var(--clr-primary);
 }
 
-.u-text-primary-lighter {
+.u-text-clr-primary-lighter {
     color: var(--clr-primary-lighter);
 }
 
-.u-text-secondary {
+.u-text-clr-secondary {
     color: var(--clr-secondary);
 }
 
-.u-text-secondary-darker {
+.u-text-clr-secondary-darker {
     color: var(--clr-secondary-darker);
 }
 
-.u-text-accent {
+.u-text-clr-accent {
     color: var(--clr-accent);
 }
 
-.u-text-accent-lighter {
+.u-text-clr-accent-lighter {
     color: var(--clr-accent-lighter);
 }
