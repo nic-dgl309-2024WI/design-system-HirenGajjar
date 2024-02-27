@@ -14,21 +14,24 @@
 </head>
 
 <body>
+
     <!-- Header -->
     <!-- First Block of Code -->
-    <header class="u-text-accent">
+    <header class="header u-text-clr-accent">
         <!-- Navigation -->
-        <nav class="l-nav l-nav-space-between c-nav">
+        <nav class="header__nav l-display-flex l-jc-space-between">
             <!-- Navigation Logo -->
-            <div><a href="index.html">Design System</a></div>
+            <div class="header__logo">
+                <a class="u-text-clr-accent" target="_blank" href="index.html">Design System</a>
+            </div>
             <!-- Hamburger Icon  for Mobile View-->
-            <div class="hamburger l-hamburger u-hamburger">
-                <div class="line u-hamburger__line"></div>
-                <div class="line u-hamburger__line"></div>
-                <div class="line u-hamburger__line"></div>
+            <div class="header__icon">
+                <div class="header__icon__line"></div>
+                <div class="header__icon__line"></div>
+                <div class="header__icon__line"></div>
             </div>
             <!-- Top Navigation Links for Desktop view -->
-            <div class="nav__links l-nav__links">
+            <div class="header__top-nav-links ">
                 <ul>
                     <li>
                         <a target="_blank" href="about-me.html">About Me</a>
@@ -39,11 +42,13 @@
                 </ul>
             </div>
         </nav>
+
+
         <!-- Second Block of Code -->
         <!-- Wrapper div -->
-        <div class="sidebar-menu l-sidebar-menu">
+        <div class="header__side-bar-mobile-view">
             <!-- Side bar links for mobile view for on click event of hamburger Icon -->
-            <div>
+            <div class="header__side-bar-mobile-view__top-links ">
                 <ul>
                     <li>
                         <a target="_blank" href="about-me.html">About Me</a>
@@ -54,23 +59,23 @@
                 </ul>
             </div>
             <!-- Side bar menu block of design system for on click event on hamburger icon in mobile view-->
-            <div class="l-sidebar-menu__links">
-                <h2 class="u-clr-primary-accent-text">Branding</h2>
+            <div class="header__side-bar">
+                <h2>Branding</h2>
                 <!-- Links for side bar menu on branding section  -->
                 <ul>
                     <li>
-                        <span>01</span> <a href="colours.html"> Colours</a>
+                        <span>01</span> <a target="_blank" href="colours.html"> Colours</a>
 
                     </li>
                     <li>
-                        <span>02</span> <a href="typography.html" class="s-active-page">Typography</a>
+                        <span>02</span> <a class="u-text-transform-uppercase" href="typography.html">Typography</a>
                     </li>
                     <li>
                         <span>03</span> <a href="#">Logo</a>
                     </li>
                 </ul>
                 <!-- Utilities Section Heading and Side bar links -->
-                <h2 class="u-clr-primary-accent-text">Utilities</h2>
+                <h2>Utilities</h2>
                 <ul>
                     <li>
                         <span>04</span> <a href="#"> Spacing</a>
@@ -90,7 +95,7 @@
                     </li>
                 </ul>
                 <!-- Navigation Section Heading and side bar links -->
-                <h2 class="u-clr-primary-accent-text">Navigation</h2>
+                <h2>Navigation</h2>
                 <ul>
                     <li>
                         <span>09</span><a href="#"> Navbars</a>
@@ -104,7 +109,7 @@
                     </li>
                 </ul>
                 <!-- Block element sections Heading and side bar links -->
-                <h2 class="u-clr-primary-accent-text">Blocks</h2>
+                <h2>Blocks</h2>
                 <ul>
                     <li>
                         <span>12</span><a href="#"> Hero</a>
@@ -120,7 +125,7 @@
                     </li>
                 </ul>
                 <!-- Components section Heading and side bar links -->
-                <h2 class="u-clr-primary-accent-text">Components</h2>
+                <h2>Components</h2>
                 <ul>
                     <li>
                         <span>16</span> <a href="#"> Cards</a>
@@ -138,23 +143,23 @@
             </div>
         </div>
         <!-- The third block of code for side bar menu and navigation links , for large screen views -->
-        <div class="wide-screen-sidebar-menu">
-            <h2 class="u-clr-primary-accent-text">Branding</h2>
+        <div class="header__side-bar-desktop-view">
+            <h2>Branding</h2>
             <!-- Links for side bar menu on branding section  -->
             <ul>
                 <li>
-                    <span>01</span> <a href="colours.html"> Colours</a>
+                    <span>01</span> <a target="_blank" href="colours.html"> Colours</a>
 
                 </li>
                 <li>
-                    <span>02</span> <a href="typography.html" class="s-active-page">Typography</a>
+                    <span>02</span> <a class="u-text-transform-uppercase" href="typography.html">Typography</a>
                 </li>
                 <li>
                     <span>03</span> <a href="#">Logo</a>
                 </li>
             </ul>
             <!-- Utilities Section Heading and Side bar links -->
-            <h2 class="u-clr-primary-accent-text">Utilities</h2>
+            <h2>Utilities</h2>
             <ul>
                 <li>
                     <span>04</span> <a href="#"> Spacing</a>
@@ -173,7 +178,7 @@
                 </li>
             </ul>
             <!-- Navigation Section Heading and side bar links -->
-            <h2 class="u-clr-primary-accent-text">Navigation</h2>
+            <h2>Navigation</h2>
             <ul>
                 <li>
                     <span>09</span><a href="#"> Navbars</a>
@@ -186,7 +191,7 @@
                 </li>
             </ul>
             <!-- Block element sections Heading and side bar links -->
-            <h2 class="u-clr-primary-accent-text">Blocks</h2>
+            <h2>Blocks</h2>
             <ul>
                 <li>
                     <span>12</span><a href="#"> Hero</a>
@@ -202,7 +207,7 @@
                 </li>
             </ul>
             <!-- Components section Heading and side bar links -->
-            <h2 class="u-clr-primary-accent-text">Components</h2>
+            <h2>Components</h2>
             <ul>
                 <li>
                     <span>16</span> <a href="#"> Cards</a>

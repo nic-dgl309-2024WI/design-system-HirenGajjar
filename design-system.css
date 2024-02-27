@@ -27,7 +27,7 @@
 }
 
 .header__icon.open .header__icon__line:nth-child(1) {
-    transform: rotate(-45deg) translate(-8px, 4px);
+    transform: rotate(-45deg) translate(-7px, 3px);
 }
 
 .header__icon.open .header__icon__line:nth-child(2) {
@@ -35,7 +35,7 @@
 }
 
 .header__icon.open .header__icon__line:nth-child(3) {
-    transform: rotate(45deg) translate(-8px, -4px);
+    transform: rotate(45deg) translate(-7px, -3px);
 }
 
 
