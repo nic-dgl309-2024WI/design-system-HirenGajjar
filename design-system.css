@@ -27,11 +27,11 @@
         display: var(--display-block);
     }
     
-    .u-hamburger__line {
+    .hamburger__line {
         width: 30px;
         height: 5px;
         margin: 6px 0;
-        background-color: var(--clr-primary-text);
+        background-color: var(--clr-secondary);
     }
     
     .hamburger.open .line:nth-child(1) {
