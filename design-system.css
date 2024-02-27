@@ -107,3 +107,31 @@
     .l-display-none {
         display: var(--display-none);
     }
+    
+    .l-jc-center {
+        justify-content: var(--justify-content-center);
+    }
+    
+    .l-jc-flex-start {
+        justify-content: var(--justify-content-flex-start);
+    }
+    
+    .l-jc-flex-end {
+        justify-content: var(--justify-content-flex-end);
+    }
+    
+    .l-jc-space-between {
+        justify-content: var(--justify-content-space-between);
+    }
+    
+    .l-jc-space-around {
+        justify-content: var(--justify-content-space-around);
+    }
+    
+    .l-jc-space-evenly {
+        justify-content: var(--justify-content-space-evenly);
+    }
+    
+    .l-jc-stretch {
+        justify-content: var(--justify-content-stretch);
+    }
