@@ -61,6 +61,13 @@
 }
 
 
+/* Navigation hover effect */
+
+a:hover {
+    text-decoration: var(--text-decoration-underline);
+}
+
+
 /**********Layout class***********/
 
 .l-display-flex {
