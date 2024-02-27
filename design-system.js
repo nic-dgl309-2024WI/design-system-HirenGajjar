@@ -2,6 +2,7 @@ let hamburger = document.querySelector(".header__icon");
 hamburger.onclick = function() {
     let mobileSideBar = document.querySelector(".header__side-bar-mobile-view");
     mobileSideBar.classList.toggle("view");
+    hamburger.classList.toggle("open");
 };
 
 window.addEventListener('resize', function() {
