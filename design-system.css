@@ -107,19 +107,3 @@
     .l-display-none {
         display: var(--display-none);
     }
-    
-    .u-text-transform-uppercase {
-        text-transform: var(--text-transform-uppercase);
-    }
-    
-    .u-text-transform-lowercase {
-        text-transform: var(--text-transform-lowercase);
-    }
-    
-    .u-text-transform-none {
-        text-transform: var(--text-transform-none);
-    }
-    
-    .u-text-transform-capitalize {
-        text-transform: var(--text-transform-capitalize);
-    }

@@ -71,6 +71,10 @@
     --justify-content-center: center;
     --justify-content-space-between: space-between;
     --justify-content-space-around: space-around;
+    --justify-content-space-between: space-between;
+    --justify-content-space-around: space-around;
+    --justify-content-space-evenly: space-evenly;
+    --justify-content-stretch: stretch;
 }
 
 
