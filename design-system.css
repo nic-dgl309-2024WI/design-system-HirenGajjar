@@ -1,11 +1,3 @@
-    /* 
-
-        1. Top navigation and side bar style
-        2. Colours Page styles
-        3. Typography page styles
-
-    */
-    /*********** 01. Top navigation and side bar style ***********/
     /* Hover stat for links */
     
     a:hover {
@@ -102,4 +94,32 @@
             display: var(--display-block);
         }
     }
-    /*********** 03. Typography Page styles ***********/
+    /**********Layout class***********/
+    
+    .l-display-flex {
+        display: var(--display-flex);
+    }
+    
+    .l-display-block {
+        display: var(--display-block);
+    }
+    
+    .l-display-none {
+        display: var(--display-none);
+    }
+    
+    .u-text-transform-uppercase {
+        text-transform: var(--text-transform-uppercase);
+    }
+    
+    .u-text-transform-lowercase {
+        text-transform: var(--text-transform-lowercase);
+    }
+    
+    .u-text-transform-none {
+        text-transform: var(--text-transform-none);
+    }
+    
+    .u-text-transform-capitalize {
+        text-transform: var(--text-transform-capitalize);
+    }

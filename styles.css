@@ -278,3 +278,22 @@ ul li a {
 .u-fk-none {
     font-kerning: var(--font-kerning-none);
 }
+
+
+/*Utility classes for text transform*/
+
+.u-text-transform-uppercase {
+    text-transform: var(--text-transform-uppercase);
+}
+
+.u-text-transform-lowercase {
+    text-transform: var(--text-transform-lowercase);
+}
+
+.u-text-transform-none {
+    text-transform: var(--text-transform-none);
+}
+
+.u-text-transform-capitalize {
+    text-transform: var(--text-transform-capitalize);
+}
