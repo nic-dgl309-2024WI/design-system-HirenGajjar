@@ -1,3 +1,28 @@
+.header__side-bar-mobile-view {
+    display: none;
+}
+
+.header__side-bar-desktop-view {
+    display: none;
+}
+
+.header__icon {
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.header__icon__line {
+    width: 15px;
+    height: 2px;
+    background-color: var(--clr-accent);
+}
+
+.header__side-bar-mobile-view.view {
+    display: block;
+}
+
+
 /**********Layout class***********/
 
 .l-display-flex {

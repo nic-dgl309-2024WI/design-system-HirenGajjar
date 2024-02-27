@@ -1,10 +1,7 @@
-let hamburger = document.querySelector(".hamburger");
+let hamburger = document.querySelector(".header__icon");
 hamburger.onclick = function() {
-    let sidebarMenu = document.querySelector(".sidebar-menu");
-    let wideScreenSidebarMenu = document.querySelector(".wide-screen-sidebar-menu");
-    sidebarMenu.classList.toggle("view");
-    hamburger.classList.toggle("open");
-    wideScreenSidebarMenu.classList.toggle("view");
+    let mobileSideBar = document.querySelector(".header__side-bar-mobile-view");
+    mobileSideBar.classList.toggle("view");
 };
 
 window.addEventListener('resize', function() {
