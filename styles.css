@@ -2205,3 +2205,10 @@ body {
 .l-pt-auto {
     padding-top: auto;
 }
+
+
+/* Padding-bottom auto */
+
+.l-pb-auto {
+    padding-bottom: auto;
+}
