@@ -1544,3 +1544,13 @@ body {
 .l-pt-400 {
     padding-top: 4rem;
 }
+
+
+/* Padding bottom layout class */
+
+
+/* Padding-bottom 0 */
+
+.l-pb-00 {
+    padding-bottom: 0;
+}
