@@ -1345,3 +1345,10 @@ body {
 .l-p-125 {
     padding: 1.25rem;
 }
+
+
+/* Padding 1.5rem (24px) */
+
+.l-p-150 {
+    padding: 1.5rem;
+}
