@@ -1833,3 +1833,10 @@ body {
 .l-pr-125 {
     padding-right: 1.25rem;
 }
+
+
+/* Padding-right 1.5rem (24px) */
+
+.l-pr-150 {
+    padding-right: 1.5rem;
+}
