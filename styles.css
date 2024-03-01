@@ -1331,3 +1331,10 @@ body {
 .l-p-075 {
     padding: 0.75rem;
 }
+
+
+/* Padding 1rem (16px) */
+
+.l-p-100 {
+    padding: 1rem;
+}
