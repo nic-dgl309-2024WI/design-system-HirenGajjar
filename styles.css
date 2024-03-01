@@ -968,3 +968,14 @@ body {
 .l-mb-400 {
     margin-bottom: 4rem;
 }
+
+
+/* Margin layot for x-axis */
+
+
+/* 0 margin on left and right */
+
+.l-mx-0 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
