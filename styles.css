@@ -1263,3 +1263,10 @@ body {
 .l-mt-auto {
     margin-top: auto;
 }
+
+
+/* Margin bottom set to auto */
+
+.l-mb-auto {
+    margin-bottom: auto;
+}
