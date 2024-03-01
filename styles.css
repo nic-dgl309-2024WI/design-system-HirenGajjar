@@ -2234,3 +2234,11 @@ body {
     padding-left: auto;
     padding-right: auto;
 }
+
+
+/* Padding-y auto */
+
+.l-py-auto {
+    padding-top: auto;
+    padding-bottom: auto;
+}
