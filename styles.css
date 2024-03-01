@@ -1875,3 +1875,10 @@ body {
 .l-pr-275 {
     padding-right: 2.75rem;
 }
+
+
+/* Padding-right 3rem (48px) */
+
+.l-pr-300 {
+    padding-right: 3rem;
+}
