@@ -2212,3 +2212,10 @@ body {
 .l-pb-auto {
     padding-bottom: auto;
 }
+
+
+/* Padding-left auto */
+
+.l-pl-auto {
+    padding-left: auto;
+}
