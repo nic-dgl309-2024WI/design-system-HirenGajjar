@@ -41,6 +41,17 @@
 }
 
 
+/* Navigation Styles */
+
+.header__nav {
+    border-bottom: 2px solid #000;
+}
+
+header li {
+    list-style-type: none;
+}
+
+
 /* Media query */
 
 @media (min-width: 600px) {
