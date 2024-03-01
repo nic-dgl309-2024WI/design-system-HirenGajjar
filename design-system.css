@@ -1,81 +1,82 @@
-/* Mobile view menu icon */
-
-.header__side-bar-mobile-view {
-    display: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header__side-bar-mobile-view.openView {
-    display: block;
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    height: 2.5vh;
 }
 
-.header__side-bar-desktop-view {
-    display: none;
+.navigation__icon {
+    display: flex;
+    gap: 3px;
 }
 
-.header__icon {
-    flex-direction: column;
+.navigation__circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+#menu-icon {
     cursor: pointer;
 }
 
-.header__top-nav-links {
+nav .menu-links {
     display: none;
 }
 
-.header__icon__line {
-    width: 30px;
-    height: 5px;
-    margin: 2px 0;
-    background-color: var(--clr-accent);
+.mobile-sidebar {
+    display: none;
 }
 
-.header__icon.open .header__icon__line:nth-child(1) {
-    transform: rotate(-45deg) translate(-7px, 3px);
+.desktop-sidebar {
+    display: none;
 }
 
-.header__icon.open .header__icon__line:nth-child(2) {
-    opacity: 0;
+.mobile-sidebar.open {
+    z-index: 2;
+    display: block;
+    position: fixed;
+    margin-left: 0;
+    height: 97.5vh;
+    margin-top: 2.5vh;
+    width: 100%;
 }
 
-.header__icon.open .header__icon__line:nth-child(3) {
-    transform: rotate(45deg) translate(-7px, -3px);
+.content {
+    z-index: 1;
 }
 
-
-/* Navigation Styles */
-
-.header__nav {
-    border-bottom: 2px solid #000;
-}
-
-header li {
-    list-style-type: none;
-}
-
-
-/* Media query */
-
-@media (min-width: 600px) {
-    .header__icon {
-        display: none;
-    }
-    .header__top-nav-links {
+@media (min-width:600px) {
+    nav .menu-links {
         display: block;
     }
-    .header__top-nav-links ul {
-        display: flex;
-        list-style-type: none;
-    }
-    .header__side-bar-desktop-view {
+    .desktop-sidebar {
         display: block;
+        z-index: 2;
+        position: fixed;
+        width: 300px;
     }
-    .header__side-bar-mobile-view.view {
+    nav #menu-icon {
         display: none;
     }
-}
-
-
-/* Navigation hover effect */
-
-a:hover {
-    text-decoration: var(--text-decoration-underline);
+    .mobile-sidebar {
+        display: none;
+    }
+    .desktop-sidebar {
+        margin-top: 20px;
+        height: 98vh;
+    }
+    .content {
+        margin-left: 400px;
+    }
 }

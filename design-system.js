@@ -1,14 +1,6 @@
-let hamburger = document.querySelector(".header__icon");
-let mobileSideBar = document.querySelector(".header__side-bar-mobile-view");
-hamburger.addEventListener('click', () => {
-    mobileSideBar.classList.toggle("openView");
-    hamburger.classList.toggle("open");
-})
-
-
-
-window.addEventListener('resize', function() {
-    mobileSideBar.classList.toggle("view");
+let icon = document.querySelector("#menu-icon");
+icon.addEventListener('click', () => {
+    if (window.innerWidth < 600) {
+        document.querySelector(".mobile-sidebar").classList.toggle("open");
+    }
 });
-
-window.dispatchEvent(new Event('resize'));

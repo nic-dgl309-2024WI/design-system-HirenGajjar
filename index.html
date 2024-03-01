@@ -14,215 +14,198 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <!-- First Block of Code -->
-    <header class="header u-text-clr-accent u-text-accent">
-        <!-- Navigation -->
-        <nav class="header__nav l-display-flex l-jc-space-between l-py-100">
-            <!-- Navigation Logo -->
-            <div class="header__logo">
-                <a class="u-text-clr-accent u-text-transform-uppercase" href="index.html">Design System</a>
-            </div>
-            <!-- Hamburger Icon  for Mobile View-->
-            <div class="header__icon">
-                <div class="header__icon__line"></div>
-                <div class="header__icon__line"></div>
-                <div class="header__icon__line"></div>
-            </div>
-            <!-- Top Navigation Links for Desktop view -->
-            <div class="header__top-nav-links ">
-                <ul>
-                    <li>
-                        <a target="_blank" href="about-me.html">About Me</a>
-                    </li>
-                    <li>
-                        <a href="">Demo Site</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="navigation u-text-accent">
+        <a href="" class="navigation__link">Design system</a>
+        <span id="menu-icon" class="navigation__icon">
+            <div class="navigation__circle"></div>
+            <div class="navigation__circle"></div>
+            <div class="navigation__circle"></div>
+        </span>
 
-
-        <!-- Second Block of Code -->
-        <!-- Wrapper div -->
-        <div class="header__side-bar-mobile-view l-px-300">
-            <!-- Side bar links for mobile view for on click event of hamburger Icon -->
-            <div class="header__side-bar-mobile-view__top-links ">
-                <ul>
-                    <li>
-                        <a target="_blank" href="about-me.html">About Me</a>
-                    </li>
-                    <li>
-                        <a href="">Demo Site</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Side bar menu block of design system for on click event on hamburger icon in mobile view-->
-            <div class="header__side-bar">
-                <h2 class="header__side-bar__header">Branding</h2>
-                <!-- Links for side bar menu on branding section  -->
-                <ul>
-                    <li>
-                        <span>01</span> <a target="_blank" href="colours.html"> Colours</a>
-
-                    </li>
-                    <li>
-                        <span>02</span> <a target="_blank" href="typography.html">Typography</a>
-                    </li>
-                    <li>
-                        <span>03</span> <a href="#">Logo</a>
-                    </li>
-                </ul>
-                <!-- Utilities Section Heading and Side bar links -->
-                <h2 class="header__side-bar__header">Utilities</h2>
-                <ul>
-                    <li>
-                        <span>04</span> <a href="#"> Spacing</a>
-
-                    </li>
-                    <li>
-                        <span>05</span> <a href="#"> Containers</a>
-                    </li>
-                    <li>
-                        <span>06</span> <a href="#"> Images</a>
-                    </li>
-                    <li>
-                        <span>07</span><a href="#"> Interactive</a>
-                    </li>
-                    <li>
-                        <span>08</span> <a href="#"> Feedback</a>
-                    </li>
-                </ul>
-                <!-- Navigation Section Heading and side bar links -->
-                <h2 class="header__side-bar__header">Navigation</h2>
-                <ul>
-                    <li>
-                        <span>09</span><a href="#"> Navbars</a>
-
-                    </li>
-                    <li>
-                        <span>10</span> <a href="#"> Breadcrumbs</a>
-                    </li>
-                    <li>
-                        <span>11</span> <a href="#">Pagination</a>
-                    </li>
-                </ul>
-                <!-- Block element sections Heading and side bar links -->
-                <h2 class="header__side-bar__header">Blocks</h2>
-                <ul>
-                    <li>
-                        <span>12</span><a href="#"> Hero</a>
-                    </li>
-                    <li>
-                        <span>13</span> <a href="#">Carousel</a>
-                    </li>
-                    <li>
-                        <span>14</span> <a href="#">Slats</a>
-                    </li>
-                    <li>
-                        <span>15</span> <a href="#"> Footer</a>
-                    </li>
-                </ul>
-                <!-- Components section Heading and side bar links -->
-                <h2 class="header__side-bar__header">Components</h2>
-                <ul>
-                    <li>
-                        <span>16</span> <a href="#"> Cards</a>
-                    </li>
-                    <li>
-                        <span>17</span> <a href="#"> Forms</a>
-                    </li>
-                    <li>
-                        <span>18</span> <a href="#"> Accordion</a>
-                    </li>
-                    <li>
-                        <span>19</span> <a href="#"> Lists</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="navigation__menu-links menu-links">
+            <a href="" class="menu-links__link">About me</a>
+            <a href="" class="menu-links__link">Demo site</a>
         </div>
-        <!-- The third block of code for side bar menu and navigation links , for large screen views -->
-        <div class="header__side-bar-desktop-view">
-            <h2 class="header__side-bar-desktop-view__header">Branding</h2>
-            <!-- Links for side bar menu on branding section  -->
-            <ul>
-                <li>
-                    <span>01</span> <a target="_blank" href="colours.html"> Colours</a>
+    </nav>
 
+    <div class="mobile-sidebar mobile-sidebar--open u-text-accent">
+        <div class="mobile-sidebar__content">
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <a target="_blank" href="about-me.html" class="mobile-sidebar__link">About Me</a>
                 </li>
-                <li>
-                    <span>02</span> <a target="_blank" href="typography.html">Typography</a>
-                </li>
-                <li>
-                    <span>03</span> <a href="#">Logo</a>
-                </li>
-            </ul>
-            <!-- Utilities Section Heading and Side bar links -->
-            <h2 class="header__side-bar-desktop-view__header">Utilities</h2>
-            <ul>
-                <li>
-                    <span>04</span> <a href="#"> Spacing</a>
-                </li>
-                <li>
-                    <span>05</span> <a href="#"> Containers</a>
-                </li>
-                <li>
-                    <span>06</span> <a href="#"> Images</a>
-                </li>
-                <li>
-                    <span>07</span><a href="#"> Interactive</a>
-                </li>
-                <li>
-                    <span>08</span> <a href="#"> Feedback</a>
-                </li>
-            </ul>
-            <!-- Navigation Section Heading and side bar links -->
-            <h2 class="header__side-bar-desktop-view__header">Navigation</h2>
-            <ul>
-                <li>
-                    <span>09</span><a href="#"> Navbars</a>
-                </li>
-                <li>
-                    <span>10</span> <a href="#"> Breadcrumbs</a>
-                </li>
-                <li>
-                    <span>11</span> <a href="#">Pagination</a>
-                </li>
-            </ul>
-            <!-- Block element sections Heading and side bar links -->
-            <h2 class="header__side-bar-desktop-view__header">Blocks</h2>
-            <ul>
-                <li>
-                    <span>12</span><a href="#"> Hero</a>
-                </li>
-                <li>
-                    <span>13</span> <a href="#">Carousel</a>
-                </li>
-                <li>
-                    <span>14</span> <a href="#">Slats</a>
-                </li>
-                <li>
-                    <span>15</span> <a href="#"> Footer</a>
-                </li>
-            </ul>
-            <!-- Components section Heading and side bar links -->
-            <h2 class="header__side-bar-desktop-view__header">Components</h2>
-            <ul>
-                <li>
-                    <span>16</span> <a href="#"> Cards</a>
-                </li>
-                <li>
-                    <span>17</span> <a href="#">Forms</a>
-                </li>
-                <li>
-                    <span>18</span> <a href="#"> Accordion</a>
-                </li>
-                <li>
-                    <span>19</span> <a href="#"> Lists</a>
+                <li class="mobile-sidebar__item">
+                    <a href="" class="mobile-sidebar__link">Demo Site</a>
                 </li>
             </ul>
         </div>
-    </header>
+        <div>
+            <h2 class="mobile-sidebar__heading">Branding</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">01</span> <a class="mobile-sidebar__link" target="_blank" href="colours.html"> Colours</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">02</span> <a class="mobile-sidebar__link" target="_blank" href="typography.html">Typography</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">03</span> <a class="mobile-sidebar__link" href="#">Logo</a>
+                </li>
+            </ul>
+            <h2 class="mobile-sidebar__heading">Utilities</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">04</span> <a class="mobile-sidebar__link" href="#"> Spacing</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">05</span> <a class="mobile-sidebar__link" href="#"> Containers</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">06</span> <a class="mobile-sidebar__link" href="#"> Images</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">07</span><a class="mobile-sidebar__link" href="#"> Interactive</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">08</span> <a class="mobile-sidebar__link" href="#"> Feedback</a>
+                </li>
+            </ul>
+            <h2 class="mobile-sidebar__heading">Navigation</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">09</span><a class="mobile-sidebar__link" href="#"> Navbars</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">10</span> <a class="mobile-sidebar__link" href="#"> Breadcrumbs</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">11</span> <a class="mobile-sidebar__link" href="#">Pagination</a>
+                </li>
+            </ul>
+            <h2 class="mobile-sidebar__heading">Blocks</h2>
+            <ul>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">12</span><a class="mobile-sidebar__link" href="#"> Hero</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">13</span> <a class="mobile-sidebar__link" href="#">Carousel</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">14</span> <a class="mobile-sidebar__link" href="#">Slats</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">15</span> <a class="mobile-sidebar__link" href="#"> Footer</a>
+                </li>
+            </ul>
+
+            <h2>Components</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">16</span> <a class="mobile-sidebar__link" href="#"> Cards</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">17</span> <a class="mobile-sidebar__link" href="#"> Forms</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">18</span> <a class="mobile-sidebar__link" href="#"> Accordion</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="mobile-sidebar__number">19</span> <a class="mobile-sidebar__link" href="#"> Lists</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="desktop-sidebar u-text-accent">
+
+        <h2 class="desktop-sidebar__heading">Branding</h2>
+
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+
+                <span class="desktop-sidebar__number">01</span> <a class="desktop-sidebar__link" target="_blank" href="colours.html"> Colours</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">02</span> <a class="desktop-sidebar__link" target="_blank" href="typography.html">Typography</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">03</span> <a class="desktop-sidebar__link" href="#">Logo</a>
+            </li>
+        </ul>
+
+        <h2 class="desktop-sidebar__heading">Utilities</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">04</span> <a class="desktop-sidebar__link" href="#"> Spacing</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">05</span> <a class="desktop-sidebar__link" href="#"> Containers</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">06</span> <a class="desktop-sidebar__link" href="#"> Images</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">07</span><a class="desktop-sidebar__link" href="#"> Interactive</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">08</span> <a class="desktop-sidebar__link" href="#"> Feedback</a>
+            </li>
+        </ul>
+
+        <h2 class="desktop-sidebar__heading">Navigation</h2>
+        <ul>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">09</span><a class="desktop-sidebar__link" href="#"> Navbars</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">10</span> <a class="desktop-sidebar__link" href="#"> Breadcrumbs</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">11</span> <a class="desktop-sidebar__link" href="#">Pagination</a>
+            </li>
+        </ul>
+        <h2 class="desktop-sidebar__heading">Blocks</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">12</span><a class="desktop-sidebar__link" href="#"> Hero</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">13</span> <a class="desktop-sidebar__link" href="#">Carousel</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">14</span> <a class="desktop-sidebar__link" href="#">Slats</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">15</span> <a class="desktop-sidebar__link" href="#"> Footer</a>
+            </li>
+        </ul>
+
+        <h2 class="desktop-sidebar__heading">Components</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">16</span> <a class="desktop-sidebar__link" href="#"> Cards</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">17</span> <a class="desktop-sidebar__link" href="#"> Forms</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">18</span> <a class="desktop-sidebar__link" href="#"> Accordion</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="desktop-sidebar__number">19</span> <a class="desktop-sidebar__link" href="#"> Lists</a>
+            </li>
+        </ul>
+
+
+    </div>
+
+
     <script src="design-system.js"></script>
 </body>
 
