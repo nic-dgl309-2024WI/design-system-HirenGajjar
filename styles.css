@@ -1910,3 +1910,14 @@ body {
 .l-pr-400 {
     padding-right: 4rem;
 }
+
+
+/* Layout classes for x axis padding , padding left and padding right */
+
+
+/* Padding-x 0 */
+
+.l-px-00 {
+    padding-left: 0;
+    padding-right: 0;
+}
