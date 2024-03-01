@@ -1985,3 +1985,11 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+
+/* Padding-x 2.25rem (36px) */
+
+.l-px-225 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+}
