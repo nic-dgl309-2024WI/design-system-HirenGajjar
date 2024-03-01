@@ -1903,3 +1903,10 @@ body {
 .l-pr-375 {
     padding-right: 3.75rem;
 }
+
+
+/* Padding-right 4rem (64px) */
+
+.l-pr-400 {
+    padding-right: 4rem;
+}
