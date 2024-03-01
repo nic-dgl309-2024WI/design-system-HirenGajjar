@@ -1422,3 +1422,13 @@ body {
 .l-p-400 {
     padding: 4rem;
 }
+
+
+/* Padding top utility class */
+
+
+/* Padding-top 0 */
+
+.l-pt-00 {
+    padding-top: 0;
+}
