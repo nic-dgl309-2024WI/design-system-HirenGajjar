@@ -2190,11 +2190,18 @@ body {
 }
 
 
-/* Layout classes to set padding auto */
+/* Layout classes to set padding  */
 
 
 /* Padding auto */
 
 .l-p-auto {
     padding: auto;
+}
+
+
+/* Padding-top auto */
+
+.l-pt-auto {
+    padding-top: auto;
 }
