@@ -2188,3 +2188,13 @@ body {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
+
+/* Layout classes to set padding auto */
+
+
+/* Padding auto */
+
+.l-p-auto {
+    padding: auto;
+}
