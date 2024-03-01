@@ -1300,3 +1300,13 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+
+/* Padding layout classes */
+
+
+/* Padding set to 0 */
+
+.l-p-00 {
+    padding: 0;
+}
