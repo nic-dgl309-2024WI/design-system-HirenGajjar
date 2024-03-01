@@ -2017,3 +2017,11 @@ body {
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
+
+/* Padding-x 3.25rem (52px) */
+
+.l-px-325 {
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+}
