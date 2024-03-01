@@ -640,3 +640,10 @@ body {
 .l-ml-100 {
     margin-left: 1rem;
 }
+
+
+/* 1.25rem (20px) */
+
+.l-ml-125 {
+    margin-left: 1.25rem;
+}
