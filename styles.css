@@ -979,3 +979,11 @@ body {
     margin-left: 0rem;
     margin-right: 0rem;
 }
+
+
+/* 0.25rem (4px) */
+
+.l-mx-025 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
