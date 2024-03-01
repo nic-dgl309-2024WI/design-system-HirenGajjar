@@ -94,6 +94,10 @@ ul li a {
     color: var(--clr-secondary-accent);
 }
 
+ul li {
+    list-style-type: none;
+}
+
 
 /* Image width */
 
