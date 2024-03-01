@@ -1953,3 +1953,11 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+
+/* Padding-x 1.25rem (20px) */
+
+.l-px-125 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
