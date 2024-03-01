@@ -1781,3 +1781,10 @@ body {
 .l-pl-375 {
     padding-left: 3.75rem;
 }
+
+
+/* Padding-left 4rem (64px) */
+
+.l-pl-400 {
+    padding-left: 4rem;
+}
