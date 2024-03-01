@@ -1589,3 +1589,10 @@ body {
 .l-pb-125 {
     padding-bottom: 1.25rem;
 }
+
+
+/* Padding-bottom 1.5rem (24px) */
+
+.l-pb-150 {
+    padding-bottom: 1.5rem;
+}
