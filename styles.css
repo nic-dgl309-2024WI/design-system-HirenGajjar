@@ -1530,3 +1530,10 @@ body {
 .l-pt-350 {
     padding-top: 3.5rem;
 }
+
+
+/* Padding-top 3.75rem (60px) */
+
+.l-pt-375 {
+    padding-top: 3.75rem;
+}
