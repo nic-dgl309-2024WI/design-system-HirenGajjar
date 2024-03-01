@@ -1432,3 +1432,10 @@ body {
 .l-pt-00 {
     padding-top: 0;
 }
+
+
+/* Padding-top 0.25rem (4px) */
+
+.l-pt-025 {
+    padding-top: 0.25rem;
+}
