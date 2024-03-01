@@ -1387,3 +1387,10 @@ body {
 .l-p-275 {
     padding: 2.75rem;
 }
+
+
+/* Padding 3rem (48px) */
+
+.l-p-300 {
+    padding: 3rem;
+}
