@@ -483,3 +483,10 @@ body {
 .l-mr-00 {
     margin-right: 0;
 }
+
+
+/* 0.25rem (4px) */
+
+.l-mr-025 {
+    margin-right: 0.25rem;
+}
