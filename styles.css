@@ -1798,3 +1798,10 @@ body {
 .l-pr-00 {
     padding-right: 0;
 }
+
+
+/* Padding-right 0.25rem (4px) */
+
+.l-pr-025 {
+    padding-right: 0.25rem;
+}
