@@ -1788,3 +1788,13 @@ body {
 .l-pl-400 {
     padding-left: 4rem;
 }
+
+
+/* Padding right layout classes */
+
+
+/* Padding-right 0 */
+
+.l-pr-00 {
+    padding-right: 0;
+}
