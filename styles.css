@@ -95,6 +95,13 @@ ul li a {
 }
 
 
+/* Line height  */
+
+body {
+    line-height: 1.5rem;
+}
+
+
 /* Background color utility classes */
 
 .u-bg-clr-primary {
