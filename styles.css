@@ -1704,3 +1704,10 @@ body {
 .l-pl-100 {
     padding-left: 1rem;
 }
+
+
+/* Padding-left 1.25rem (20px) */
+
+.l-pl-125 {
+    padding-left: 1.25rem;
+}
