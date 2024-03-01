@@ -1610,3 +1610,10 @@ body {
 .l-pb-200 {
     padding-bottom: 2rem;
 }
+
+
+/* Padding-bottom 2.25rem (36px) */
+
+.l-pb-225 {
+    padding-bottom: 2.25rem;
+}
