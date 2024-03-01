@@ -1035,3 +1035,11 @@ body {
     margin-left: 1.75rem;
     margin-right: 1.75rem;
 }
+
+
+/* 2rem (32px) */
+
+.l-mx-200 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
