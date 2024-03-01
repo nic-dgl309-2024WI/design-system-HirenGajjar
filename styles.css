@@ -2226,3 +2226,11 @@ body {
 .l-pr-auto {
     padding-right: auto;
 }
+
+
+/* Padding-x auto */
+
+.l-px-auto {
+    padding-left: auto;
+    padding-right: auto;
+}
