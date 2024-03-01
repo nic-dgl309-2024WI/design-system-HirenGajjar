@@ -1284,3 +1284,11 @@ body {
 .l-mr-auto {
     margin-right: auto;
 }
+
+
+/* Margin x-axis auto ,margin top and bottom auto*/
+
+.l-my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
