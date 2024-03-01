@@ -1142,3 +1142,11 @@ body {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
+
+
+/* 1rem */
+
+.l-my-100 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
