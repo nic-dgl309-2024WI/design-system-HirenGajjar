@@ -1246,3 +1246,13 @@ body {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
+
+/* Margin auto layout class */
+
+
+/* Margin set to auto */
+
+.l-m-auto {
+    margin: auto;
+}
