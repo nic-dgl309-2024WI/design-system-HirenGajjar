@@ -1439,3 +1439,10 @@ body {
 .l-pt-025 {
     padding-top: 0.25rem;
 }
+
+
+/* Padding-top 0.5rem (8px) */
+
+.l-pt-050 {
+    padding-top: 0.5rem;
+}
