@@ -1624,3 +1624,10 @@ body {
 .l-pb-250 {
     padding-bottom: 2.5rem;
 }
+
+
+/* Padding-bottom 2.75rem (44px) */
+
+.l-pb-275 {
+    padding-bottom: 2.75rem;
+}
