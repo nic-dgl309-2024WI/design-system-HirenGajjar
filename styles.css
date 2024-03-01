@@ -351,3 +351,13 @@ body {
 .l-jc-stretch {
     justify-content: var(--justify-content-stretch);
 }
+
+
+/* Margin layout classes */
+
+
+/* 0.25rem (4px) */
+
+.l-m-025 {
+    margin: 0.25rem;
+}
