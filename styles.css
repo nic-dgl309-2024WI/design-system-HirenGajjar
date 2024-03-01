@@ -846,3 +846,13 @@ body {
 .l-mt-400 {
     margin-top: 4rem;
 }
+
+
+/* Margin bottom layout class */
+
+
+/* 0.0 margin bottom */
+
+.l-mr-00 {
+    margin-bottom: 0;
+}
