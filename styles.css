@@ -1359,3 +1359,10 @@ body {
 .l-p-175 {
     padding: 1.75rem;
 }
+
+
+/* Padding 2rem (32px) */
+
+.l-p-200 {
+    padding: 2rem;
+}
