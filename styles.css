@@ -612,3 +612,10 @@ body {
 .l-ml-00 {
     margin-left: 0;
 }
+
+
+/* 0.25rem (4px) */
+
+.l-ml-025 {
+    margin-left: 0.25rem;
+}
