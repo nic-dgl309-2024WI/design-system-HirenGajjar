@@ -1317,3 +1317,10 @@ body {
 .l-p-025 {
     padding: 0.25rem;
 }
+
+
+/* Padding 0.5rem (8px) */
+
+.l-p-050 {
+    padding: 0.5rem;
+}
