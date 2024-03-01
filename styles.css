@@ -1467,3 +1467,10 @@ body {
 .l-pt-125 {
     padding-top: 1.25rem;
 }
+
+
+/* Padding-top 1.5rem (24px) */
+
+.l-pt-150 {
+    padding-top: 1.5rem;
+}
