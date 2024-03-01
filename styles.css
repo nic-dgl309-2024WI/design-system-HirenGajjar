@@ -1697,3 +1697,10 @@ body {
 .l-pl-075 {
     padding-left: 0.75rem;
 }
+
+
+/* Padding-left 1rem (16px) */
+
+.l-pl-100 {
+    padding-left: 1rem;
+}
