@@ -2219,3 +2219,10 @@ body {
 .l-pl-auto {
     padding-left: auto;
 }
+
+
+/* Padding-right auto */
+
+.l-pr-auto {
+    padding-right: auto;
+}
