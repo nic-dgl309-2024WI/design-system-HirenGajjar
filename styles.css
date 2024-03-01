@@ -1683,3 +1683,10 @@ body {
 .l-pl-025 {
     padding-left: 0.25rem;
 }
+
+
+/* Padding-left 0.5rem (8px) */
+
+.l-pl-050 {
+    padding-left: 0.5rem;
+}
