@@ -1003,3 +1003,11 @@ body {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
 }
+
+
+/* 1rem (16px) */
+
+.l-mx-100 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
