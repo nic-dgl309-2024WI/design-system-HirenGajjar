@@ -1118,3 +1118,11 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
+/* 0.25rem */
+
+.l-my-025 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
