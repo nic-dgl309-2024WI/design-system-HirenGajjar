@@ -95,6 +95,13 @@ ul li a {
 }
 
 
+/* Image width */
+
+img {
+    width: 100%;
+}
+
+
 /* Line height  */
 
 body {
