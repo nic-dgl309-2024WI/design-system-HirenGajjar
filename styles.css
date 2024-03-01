@@ -884,3 +884,10 @@ body {
 .l-mb-100 {
     margin-bottom: 1rem;
 }
+
+
+/* 1.25rem (20px) */
+
+.l-mb-125 {
+    margin-bottom: 1.25rem;
+}
