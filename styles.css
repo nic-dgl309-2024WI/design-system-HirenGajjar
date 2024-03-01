@@ -2009,3 +2009,11 @@ body {
     padding-left: 2.75rem;
     padding-right: 2.75rem;
 }
+
+
+/* Padding-x 3rem (48px) */
+
+.l-px-300 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
