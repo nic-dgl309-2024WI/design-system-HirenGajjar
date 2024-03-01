@@ -1659,3 +1659,10 @@ body {
 .l-pb-375 {
     padding-bottom: 3.75rem;
 }
+
+
+/* Padding-bottom 4rem (64px) */
+
+.l-pb-400 {
+    padding-bottom: 4rem;
+}
