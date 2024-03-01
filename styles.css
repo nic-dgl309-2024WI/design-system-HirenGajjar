@@ -1277,3 +1277,10 @@ body {
 .l-ml-auto {
     margin-left: auto;
 }
+
+
+/* Margin right set to auto */
+
+.l-mr-auto {
+    margin-right: auto;
+}
