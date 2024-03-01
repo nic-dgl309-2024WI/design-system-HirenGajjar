@@ -1415,3 +1415,10 @@ body {
 .l-p-375 {
     padding: 3.75rem;
 }
+
+
+/* Padding 4rem (64px) */
+
+.l-p-400 {
+    padding: 4rem;
+}
