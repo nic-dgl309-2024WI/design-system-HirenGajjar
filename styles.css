@@ -1732,3 +1732,10 @@ body {
 .l-pl-200 {
     padding-left: 2rem;
 }
+
+
+/* Padding-left 2.25rem (36px) */
+
+.l-pl-225 {
+    padding-left: 2.25rem;
+}
