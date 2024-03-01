@@ -1270,3 +1270,10 @@ body {
 .l-mb-auto {
     margin-bottom: auto;
 }
+
+
+/* Margin left set to auto */
+
+.l-ml-auto {
+    margin-left: auto;
+}
