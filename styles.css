@@ -1977,3 +1977,11 @@ body {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
 }
+
+
+/* Padding-x 2rem (32px) */
+
+.l-px-200 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
