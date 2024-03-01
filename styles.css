@@ -2076,3 +2076,11 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+
+/* Padding-y 0.75rem (12px) */
+
+.l-py-075 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
