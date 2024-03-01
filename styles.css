@@ -1554,3 +1554,10 @@ body {
 .l-pb-00 {
     padding-bottom: 0;
 }
+
+
+/* Padding-bottom 0.25rem (4px) */
+
+.l-pb-025 {
+    padding-bottom: 0.25rem;
+}
