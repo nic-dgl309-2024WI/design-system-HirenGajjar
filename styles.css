@@ -1043,3 +1043,11 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
 }
+
+
+/* 2.25rem (36px) */
+
+.l-mx-225 {
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+}
