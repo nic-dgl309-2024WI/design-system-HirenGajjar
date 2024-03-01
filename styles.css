@@ -1937,3 +1937,11 @@ body {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+
+
+/* Padding-x 0.75rem (12px) */
+
+.l-px-075 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
