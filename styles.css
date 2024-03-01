@@ -2148,3 +2148,11 @@ body {
     padding-top: 2.75rem;
     padding-bottom: 2.75rem;
 }
+
+
+/* Padding-y 3rem (48px) */
+
+.l-py-300 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
