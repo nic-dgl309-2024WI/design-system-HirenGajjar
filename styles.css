@@ -476,3 +476,10 @@ body {
 
 
 /* Margin right layout class */
+
+
+/* 0.0 margin right */
+
+.l-mr-00 {
+    margin-right: 0;
+}
