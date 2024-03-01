@@ -1107,3 +1107,14 @@ body {
     margin-left: 4rem;
     margin-right: 4rem;
 }
+
+
+/* Margin layot for y-axis */
+
+
+/* 0 margin on top and bottom */
+
+.l-my-00 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
