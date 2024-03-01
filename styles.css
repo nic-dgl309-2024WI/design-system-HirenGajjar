@@ -2049,3 +2049,14 @@ body {
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+
+/* Padding on y axis layout classes, padding top and padding bottom */
+
+
+/* Padding-y 0 */
+
+.l-py-00 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
