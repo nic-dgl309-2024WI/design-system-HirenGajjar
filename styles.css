@@ -1099,3 +1099,11 @@ body {
     margin-left: 3.75rem;
     margin-right: 3.75rem;
 }
+
+
+/* 4rem (64px) */
+
+.l-mx-400 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
