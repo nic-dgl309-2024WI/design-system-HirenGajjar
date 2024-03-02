@@ -2658,3 +2658,42 @@ body {
 .l-flex-grow-unset {
     flex-grow: var(--flex-grow-unset);
 }
+
+
+/* Flex-direction */
+
+.l-flex-direction-row {
+    flex-direction: var(--flex-direction-row);
+}
+
+.l-flex-direction-row-reverse {
+    flex-direction: var(--flex-direction-row-reverse);
+}
+
+.l-flex-direction-column {
+    flex-direction: var(--flex-direction-column);
+}
+
+.l-flex-direction-column-reverse {
+    flex-direction: var(--flex-direction-column-reverse);
+}
+
+.l-flex-direction-inherit {
+    flex-direction: var(--flex-direction-inherit);
+}
+
+.l-flex-direction-initial {
+    flex-direction: var(--flex-direction-initial);
+}
+
+.l-flex-direction-revert {
+    flex-direction: var(--flex-direction-revert);
+}
+
+.l-flex-direction-revert-layer {
+    flex-direction: var(--flex-direction-revert-layer);
+}
+
+.l-flex-direction-unset {
+    flex-direction: var(--flex-direction-unset);
+}
