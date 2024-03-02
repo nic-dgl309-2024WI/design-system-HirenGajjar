@@ -2549,3 +2549,38 @@ body {
 .l-flex-shrink-unset {
     flex-shrink: var(--flex-shrink-unset);
 }
+
+
+/* Flex-wrap */
+
+.l-flex-wrap-nowrap {
+    flex-wrap: var(--flex-wrap-nowrap);
+}
+
+.l-flex-wrap-wrap {
+    flex-wrap: var(--flex-wrap-wrap);
+}
+
+.l-flex-wrap-wrap-reverse {
+    flex-wrap: var(--flex-wrap-wrap-reverse);
+}
+
+.l-flex-wrap-inherit {
+    flex-wrap: var(--flex-wrap-inherit);
+}
+
+.l-flex-wrap-initial {
+    flex-wrap: var(--flex-wrap-initial);
+}
+
+.l-flex-wrap-revert {
+    flex-wrap: var(--flex-wrap-revert);
+}
+
+.l-flex-wrap-revert-layer {
+    flex-wrap: var(--flex-wrap-revert-layer);
+}
+
+.l-flex-wrap-unset {
+    flex-wrap: var(--flex-wrap-unset);
+}
