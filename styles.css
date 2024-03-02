@@ -104,6 +104,11 @@
     --flex-revert: revert;
     --flex-revert-layer: revert-layer;
     --flex-unset: unset;
+    /* Flex basis layout variables */
+    --flex-basis-max-content: max-content;
+    --flex-basis-min-content: min-content;
+    --flex-basis-fit-content: fit-content;
+    --flex-basis-content: content;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
