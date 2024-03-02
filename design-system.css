@@ -57,7 +57,8 @@ nav .menu-links {
     width: 300px;
 }
 
-.mobile-sidebar ul li a:hover {
+.mobile-sidebar ul li a:hover,
+.navigation__link:hover {
     color: var(--clr-accent);
     text-decoration: underline;
 }
@@ -155,7 +156,20 @@ main {
         color: var(--clr-accent);
         text-decoration: underline;
     }
-    .content {
-        margin-left: 400px;
+    /* Main */
+    #clr1,
+    #clr2 {
+        width: 400px;
+        height: 300px;
+    }
+    #clr3,
+    #clr4 {
+        width: 90px;
+        height: 300px;
+    }
+    #clr5,
+    #clr6 {
+        width: 36px;
+        height: 300px;
     }
 }
