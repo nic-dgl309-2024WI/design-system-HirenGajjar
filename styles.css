@@ -95,6 +95,15 @@
     --align-revert: revert;
     --align-revert-layer: revert-layer;
     --align-unset: unset;
+    /* Flex layout variables */
+    --flex-auto: auto;
+    --flex-initial: initial;
+    --flex-none: none;
+    --flex-min-content: min-content;
+    --flex-inherit: inherit;
+    --flex-revert: revert;
+    --flex-revert-layer: revert-layer;
+    --flex-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
