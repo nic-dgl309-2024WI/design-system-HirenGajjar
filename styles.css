@@ -143,6 +143,16 @@
     --flex-grow-revert: revert;
     --flex-grow-revert-layer: revert-layer;
     --flex-grow-unset: unset;
+    /* Flex direction layout variables  */
+    --flex-direction-row: row;
+    --flex-direction-row-reverse: row-reverse;
+    --flex-direction-column: column;
+    --flex-direction-column-reverse: column-reverse;
+    --flex-direction-inherit: inherit;
+    --flex-direction-initial: initial;
+    --flex-direction-revert: revert;
+    --flex-direction-revert-layer: revert-layer;
+    --flex-direction-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
