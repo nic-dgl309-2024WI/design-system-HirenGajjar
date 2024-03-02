@@ -106,18 +106,11 @@ main {
 }
 
 .color-combo-card {
-    gap: 45px;
-    height: 400px;
-    width: 60%;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 5px;
-}
-
-.color-contrast-box__circle {
-    height: 50px;
-    width: 50px;
-    background-color: red;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    gap: 45px;
+    height: 400px;
+    width: 80%;
 }
 
 .color-usage-container__color {
@@ -157,6 +150,21 @@ main {
         text-decoration: underline;
     }
     /* Main */
+    .main {
+        right: 0;
+        max-width: 82vw;
+    }
+    .color-context {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .color-context-colors {
+        width: 25%;
+        margin: 0 auto;
+    }
+    .color-combo-card {
+        width: 25%;
+    }
     #clr1,
     #clr2 {
         width: 400px;
