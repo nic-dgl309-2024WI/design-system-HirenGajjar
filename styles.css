@@ -2469,3 +2469,41 @@ body {
 .s-cursor-pointer {
     cursor: var(--cursor-pointer);
 }
+
+
+/* Layout class for flex */
+
+
+/* Flex */
+
+.l-flex-auto {
+    flex: var(--flex-auto);
+}
+
+.l-flex-initial {
+    flex: var(--flex-initial);
+}
+
+.l-flex-none {
+    flex: var(--flex-none);
+}
+
+.l-flex-min-content {
+    flex: var(--flex-min-content);
+}
+
+.l-flex-inherit {
+    flex: var(--flex-inherit);
+}
+
+.l-flex-revert {
+    flex: var(--flex-revert);
+}
+
+.l-flex-revert-layer {
+    flex: var(--flex-revert-layer);
+}
+
+.l-flex-unset {
+    flex: var(--flex-unset);
+}
