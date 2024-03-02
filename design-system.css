@@ -51,7 +51,7 @@ nav .menu-links {
     display: block;
     position: fixed;
     height: 100%;
-    margin-top: 6vh;
+    margin-top: 3vh;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 300px;
 }
@@ -74,7 +74,7 @@ nav .menu-links {
         z-index: 2;
         position: fixed;
         width: 300px;
-        padding-top: 6vh;
+        padding-top: 3vh;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
     nav #menu-icon {
