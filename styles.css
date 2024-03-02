@@ -2635,3 +2635,26 @@ body {
 .l-flex-flow-unset {
     flex-flow: var(--flex-flow-unset);
 }
+
+
+/* Flex-grow */
+
+.l-flex-grow-inherit {
+    flex-grow: var(--flex-grow-inherit);
+}
+
+.l-flex-grow-initial {
+    flex-grow: var(--flex-grow-initial);
+}
+
+.l-flex-grow-revert {
+    flex-grow: var(--flex-grow-revert);
+}
+
+.l-flex-grow-revert-layer {
+    flex-grow: var(--flex-grow-revert-layer);
+}
+
+.l-flex-grow-unset {
+    flex-grow: var(--flex-grow-unset);
+}
