@@ -75,6 +75,26 @@
     --justify-content-space-around: space-around;
     --justify-content-space-evenly: space-evenly;
     --justify-content-stretch: stretch;
+    /* Align Item Property values variable */
+    --align-normal: normal;
+    --align-stretch: stretch;
+    --align-center: center;
+    --align-start: start;
+    --align-end: end;
+    --align-flex-start: flex-start;
+    --align-flex-end: flex-end;
+    --align-self-start: self-start;
+    --align-self-end: self-end;
+    --align-baseline: baseline;
+    --align-first-baseline: first baseline;
+    --align-last-baseline: last baseline;
+    --align-safe-center: safe center;
+    --align-unsafe-center: unsafe center;
+    --align-inherit: inherit;
+    --align-initial: initial;
+    --align-revert: revert;
+    --align-revert-layer: revert-layer;
+    --align-unset: unset;
 }
 
 
@@ -351,7 +371,7 @@ body {
     justify-content: var(--justify-content-space-between);
 }
 
-.l-jc-space-around {
+.l-jc-ounspace-ard {
     justify-content: var(--justify-content-space-around);
 }
 

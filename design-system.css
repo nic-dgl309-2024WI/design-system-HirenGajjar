@@ -93,6 +93,12 @@ main {
     width: 18px;
 }
 
+.color-context-colors__circle {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
+
 @media (min-width:600px) {
     nav .menu-links {
         display: block;
