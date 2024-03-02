@@ -95,6 +95,8 @@
     --align-revert: revert;
     --align-revert-layer: revert-layer;
     --align-unset: unset;
+    /* Cursor variables */
+    --cursor-pointer: pointer;
 }
 
 
@@ -2401,4 +2403,11 @@ body {
 
 .l-align-unset {
     align-items: var(--align-unset);
+}
+
+
+/* State class for cursor pointer */
+
+.s-cursor-pointer {
+    cursor: var(--cursor-pointer);
 }
