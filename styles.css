@@ -115,6 +115,15 @@
     --flex-shrink-revert: revert;
     --flex-shrink-revert-layer: revert-layer;
     --flex-shrink-unset: unset;
+    /* Flex wrap layout variables */
+    --flex-wrap-nowrap: nowrap;
+    --flex-wrap-wrap: wrap;
+    --flex-wrap-wrap-reverse: wrap-reverse;
+    --flex-wrap-inherit: inherit;
+    --flex-wrap-initial: initial;
+    --flex-wrap-revert: revert;
+    --flex-wrap-revert-layer: revert-layer;
+    --flex-wrap-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
