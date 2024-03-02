@@ -109,6 +109,12 @@
     --flex-basis-min-content: min-content;
     --flex-basis-fit-content: fit-content;
     --flex-basis-content: content;
+    /* Flex shrink layour variables */
+    --flex-shrink-inherit: inherit;
+    --flex-shrink-initial: initial;
+    --flex-shrink-revert: revert;
+    --flex-shrink-revert-layer: revert-layer;
+    --flex-shrink-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
