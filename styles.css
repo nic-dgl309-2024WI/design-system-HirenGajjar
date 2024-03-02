@@ -137,6 +137,12 @@
     --flex-flow-revert: revert;
     --flex-flow-revert-layer: revert-layer;
     --flex-flow-unset: unset;
+    /* Flex grow layout variables */
+    --flex-grow-inherit: inherit;
+    --flex-grow-initial: initial;
+    --flex-grow-revert: revert;
+    --flex-grow-revert-layer: revert-layer;
+    --flex-grow-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
