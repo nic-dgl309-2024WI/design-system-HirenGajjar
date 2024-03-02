@@ -5,7 +5,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     z-index: 3;
-    border-bottom: 2px solid blue;
+    /* border-bottom: 2px solid blue;
+     */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .navigation__icon {
@@ -51,7 +53,7 @@ nav .menu-links {
     height: 100%;
     margin-top: 6vh;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    width: 400px;
+    width: 300px;
 }
 
 .mobile-sidebar ul li a:hover {
@@ -71,8 +73,9 @@ nav .menu-links {
         display: block;
         z-index: 2;
         position: fixed;
-        width: 400px;
-        margin-top: 6vh;
+        width: 300px;
+        padding-top: 6vh;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
     nav #menu-icon {
         display: none;
