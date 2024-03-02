@@ -124,6 +124,19 @@
     --flex-wrap-revert: revert;
     --flex-wrap-revert-layer: revert-layer;
     --flex-wrap-unset: unset;
+    /* Flex flow layout variables */
+    --flex-flow-nowrap: row nowrap;
+    --flex-flow-wrap: row wrap;
+    --flex-flow-wrap-reverse: row wrap-reverse;
+    --flex-flow-row: row;
+    --flex-flow-row-reverse: row-reverse;
+    --flex-flow-column: column;
+    --flex-flow-column-reverse: column-reverse;
+    --flex-flow-inherit: inherit;
+    --flex-flow-initial: initial;
+    --flex-flow-revert: revert;
+    --flex-flow-revert-layer: revert-layer;
+    --flex-flow-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
