@@ -58,7 +58,8 @@ nav .menu-links {
 }
 
 .mobile-sidebar ul li a:hover,
-.navigation__link:hover {
+.navigation__link:hover,
+.menu-links__link:hover {
     color: var(--clr-accent);
     text-decoration: underline;
 }
