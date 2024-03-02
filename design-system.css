@@ -66,6 +66,31 @@ main {
     height: 1000vh;
     width: 100%;
     position: absolute;
+    margin-top: 100px;
+}
+
+.color-pallate {
+    width: 100%;
+}
+
+.color-pallate__color {
+    height: 150px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#clr1,
+#clr2 {
+    width: 100px;
+}
+
+#clr4,
+#clr3 {
+    width: 45px;
+}
+
+#clr5,
+#clr6 {
+    width: 18px;
 }
 
 @media (min-width:600px) {
