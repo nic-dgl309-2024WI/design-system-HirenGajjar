@@ -2266,3 +2266,139 @@ body {
     padding-top: auto;
     padding-bottom: auto;
 }
+
+
+/* Align item property layout class */
+
+
+/* Align items normally */
+
+.l-align-normal {
+    align-items: var(--align-normal);
+}
+
+
+/* Stretch items */
+
+.l-align-stretch {
+    align-items: var(--align-stretch);
+}
+
+
+/* Center items vertically */
+
+.l-align-center {
+    align-items: var(--align-center);
+}
+
+
+/* Align items at the start of the container */
+
+.l-align-start {
+    align-items: var(--align-start);
+}
+
+
+/* Align items at the end of the container */
+
+.l-align-end {
+    align-items: var(--align-end);
+}
+
+
+/* Align items at the start of the flex container */
+
+.l-align-flex-start {
+    align-items: var(--align-flex-start);
+}
+
+
+/* Align items at the end of the flex container */
+
+.l-align-flex-end {
+    align-items: var(--align-flex-end);
+}
+
+
+/* Align items at the start of the cross axis */
+
+.l-align-self-start {
+    align-items: var(--align-self-start);
+}
+
+
+/* Align items at the end of the cross axis */
+
+.l-align-self-end {
+    align-items: var(--align-self-end);
+}
+
+
+/* Align items to the baseline of the container */
+
+.l-align-baseline {
+    align-items: var(--align-baseline);
+}
+
+
+/* Align items to the first baseline */
+
+.l-align-first-baseline {
+    align-items: var(--align-first-baseline);
+}
+
+
+/* Align items to the last baseline */
+
+.l-align-last-baseline {
+    align-items: var(--align-last-baseline);
+}
+
+
+/* Align items at the safe center */
+
+.l-align-safe-center {
+    align-items: var(--align-safe-center);
+}
+
+
+/* Align items at the unsafe center */
+
+.l-align-unsafe-center {
+    align-items: var(--align-unsafe-center);
+}
+
+
+/* Inherit align-items property */
+
+.l-align-inherit {
+    align-items: var(--align-inherit);
+}
+
+
+/* Set align-items property to its initial value */
+
+.l-align-initial {
+    align-items: var(--align-initial);
+}
+
+
+/* Set align-items property to its revert value */
+
+.l-align-revert {
+    align-items: var(--align-revert);
+}
+
+
+/* Set align-items property to its revert-layer value */
+
+.l-align-revert-layer {
+    align-items: var(--align-revert-layer);
+}
+
+
+/* Unset align-items property */
+
+.l-align-unset {
+    align-items: var(--align-unset);
+}
