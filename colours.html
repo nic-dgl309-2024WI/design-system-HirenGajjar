@@ -16,7 +16,7 @@
 <body>
     <!--Top Navigation -->
     <nav class=" u-fs-m navigation u-text-accent u-text-clr-accent-lighter l-py-100   u-bg-clr-primary">
-        <a href="" class="navigation__link active u-text-clr-accent-lighter l-pl-100">Design system</a>
+        <a href="index.html" target="_blank" class="navigation__link u-text-clr-accent-lighter l-pl-100">Design system</a>
         <span id="menu-icon" class="navigation__icon l-pr-100">
             <div class="navigation__circle"></div>
             <div class="navigation__circle"></div>
@@ -44,7 +44,7 @@
             <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Branding</h2>
             <ul class="mobile-sidebar__list">
                 <li class="mobile-sidebar__item">
-                    <span class="u-fw-900 mobile-sidebar__number l-pr-050">01</span> <a class="mobile-sidebar__link" target="_blank" href="colours.html"> Colours</a>
+                    <span class="u-fw-900 mobile-sidebar__number  l-pr-050">01</span> <a class="mobile-sidebar__link active" target="_blank" href="colours.html"> Colours</a>
 
                 </li>
                 <li class="mobile-sidebar__item">
@@ -128,7 +128,7 @@
         <ul class="desktop-sidebar__list">
             <li class="desktop-sidebar__item">
 
-                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">01</span> <a class="desktop-sidebar__link" target="_blank" href="colours.html"> Colours</a>
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">01</span> <a class="active desktop-sidebar__link" target="_blank" href="colours.html"> Colours</a>
 
             </li>
             <li class="desktop-sidebar__item">
@@ -206,240 +206,13 @@
 
 
     </div>
+    <!-- Navigation ends -->
     <!-- Main section -->
-    <main>
-        <!-- Heading -->
-        <div class="hero">
-            <h1 class="hero__header u-text-clr-secondary u-text-secondary u-fw-700 u-fs-xxxl">Colours</h1>
+    <main class="main l-display-flex">
+
+        <div class="color-pallate">
+            <h1 class="color-pallate__header l-pt-200 l-mt-400 u-f u-fw-900 u-fs-monumental u-text-secondary">Colors</h1>
         </div>
-        <!-- Color swatch -->
-        <div class="color-swatch">
-            <div class="color-swatch__header">
-                <h2 class="u-text-secondary u-fw-600 u-fs-xxl">Color swatch</h2>
-            </div>
-            <div class="color-swatch__color u-text-primary">
-                <div class="color-swatch__color__item u-bg-clr-primary">#FFFFFF</div>
-                <div class="color-swatch__color__item u-bg-clr-primary-lighter">#F9F9F9</div>
-                <div class="color-swatch__color__item u-bg-clr-secondary">#000000</div>
-                <div class="color-swatch__color__item u-bg-clr-secondary-darker">#4D4D4D</div>
-                <div class="color-swatch__color__item u-bg-clr-accent">#2D2E32</div>
-                <div class="color-swatch__color__item u-bg-clr-accent-lighter">#0351AB</div>
-            </div>
-        </div>
-        <!-- Color , usage and Hex codes -->
-        <div>
-            <!-- Primary colors -->
-            <div class="color-usage">
-                <div>
-                    <h2 class="color-usage__header u-text-secondary u-fw-600 u-fs-xxl">Background Colors</h2>
-                </div>
-                <div>
-
-                    <div class="color-usage__box u-text-primary">
-                        <div class="color-usage__box__item u-bg-clr-primary">
-                            <!-- This div will be a square with box shadow to represent the color as a box -->
-                        </div>
-                        <div class="color-usage__box__item">
-                            <p class="color-usage__box__hexcode">#FFFFFF</p>
-                            <p class="color-usage__box__class-name">.u-bg-primary</p>
-                        </div>
-
-                    </div>
-                    <!-- Primary color light -->
-                    <div class="color-usage__box  u-text-primary">
-                        <div class="color-usage__box__item color-usage__box__item u-bg-clr-primary-lighter">
-                            <!-- This div will be a square with box shadow to represent the color as a box -->
-                        </div>
-                        <div class="color-usage__box__item">
-                            <p class="color-usage__box__hexcode">#FFFFFF</p>
-                            <p class="color-usage__box__class-name">.u-bg-clr-primary-lighter</p>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- Secondary colors -->
-                <div class="color-usage">
-                    <div>
-                        <h2 class="color-usage__header u-text-secondary u-fw-600 u-fs-xxl">Text Colors (Headings and body text)</h2>
-                    </div>
-                    <div>
-
-                        <div class="color-usage__box u-text-primary">
-                            <div class="color-usage__box__item u-bg-secondary">
-                                <!-- This div will be a square with box shadow to represent the color as a box -->
-                            </div>
-                            <div class="color-usage__box__item">
-                                <p class="color-usage__box__hexcode">#000000</p>
-                                <p class="color-usage__box__class-name">.u-bg-secondary</p>
-                            </div>
-
-                        </div>
-                        <!-- Secondary color light -->
-                        <div class="color-usage__box u-text-primary">
-                            <div class="color-usage__box__item u-bg-secondary-darker">
-                                <!-- This div will be a square with box shadow to represent the color as a box -->
-                            </div>
-                            <div class="color-usage__box__item">
-                                <p class="color-usage__box__hexcode">#4D4D4D</p>
-                                <p class="color-usage__box__class-name">.u-bg-secondary-darker</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <!-- Accent colors -->
-                <div class="color-usage">
-                    <div class="color-usage__header-block">
-                        <h2 class="color-usage__header-block__header u-text-secondary u-fw-600 u-fs-xxl">Accent Colors (Navigation, links and CTAs)</h2>
-                    </div>
-                    <div class="color-usage__box">
-
-                        <div class="color-usage__box-item u-text-primary">
-                            <div class="color-usage__box-item__color-box u-bg-accent">
-                                <!-- This div will be a square with box shadow to represent the color as a box -->
-                            </div>
-                            <div class="color-usage__box-item__color-code">
-                                <p class="color-usage__box-item__color-hexcode">#2D2E32</p>
-                                <p class="color-usage__box-item__color-utility-class">.u-bg-accent</p>
-                            </div>
-
-                        </div>
-                        <!-- Accent color light -->
-                        <div class="color-usage__box-item u-text-primary">
-                            <div class="color-usage__box-item__color-box u-bg-accent-lighter">
-                                <!-- This div will be a square with box shadow to represent the color as a box -->
-                            </div>
-                            <div class="color-usage__box-item__color-code">
-                                <p class="color-usage__box-item__color-hexcode">#0351AB</p>
-                                <p class="color-usage__box-item__color-utility-class">.u-bg-accent-lighter</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-
-            </div>
-
-        </div>
-        <!-- Color combinations as cards -->
-        <div class="color-combination">
-            <div class="color-combination__box">
-                <h2 class="color-combination__header u-text-secondary u-fw-600 u-fs-xxl">Color Combinations</h2>
-            </div>
-            <!--on a #ffffff background  -->
-            <div class="color-combination__card">
-                <div>
-                    <h3 class="color-combination__card__header u-text-clr-secondary u-text-secondary u-fw-600 u-fs-xl">Primary background</h3>
-                </div>
-                <div class="color-combination u-bg-clr-primary u-text-primary">
-                    <!-- Outer div -->
-                    <!-- Inner div -->
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#000000</h4><span>&#x2714;</span>
-                    </div>
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#4D4D4D</h4><span>&#x2714;</span>
-                    </div>
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#0000FF</h4><span>&#x2714;</span>
-                    </div>
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#0351AB</h4><span>&#x2714;</span>
-                    </div>
-                </div>
-            </div>
-            <!-- on a $f9f9f9 background -->
-            <div class="color-combination__card">
-                <div>
-                    <h3 class="color-combination__card__header u-text-clr-secondary u-text-secondary u-fw-600 u-fs-xl">Primary background light</h3>
-                </div>
-                <div class="color-combination u-bg-clr-primary-lighter u-text-primary">
-                    <!-- Outer div -->
-                    <!-- Inner div -->
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#000000</h4><span>&#x2714;</span>
-                    </div>
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#4D4D4D</h4><span>&#x2714;</span>
-                    </div>
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#0000FF</h4><span>&#x2714;</span>
-                    </div>
-                    <div class="color-combination__color">
-                        <h4 class="color-combination__color-code">#0351AB</h4><span>&#x2714;</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Color contrast ratio -->
-        <div class="color-contrast">
-            <div>
-                <h2 class="color-contrast__header u-text-secondary u-fw-600 u-fs-xxl">Color contrast ratio</h2>
-            </div>
-            <div class="color-contrast__table-block u-text-primary">
-                <!-- Table -->
-                <table class="color-contrast__table-block__table">
-                    <thead class="color-contrast__table-block__table-head">
-                        <tr class="color-contrast__table-block__table-row">
-                            <th class="color-contrast__table-block__table-head">Background</th>
-                            <th class="color-contrast__table-block__table-head">Foreground</th>
-                            <th class="color-contrast__table-block__table-head">Ratio</th>
-                        </tr>
-                    </thead>
-                    <tbody class="color-contrast__table-block__table-body">
-                        <tr class="color-contrast__table-block__table-row">
-                            <td class="color-contrast__table-block__table-data" rowspan="4">#FFFFFF</td>
-                            <td class="color-contrast__table-block__table-data">#000000</td>
-                            <td class="color-contrast__table-block__table-data">21:1</td>
-                        </tr>
-                        <tr class="color-contrast__table-block__table-row">
-                            <!-- <td>#FFFFFF</td> -->
-                            <td class="color-contrast__table-block__table-data">#4D4D4D</td>
-                            <td class="color-contrast__table-block__table-data">8.45:1</td>
-                        </tr>
-                        <tr class="color-contrast__table-block__table-row">
-                            <!-- <td>#FFFFFF</td> -->
-                            <td class="color-contrast__table-block__table-data">#0000FF</td>
-                            <td class="color-contrast__table-block__table-data">8.59:1</td>
-                        </tr>
-                        <tr class="color-contrast__table-block__table-row">
-                            <!-- <td>#FFFFFF</td> -->
-                            <td class="color-contrast__table-block__table-data">#0351AB</td>
-                            <td class="color-contrast__table-block__table-data">7.58:1</td>
-                        </tr>
-
-                        <tr class="color-contrast__table-block__table-row">
-                            <td class="color-contrast__table-block__table-data" rowspan="4">#F9F9F9</td>
-                            <td class="color-contrast__table-block__table-data">#000000</td>
-                            <td class="color-contrast__table-block__table-data">19.91:1</td>
-                        </tr>
-                        <tr class="color-contrast__table-block__table-row">
-                            <!-- <td>#F9F9F9</td> -->
-                            <td class="color-contrast__table-block__table-data">#4D4D4D</td>
-                            <td class="color-contrast__table-block__table-data">8.02:1</td>
-                        </tr>
-                        <tr class="color-contrast__table-block__table-row">
-                            <!-- <td>#F9F9F9</td> -->
-                            <td class="color-contrast__table-block__table-data">#0000FF</td>
-                            <td class="color-contrast__table-block__table-data">8.16:1</td>
-                        </tr>
-                        <tr class="color-contrast__table-block__table-row">
-                            <!-- <td>#F9F9F9</td> -->
-                            <td class="color-contrast__table-block__table-data">#0351AB</td>
-                            <td class="color-contrast__table-block__table-data">7.2:1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
 
     </main>
     <script src="design-system.js"></script>

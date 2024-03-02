@@ -61,8 +61,11 @@ nav .menu-links {
     text-decoration: underline;
 }
 
-.content {
+main {
     z-index: 1;
+    height: 1000vh;
+    width: 100%;
+    position: absolute;
 }
 
 @media (min-width:600px) {
@@ -73,7 +76,7 @@ nav .menu-links {
         display: block;
         z-index: 2;
         position: fixed;
-        width: 300px;
+        width: 252px;
         padding-top: 3vh;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
