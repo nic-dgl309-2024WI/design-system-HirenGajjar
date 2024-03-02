@@ -2584,3 +2584,54 @@ body {
 .l-flex-wrap-unset {
     flex-wrap: var(--flex-wrap-unset);
 }
+
+
+/* Flex-flow */
+
+.l-flex-flow-nowrap {
+    flex-flow: var(--flex-flow-nowrap);
+}
+
+.l-flex-flow-wrap {
+    flex-flow: var(--flex-flow-wrap);
+}
+
+.l-flex-flow-wrap-reverse {
+    flex-flow: var(--flex-flow-wrap-reverse);
+}
+
+.l-flex-flow-row {
+    flex-flow: var(--flex-flow-row);
+}
+
+.l-flex-flow-row-reverse {
+    flex-flow: var(--flex-flow-row-reverse);
+}
+
+.l-flex-flow-column {
+    flex-flow: var(--flex-flow-column);
+}
+
+.l-flex-flow-column-reverse {
+    flex-flow: var(--flex-flow-column-reverse);
+}
+
+.l-flex-flow-inherit {
+    flex-flow: var(--flex-flow-inherit);
+}
+
+.l-flex-flow-initial {
+    flex-flow: var(--flex-flow-initial);
+}
+
+.l-flex-flow-revert {
+    flex-flow: var(--flex-flow-revert);
+}
+
+.l-flex-flow-revert-layer {
+    flex-flow: var(--flex-flow-revert-layer);
+}
+
+.l-flex-flow-unset {
+    flex-flow: var(--flex-flow-unset);
+}
