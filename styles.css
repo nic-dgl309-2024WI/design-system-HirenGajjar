@@ -1,7 +1,7 @@
 :root {
     /* Colors */
     --clr-primary: #FFFFFF;
-    --clr-primary-lighter: #F9F9F9;
+    --clr-primary-lighter: #f9f9f9;
     --clr-secondary: #000000;
     --clr-secondary-darker: #4D4D4D;
     --clr-accent: #0000FF;
@@ -431,7 +431,7 @@ body {
     justify-content: var(--justify-content-space-between);
 }
 
-.l-jc-ounspace-ard {
+.l-jc-space-around {
     justify-content: var(--justify-content-space-around);
 }
 
