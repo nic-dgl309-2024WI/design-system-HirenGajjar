@@ -2507,3 +2507,22 @@ body {
 .l-flex-unset {
     flex: var(--flex-unset);
 }
+
+
+/* Flex-basis */
+
+.l-flex-basis-max-content {
+    flex-basis: var(--flex-basis-max-content);
+}
+
+.l-flex-basis-min-content {
+    flex-basis: var(--flex-basis-min-content);
+}
+
+.l-flex-basis-fit-content {
+    flex-basis: var(--flex-basis-fit-content);
+}
+
+.l-flex-basis-content {
+    flex-basis: var(--flex-basis-content);
+}
