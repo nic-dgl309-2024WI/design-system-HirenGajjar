@@ -2526,3 +2526,26 @@ body {
 .l-flex-basis-content {
     flex-basis: var(--flex-basis-content);
 }
+
+
+/* Flex-shrink */
+
+.l-flex-shrink-inherit {
+    flex-shrink: var(--flex-shrink-inherit);
+}
+
+.l-flex-shrink-initial {
+    flex-shrink: var(--flex-shrink-initial);
+}
+
+.l-flex-shrink-revert {
+    flex-shrink: var(--flex-shrink-revert);
+}
+
+.l-flex-shrink-revert-layer {
+    flex-shrink: var(--flex-shrink-revert-layer);
+}
+
+.l-flex-shrink-unset {
+    flex-shrink: var(--flex-shrink-unset);
+}
