@@ -141,7 +141,8 @@ main {
 
 .margin-left__example,
 .margin-right__example,
-.margin-top__example {
+.margin-top__example,
+.margin-bottom__example {
     max-width: 80%;
 }
 
@@ -150,12 +151,11 @@ main {
     line-height: 0.3;
 }
 
-.margin-left__textm {
-    margin-right: 1rem;
-    gap: 15px;
-}
-
+.margin-left__text,
+.margin-right__text,
+.margin-bottom__text,
 .margin-top__text {
+    margin-right: 1rem;
     gap: 15px;
 }
 
