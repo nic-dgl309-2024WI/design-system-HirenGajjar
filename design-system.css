@@ -65,6 +65,28 @@ nav .menu-links {
 }
 
 
+/* About me page */
+
+.about-me {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-header__main-header {
+    max-width: 80%;
+    font-size: 36px;
+}
+
+.about-me-more {
+    width: 100%;
+}
+
+.about-me-more__text {
+    max-width: 50ch;
+}
+
+
 /* Main content */
 
 main {
@@ -240,12 +262,22 @@ main {
         display: flex;
     }
     /* About me page */
+    .about-me-header__main-header {
+        font-size: 48px;
+        line-height: 0.7;
+    }
     .about-me {
         max-width: 70%;
         margin: 0 auto;
         padding-top: 5rem;
     }
+    .about-me-more__text {
+        max-width: 80ch;
+    }
     .about-me-list {
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10rem;
     }
 }

@@ -13,11 +13,12 @@
     <!-- Navigation -->
     <nav class=" u-fs-m navigation u-text-accent u-text-clr-accent-lighter l-py-100   u-bg-clr-primary">
         <a href="index.html" target="_blank" class="navigation__link  u-text-clr-accent-lighter l-pl-100">Design system</a>
-        <span id="menu-icon" class="navigation__icon l-pr-100">
+        <!-- <span id="menu-icon" class="navigation__icon l-pr-100">
             <div class="navigation__circle"></div>
             <div class="navigation__circle"></div>
             <div class="navigation__circle"></div>
-        </span>
+        </span> -->
+
         <div class="navigation__menu-links menu-links  l-pr-100">
             <a href="about-me.html" target="_blank" class="menu-links__link l-pr-200 active">About me</a>
             <a href="" class="menu-links__link  ">Demo site</a>
@@ -26,38 +27,40 @@
 
     <div class="about-me">
         <!-- add your name -->
-        <div class="about-me-header">
-            <h1 class="about-me-header__main-header u-fw-900 u-fs-monumental u-text-secondary l-mb-200">Hi! My name is Hiren.</h1>
+        <div class="about-me-header l-display-flex l-jc-center l-flex-direction-column">
+            <h1 class="about-me-header__main-header u-fw-900 u-fs-monumental u-text-secondary l-mx-auto l-mb-200">Hi! My name is Hiren.</h1>
             <h2 class="about-me-header__sub-header u-fw-700 u-fs-xxl u-text-secondary l-mx-auto l-mb-100">I am a web developer.</h2>
         </div>
 
         <!-- add your portrait photo -->
-        <img src="images/placeholder-square.jpg" alt="Portrait of lorem ipsum" style="width: 500px; height: 500px" />
+        <div class="about-me-img l-display-flex l-jc-center l-flex-direction-column">
+            <img src="images/placeholder-square.jpg" class="about-me-img__img l-mx-auto" alt="Portrait of lorem ipsum" style="width: 500px; height: 500px" />
+        </div>
         <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
-        <div>
-            <p>
+        <div class="about-me-more l-display-flex l-jc-center  l-py-300">
+            <p class="about-me-more__text l-my-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker">
                 <!-- Following bio information is enhanced by AI(ChatGPT) althought basic writing was my own. -->
                 I hail from India, specifically the vibrant state of Gujarat in the western part of the country. In 2020, I earned my Bachelor's degree in Computer Science from Gujarat University. Passionate about digital design and development, I've undertaken courses
                 to enhance my skills in web development. Beyond coding, I nurture a keen curiosity for space, psychology, and economics.
             </p>
         </div>
         <!-- add a list of your favourite web development tools. -->
-        <div class="about-me-list l-gap-400">
+        <div class="about-me-list l-gap-200 l-display-flex l-flex-direction-column l-mx-auto">
             <div class="about-me-list__tools">
-                <h3 class="u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary">My favourite tools are</h3>
-                <ul>
-                    <li>Visual Studio</li>
-                    <li>Adobe XD</li>
-                    <li>Google Chrome DevTools</li>
+                <h3 class="about-me-list__header u-f u-fw-600 u-fs-xl u-text-primary u-text-clr-secondary l-mb-100">My favourite tools are</h3>
+                <ul class="about-me-list__list u-fw-500 u-text-primary u-text-clr-secondary-darker">
+                    <li class="about-me-list__item u-text-clr-accent-lighter">Visual Studio</li>
+                    <li class="about-me-list__item u-text-clr-accent-lighter">Adobe XD</li>
+                    <li class="about-me-list__item u-text-clr-accent-lighter">Google Chrome DevTools</li>
                 </ul>
             </div>
             <!-- add a list of your strongest web development skills. -->
-            <div class="about-me-list__skills">
-                <h3 class="u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary">My skills include</h3>
-                <ul>
-                    <li>HTML &amp; CSS</li>
-                    <li>JavaScript</li>
-                    <li>Responsive Design</li>
+            <div class="about-me-list__skills l-pb-100">
+                <h3 class="about-me-list__header u-f u-fw-600 u-fs-xl u-text-primary u-text-clr-secondary l-mb-100">My skills include</h3>
+                <ul class="about-me-list__list  u-fw-500 u-text-primary u-text-clr-secondary-darker">
+                    <li class="about-me-list__item u-text-clr-accent-lighter">HTML &amp; CSS</li>
+                    <li class="about-me-list__item u-text-clr-accent-lighter">JavaScript</li>
+                    <li class="about-me-list__item u-text-clr-accent-lighter">Responsive Design</li>
                 </ul>
             </div>
         </div>
