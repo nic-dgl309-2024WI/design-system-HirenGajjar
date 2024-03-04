@@ -2732,3 +2732,19 @@ body {
 .l-gap-inherit {
     gap: var(--gap-inherit)
 }
+
+.l-gap-initial {
+    gap: var(--gap-initial)
+}
+
+.l-gap-revert {
+    gap: var(--gap-revert)
+}
+
+.l-gap-revert-layer {
+    gap: var(--gap-revert-layer)
+}
+
+.l-gap-unset {
+    gap: var(--gap-unset)
+}
