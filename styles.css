@@ -2775,7 +2775,7 @@ body {
 
 /* Set gap to 0.5rem */
 
-.l-gap-05 {
+.l-gap-050 {
     gap: 0.5rem;
 }
 
@@ -2789,7 +2789,7 @@ body {
 
 /* Set gap to 1rem */
 
-.l-gap-1 {
+.l-gap-100 {
     gap: 1rem;
 }
 
@@ -2803,7 +2803,7 @@ body {
 
 /* Set gap to 1.5rem */
 
-.l-gap-15 {
+.l-gap-150 {
     gap: 1.5rem;
 }
 
@@ -2817,7 +2817,7 @@ body {
 
 /* Set gap to 2rem */
 
-.l-gap-2 {
+.l-gap-200 {
     gap: 2rem;
 }
 
@@ -2831,7 +2831,7 @@ body {
 
 /* Set gap to 2.5rem */
 
-.l-gap-25 {
+.l-gap-250 {
     gap: 2.5rem;
 }
 
@@ -2845,7 +2845,7 @@ body {
 
 /* Set gap to 3rem */
 
-.l-gap-3 {
+.l-gap-300 {
     gap: 3rem;
 }
 
@@ -2859,7 +2859,7 @@ body {
 
 /* Set gap to 3.5rem */
 
-.l-gap-35 {
+.l-gap-035 {
     gap: 3.5rem;
 }
 
@@ -2873,6 +2873,128 @@ body {
 
 /* Set gap to 4rem */
 
-.l-gap-4 {
+.l-gap-400 {
     gap: 4rem;
+}
+
+
+/* Row gap property layout class */
+
+
+/* Set row gap to 0 */
+
+.l-row-gap-00 {
+    row-gap: 0;
+}
+
+
+/* Set row gap to 0.25rem */
+
+.l-row-gap-025 {
+    row-gap: 0.25rem;
+}
+
+
+/* Set row gap to 0.5rem */
+
+.l-row-gap-050 {
+    row-gap: 0.5rem;
+}
+
+
+/* Set row gap to 0.75rem */
+
+.l-row-gap-075 {
+    row-gap: 0.75rem;
+}
+
+
+/* Set row gap to 1rem */
+
+.l-row-gap-100 {
+    row-gap: 1rem;
+}
+
+
+/* Set row gap to 1.25rem */
+
+.l-row-gap-125 {
+    row-gap: 1.25rem;
+}
+
+
+/* Set row gap to 1.5rem */
+
+.l-row-gap-150 {
+    row-gap: 1.5rem;
+}
+
+
+/* Set row gap to 1.75rem */
+
+.l-row-gap-175 {
+    row-gap: 1.75rem;
+}
+
+
+/* Set row gap to 2rem */
+
+.l-row-gap-200 {
+    row-gap: 2rem;
+}
+
+
+/* Set row gap to 2.25rem */
+
+.l-row-gap-225 {
+    row-gap: 2.25rem;
+}
+
+
+/* Set row gap to 2.5rem */
+
+.l-row-gap-250 {
+    row-gap: 2.5rem;
+}
+
+
+/* Set row gap to 2.75rem */
+
+.l-row-gap-275 {
+    row-gap: 2.75rem;
+}
+
+
+/* Set row gap to 3rem */
+
+.l-row-gap-300 {
+    row-gap: 3rem;
+}
+
+
+/* Set row gap to 3.25rem */
+
+.l-row-gap-325 {
+    row-gap: 3.25rem;
+}
+
+
+/* Set row gap to 3.5rem */
+
+.l-row-gap-350 {
+    row-gap: 3.5rem;
+}
+
+
+/* Set row gap to 3.75rem */
+
+.l-row-gap-375 {
+    row-gap: 3.75rem;
+}
+
+
+/* Set row gap to 4rem */
+
+.l-row-gap-400 {
+    row-gap: 4rem;
 }
