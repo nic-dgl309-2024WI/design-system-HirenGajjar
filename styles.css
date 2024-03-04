@@ -3179,3 +3179,14 @@ body {
 .l-col-gap-400 {
     column-gap: 4rem;
 }
+
+
+/* Max width classes */
+
+.l-mw-mobile-040-ch {
+    max-width: 40ch;
+}
+
+.l-max-width-080 {
+    max-width: 80%;
+}

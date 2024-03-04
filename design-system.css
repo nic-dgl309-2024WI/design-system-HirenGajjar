@@ -135,14 +135,6 @@ main {
 
 /* Spacing */
 
-.l-mw-mobile-040-ch {
-    max-width: 40ch;
-}
-
-.l-max-width-080 {
-    max-width: 80%;
-}
-
 .margin-left__example__demo,
 .margin-right__example__demo,
 .margin-horizontal__example__demo,
@@ -152,25 +144,6 @@ main {
 .padding-horizontal__example__demo,
 .padding-vertical__example__demo {
     line-height: 0.3;
-}
-
-.margin-left__text,
-.margin-right__text,
-.margin-bottom__text,
-.margin-top__text,
-.padding-left__text,
-.padding-right__text,
-.padding-top__text,
-.padding-bottom__text {
-    margin-right: 1rem;
-    gap: 16px;
-}
-
-.margin-vertical__text,
-.margin-horizontal__text,
-.padding-vertical__text,
-.padding-horizontal__text {
-    gap: 16px;
 }
 
 .padding-left__example__demo,
@@ -248,4 +221,22 @@ main {
         margin: auto;
     }
     /* Spacing */
+    .margin-left,
+    .margin-right,
+    .padding-left,
+    .padding-right,
+    .padding-horizontal,
+    .margin-horizontal {
+        display: flex;
+        align-items: center;
+    }
+    .margin-left__example,
+    .margin-right__example,
+    .padding-left__example,
+    .padding-right__example,
+    .padding-horizontal__example,
+    .margin-horizontal__example {
+        width: 400px;
+        display: flex;
+    }
 }
