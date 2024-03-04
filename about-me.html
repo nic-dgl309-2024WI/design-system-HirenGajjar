@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About me</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="design-system.css  ">
 </head>
@@ -19,35 +19,50 @@
             <div class="navigation__circle"></div>
         </span>
         <div class="navigation__menu-links menu-links  l-pr-100">
-            <a href="about-me.html" target="_blank" class="menu-links__link l-pr-200">About me</a>
+            <a href="about-me.html" target="_blank" class="menu-links__link l-pr-200 active">About me</a>
             <a href="" class="menu-links__link  ">Demo site</a>
         </div>
     </nav>
-    <!-- add your name -->
-    <h1>Hi! My name is Hiren Gajjar.</h1>
-    <h2>I am a web developer.</h2>
-    <!-- add your portrait photo -->
-    <img src="images/placeholder-square.jpg" alt="Portrait of lorem ipsum" style="width: 500px; height: 500px" />
-    <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
-    <p>
-        <!-- Following bio information is enhanced by AI(ChatGPT) althought basic writing was my own. -->
-        I hail from India, specifically the vibrant state of Gujarat in the western part of the country. In 2020, I earned my Bachelor's degree in Computer Science from Gujarat University. Passionate about digital design and development, I've undertaken courses
-        to enhance my skills in web development. Beyond coding, I nurture a keen curiosity for space, psychology, and economics.
-    </p>
-    <!-- add a list of your favourite web development tools. -->
-    <p>My favourite tools are</p>
-    <ul>
-        <li>Visual Studio</li>
-        <li>Adobe XD</li>
-        <li>Google Chrome DevTools</li>
-    </ul>
-    <!-- add a list of your strongest web development skills. -->
-    <p>My skills include</p>
-    <ul>
-        <li>HTML &amp; CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive Design</li>
-    </ul>
+
+    <div class="about-me">
+        <!-- add your name -->
+        <div class="about-me-header">
+            <h1 class="about-me-header__main-header u-fw-900 u-fs-monumental u-text-secondary l-mb-200">Hi! My name is Hiren.</h1>
+            <h2 class="about-me-header__sub-header u-fw-700 u-fs-xxl u-text-secondary l-mx-auto l-mb-100">I am a web developer.</h2>
+        </div>
+
+        <!-- add your portrait photo -->
+        <img src="images/placeholder-square.jpg" alt="Portrait of lorem ipsum" style="width: 500px; height: 500px" />
+        <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
+        <div>
+            <p>
+                <!-- Following bio information is enhanced by AI(ChatGPT) althought basic writing was my own. -->
+                I hail from India, specifically the vibrant state of Gujarat in the western part of the country. In 2020, I earned my Bachelor's degree in Computer Science from Gujarat University. Passionate about digital design and development, I've undertaken courses
+                to enhance my skills in web development. Beyond coding, I nurture a keen curiosity for space, psychology, and economics.
+            </p>
+        </div>
+        <!-- add a list of your favourite web development tools. -->
+        <div class="about-me-list l-gap-400">
+            <div class="about-me-list__tools">
+                <h3 class="u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary">My favourite tools are</h3>
+                <ul>
+                    <li>Visual Studio</li>
+                    <li>Adobe XD</li>
+                    <li>Google Chrome DevTools</li>
+                </ul>
+            </div>
+            <!-- add a list of your strongest web development skills. -->
+            <div class="about-me-list__skills">
+                <h3 class="u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary">My skills include</h3>
+                <ul>
+                    <li>HTML &amp; CSS</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

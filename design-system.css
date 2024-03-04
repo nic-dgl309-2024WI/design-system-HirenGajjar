@@ -239,4 +239,13 @@ main {
         width: 400px;
         display: flex;
     }
+    /* About me page */
+    .about-me {
+        max-width: 70%;
+        margin: 0 auto;
+        padding-top: 5rem;
+    }
+    .about-me-list {
+        display: flex;
+    }
 }
