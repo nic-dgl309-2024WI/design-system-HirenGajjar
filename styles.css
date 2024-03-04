@@ -71,6 +71,7 @@
     --display-grid: grid;
     --display-inline: inline;
     --display-inline-block: inline-block;
+    /* Justify content */
     --justify-content-center: center;
     --justify-content-flex-end: flex-end;
     --justify-content-flex-start: flex-start;
@@ -156,6 +157,12 @@
     --flex-direction-revert: revert;
     --flex-direction-revert-layer: revert-layer;
     --flex-direction-unset: unset;
+    /* Gap property variables */
+    --gap-inherit: inherit;
+    --gap-initial: initial;
+    --gap-revert: revert;
+    --gap-revert-layer: revert-layer;
+    --gap-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
@@ -406,6 +413,9 @@ body {
 
 /**********Layout class***********/
 
+
+/* Display property layout class */
+
 .l-display-flex {
     display: var(--display-flex);
 }
@@ -429,6 +439,9 @@ body {
 .l-display-inline-block {
     display: var(--display-inline-block);
 }
+
+
+/* Justify content  */
 
 .l-jc-center {
     justify-content: var(--justify-content-center);
