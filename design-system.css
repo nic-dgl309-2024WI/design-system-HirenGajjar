@@ -161,7 +161,7 @@ main {
     /* Main */
     .main {
         right: 0;
-        max-width: 82vw;
+        max-width: 79vw;
     }
     .color-context {
         display: flex;
@@ -190,4 +190,11 @@ main {
         height: 300px;
     }
     /* Typography */
+    .typography__type {
+        width: 100%;
+    }
+    .typography__alphabates {
+        width: 33%;
+        margin: auto;
+    }
 }
