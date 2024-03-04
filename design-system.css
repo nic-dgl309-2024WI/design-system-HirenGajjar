@@ -160,7 +160,8 @@ main {
 .margin-bottom__text,
 .margin-top__text,
 .padding-left__text,
-.padding-right__text {
+.padding-right__text,
+.padding-top__text {
     margin-right: 1rem;
     gap: 15px;
 }
@@ -171,7 +172,8 @@ main {
 }
 
 .padding-left__example__demo,
-.padding-right__example__demo {
+.padding-right__example__demo,
+.padding-top__example__demo {
     border: 1px solid black;
 }
 
