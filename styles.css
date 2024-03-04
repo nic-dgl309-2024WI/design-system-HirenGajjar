@@ -169,6 +169,12 @@
     --row-gap-revert: revert;
     --row-gap-revert-layer: revert-layer;
     --row-gap-unset: unset;
+    /* column gap property variables */
+    --column-gap-inherit: inherit;
+    --column-gap-initial: initial;
+    --column-gap-revert: revert;
+    --column-gap-revert-layer: revert-layer;
+    --column-gap-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
