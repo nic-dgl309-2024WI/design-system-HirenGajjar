@@ -148,16 +148,25 @@ main {
 
 .margin-left__example__demo,
 .margin-right__example__demo,
-.margin-horizontal__example__demo {
+.margin-horizontal__example__demo,
+.margin-vertical__example__demo {
     line-height: 0.3;
 }
 
 .margin-left__text,
 .margin-right__text,
 .margin-bottom__text,
-.margin-top__text,
-.margin-horizontal__text {
+.margin-top__text {
     margin-right: 1rem;
+    gap: 15px;
+}
+
+.margin-vertical__text,
+.margin-horizontal__text {
+    gap: 16px;
+}
+
+{
     gap: 15px;
 }
 
