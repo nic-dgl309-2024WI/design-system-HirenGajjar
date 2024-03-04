@@ -180,6 +180,16 @@ main {
     gap: 2rem;
 }
 
+.body-text-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.body-text-paragraph__text {
+    max-width: 40ch;
+}
+
 
 /* Spacing */
 
@@ -274,6 +284,9 @@ main {
     }
     .use-headings-box {
         gap: 4rem;
+    }
+    .body-text-paragraph__text {
+        max-width: 60ch;
     }
     /* Spacing */
     .margin-left,
