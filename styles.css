@@ -423,6 +423,13 @@ body {
 }
 
 
+/* Line height utility class */
+
+.u-text-line-height-normal {
+    line-height: var(--line-height-normal);
+}
+
+
 /**********Layout class***********/
 
 
