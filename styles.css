@@ -2748,3 +2748,125 @@ body {
 .l-gap-unset {
     gap: var(--gap-unset)
 }
+
+
+/* Gap property with specific values layout class */
+
+
+/* Set gap to 0 */
+
+.l-gap-00 {
+    gap: 0;
+}
+
+
+/* Set gap to 0.25rem */
+
+.l-gap-025 {
+    gap: 0.25rem;
+}
+
+
+/* Set gap to 0.5rem */
+
+.l-gap-05 {
+    gap: 0.5rem;
+}
+
+
+/* Set gap to 0.75rem */
+
+.l-gap-075 {
+    gap: 0.75rem;
+}
+
+
+/* Set gap to 1rem */
+
+.l-gap-1 {
+    gap: 1rem;
+}
+
+
+/* Set gap to 1.25rem */
+
+.l-gap-125 {
+    gap: 1.25rem;
+}
+
+
+/* Set gap to 1.5rem */
+
+.l-gap-15 {
+    gap: 1.5rem;
+}
+
+
+/* Set gap to 1.75rem */
+
+.l-gap-175 {
+    gap: 1.75rem;
+}
+
+
+/* Set gap to 2rem */
+
+.l-gap-2 {
+    gap: 2rem;
+}
+
+
+/* Set gap to 2.25rem */
+
+.l-gap-225 {
+    gap: 2.25rem;
+}
+
+
+/* Set gap to 2.5rem */
+
+.l-gap-25 {
+    gap: 2.5rem;
+}
+
+
+/* Set gap to 2.75rem */
+
+.l-gap-275 {
+    gap: 2.75rem;
+}
+
+
+/* Set gap to 3rem */
+
+.l-gap-3 {
+    gap: 3rem;
+}
+
+
+/* Set gap to 3.25rem */
+
+.l-gap-325 {
+    gap: 3.25rem;
+}
+
+
+/* Set gap to 3.5rem */
+
+.l-gap-35 {
+    gap: 3.5rem;
+}
+
+
+/* Set gap to 3.75rem */
+
+.l-gap-375 {
+    gap: 3.75rem;
+}
+
+
+/* Set gap to 4rem */
+
+.l-gap-4 {
+    gap: 4rem;
+}
