@@ -3050,3 +3050,125 @@ body {
 .l-column-gap-unset {
     column-gap: var(--column-gap-unset);
 }
+
+
+/* Column gap specific value layout classes */
+
+
+/* Set column gap to 0 */
+
+.l-col-gap-00 {
+    column-gap: 0;
+}
+
+
+/* Set column gap to 0.25rem */
+
+.l-col-gap-025 {
+    column-gap: 0.25rem;
+}
+
+
+/* Set column gap to 0.5rem */
+
+.l-col-gap-050 {
+    column-gap: 0.5rem;
+}
+
+
+/* Set column gap to 0.75rem */
+
+.l-col-gap-075 {
+    column-gap: 0.75rem;
+}
+
+
+/* Set column gap to 1rem */
+
+.l-col-gap-100 {
+    column-gap: 1rem;
+}
+
+
+/* Set column gap to 1.25rem */
+
+.l-col-gap-125 {
+    column-gap: 1.25rem;
+}
+
+
+/* Set column gap to 1.5rem */
+
+.l-col-gap-150 {
+    column-gap: 1.5rem;
+}
+
+
+/* Set column gap to 1.75rem */
+
+.l-col-gap-175 {
+    column-gap: 1.75rem;
+}
+
+
+/* Set column gap to 2rem */
+
+.l-col-gap-200 {
+    column-gap: 2rem;
+}
+
+
+/* Set column gap to 2.25rem */
+
+.l-col-gap-225 {
+    column-gap: 2.25rem;
+}
+
+
+/* Set column gap to 2.5rem */
+
+.l-col-gap-250 {
+    column-gap: 2.5rem;
+}
+
+
+/* Set column gap to 2.75rem */
+
+.l-col-gap-275 {
+    column-gap: 2.75rem;
+}
+
+
+/* Set column gap to 3rem */
+
+.l-col-gap-300 {
+    column-gap: 3rem;
+}
+
+
+/* Set column gap to 3.25rem */
+
+.l-col-gap-325 {
+    column-gap: 3.25rem;
+}
+
+
+/* Set column gap to 3.5rem */
+
+.l-col-gap-350 {
+    column-gap: 3.5rem;
+}
+
+
+/* Set column gap to 3.75rem */
+
+.l-col-gap-375 {
+    column-gap: 3.75rem;
+}
+
+
+/* Set column gap to 4rem */
+
+.l-col-gap-400 {
+    column-gap: 4rem;
+}
