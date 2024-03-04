@@ -2888,6 +2888,29 @@ body {
 }
 
 
+/* Row gap property layout classes */
+
+.l-row-gap-inherit {
+    row-gap: var(--row-gap-inherit);
+}
+
+.l-row-gap-initial {
+    row-gap: var(--row-gap-initial);
+}
+
+.l-row-gap-revert {
+    row-gap: var(--row-gap-revert);
+}
+
+.l-row-gap-revert-layer {
+    row-gap: var(--row-gap-revert-layer);
+}
+
+.l-row-gap-unset {
+    row-gap: var(--row-gap-unset);
+}
+
+
 /* Set row gap to 0.25rem */
 
 .l-row-gap-025 {
