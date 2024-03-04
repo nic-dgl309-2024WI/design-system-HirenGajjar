@@ -111,6 +111,9 @@ main {
     margin-top: 100px;
 }
 
+
+/* Colors page */
+
 .color-pallate {
     width: 100%;
 }
@@ -164,9 +167,13 @@ main {
 
 /* Typorgraphy */
 
+.typography__type {
+    display: flex;
+    justify-content: space-around;
+}
+
 .typography__alphabates {
-    width: 100%;
-    align-items: flex-start;
+    width: 60%;
 }
 
 
@@ -252,10 +259,14 @@ main {
     /* Typography */
     .typography__type {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     .typography__alphabates {
-        width: 33%;
-        margin: auto;
+        max-width: 26ch;
+        display: flex;
+        flex-direction: column;
     }
     /* Spacing */
     .margin-left,
