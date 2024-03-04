@@ -149,14 +149,16 @@ main {
 .margin-left__example__demo,
 .margin-right__example__demo,
 .margin-horizontal__example__demo,
-.margin-vertical__example__demo {
+.margin-vertical__example__demo,
+.padding-left__example__demo {
     line-height: 0.3;
 }
 
 .margin-left__text,
 .margin-right__text,
 .margin-bottom__text,
-.margin-top__text {
+.margin-top__text,
+.padding-left__text {
     margin-right: 1rem;
     gap: 15px;
 }
@@ -166,8 +168,8 @@ main {
     gap: 16px;
 }
 
-{
-    gap: 15px;
+.padding-left__example__demo {
+    border: 1px solid black;
 }
 
 @media (min-width:600px) {
