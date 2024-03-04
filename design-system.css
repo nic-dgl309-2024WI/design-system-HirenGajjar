@@ -142,7 +142,11 @@ main {
 .margin-left__example,
 .margin-right__example,
 .margin-top__example,
-.margin-bottom__example {
+.margin-bottom__example,
+.padding-left__example,
+.padding-right__example,
+.padding-top__example,
+.padding-bottom__example {
     max-width: 80%;
 }
 
@@ -151,7 +155,8 @@ main {
 .margin-horizontal__example__demo,
 .margin-vertical__example__demo,
 .padding-left__example__demo,
-.padding-right__example__demo {
+.padding-right__example__demo,
+.padding-horizontal__example__demo {
     line-height: 0.3;
 }
 
@@ -175,7 +180,8 @@ main {
 .padding-left__example__demo,
 .padding-right__example__demo,
 .padding-top__example__demo,
-.padding-bottom__example__demo {
+.padding-bottom__example__demo,
+.padding-horizontal__example__demo {
     border: 1px solid black;
 }
 
