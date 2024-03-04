@@ -176,6 +176,10 @@ main {
     width: 60%;
 }
 
+.use-headings-box {
+    gap: 2rem;
+}
+
 
 /* Spacing */
 
@@ -267,6 +271,9 @@ main {
         max-width: 26ch;
         display: flex;
         flex-direction: column;
+    }
+    .use-headings-box {
+        gap: 4rem;
     }
     /* Spacing */
     .margin-left,
