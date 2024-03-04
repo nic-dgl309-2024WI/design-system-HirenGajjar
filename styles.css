@@ -2725,3 +2725,10 @@ body {
 .l-flex-direction-unset {
     flex-direction: var(--flex-direction-unset);
 }
+
+
+/* gap property layout classes */
+
+.l-gap-inherit {
+    gap: var(--gap-inherit)
+}
