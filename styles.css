@@ -163,6 +163,12 @@
     --gap-revert: revert;
     --gap-revert-layer: revert-layer;
     --gap-unset: unset;
+    /* Row gap property variables */
+    --row-gap-inherit: inherit;
+    --row-gap-initial: initial;
+    --row-gap-revert: revert;
+    --row-gap-revert-layer: revert-layer;
+    --row-gap-unset: unset;
     /* Cursor variables */
     --cursor-pointer: pointer;
 }
