@@ -135,14 +135,17 @@ main {
 
 /* Spacing */
 
+.notation__text {
+    max-width: 40ch;
+}
+
 .margin-left__example {
     max-width: 80%;
 }
 
 .margin-left__text {
-    max-width: 75%;
     margin-right: 1rem;
-    gap: 25px;
+    gap: 15px;
 }
 
 @media (min-width:600px) {
