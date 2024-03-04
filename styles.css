@@ -3027,3 +3027,26 @@ body {
 .l-row-gap-400 {
     row-gap: 4rem;
 }
+
+
+/* Column gap property layout classes */
+
+.l-column-gap-inherit {
+    column-gap: var(--column-gap-inherit);
+}
+
+.l-column-gap-initial {
+    column-gap: var(--column-gap-initial);
+}
+
+.l-column-gap-revert {
+    column-gap: var(--column-gap-revert);
+}
+
+.l-column-gap-revert-layer {
+    column-gap: var(--column-gap-revert-layer);
+}
+
+.l-column-gap-unset {
+    column-gap: var(--column-gap-unset);
+}
