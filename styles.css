@@ -68,6 +68,9 @@
     --display-flex: flex;
     --display-block: block;
     --display-none: none;
+    --display-grid: grid;
+    --display-inline: inline;
+    --display-inline-block: inline-block;
     --justify-content-center: center;
     --justify-content-flex-end: flex-end;
     --justify-content-flex-start: flex-start;
@@ -413,6 +416,18 @@ body {
 
 .l-display-none {
     display: var(--display-none);
+}
+
+.l-display-grid {
+    display: var(--display-grid);
+}
+
+.l-display-inline {
+    display: var(--display-inline);
+}
+
+.l-display-inline-block {
+    display: var(--display-inline-block);
 }
 
 .l-jc-center {
