@@ -258,6 +258,23 @@ main {
     border: 1px solid black;
 }
 
+.jus-cen {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jus-cen-parent {
+    width: 400 px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.jus-cen-child {
+    border: 1px solid black;
+    height: 30px;
+}
+
 @media (min-width:600px) {
     nav .menu-links {
         display: block;
@@ -409,6 +426,19 @@ main {
         border: 1px solid black;
     }
     .grid-child {
+        border: 1px solid black;
+    }
+    .jus-cen {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .jus-cen-parent {
+        width: 400 px;
+        height: 150px;
+        border: 1px solid black;
+    }
+    .jus-cen-child {
         border: 1px solid black;
     }
 }
