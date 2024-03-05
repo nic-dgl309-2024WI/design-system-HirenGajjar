@@ -226,28 +226,17 @@ main {
 
 /* Containers */
 
-.flex-child,
-.jus-cen-child,
-.jus-start-child,
-.jus-end-child {
+.l-demo-child-h {
     height: 30px;
 }
 
-.dis-flex,
-.dis-grid,
-.jus-end,
-.jus-start,
-.jus-cen {
+.l-mobile-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.flex-container-parent,
-.grid-container-parent,
-.jus-cen-parent,
-.jus-start-parent,
-.jus-end-parent {
+.l-parent-demo-hw {
     width: 400px;
     height: 150px;
 }
@@ -379,37 +368,9 @@ main {
         gap: 10rem;
     }
     /* Containers */
-    .dis-flex {
+    .l-desktop-container {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-    }
-    .dis-grid {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .jus-cen {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .jus-start {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .jus-end {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .flex-container-parent,
-    .grid-container-parent,
-    .jus-cen-parent,
-    .jus-start-parent,
-    .jus-end-parent {
-        width: 400px;
-        height: 150px;
     }
 }
