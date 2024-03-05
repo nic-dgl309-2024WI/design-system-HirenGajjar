@@ -295,6 +295,11 @@ main {
     .use-headings-box {
         gap: 4rem;
     }
+    .body-text-paragraph {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
     .body-text-paragraph__text {
         max-width: 60ch;
     }
