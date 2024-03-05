@@ -190,6 +190,15 @@ main {
     max-width: 40ch;
 }
 
+.font-size {
+    display: flex;
+    justify-content: center;
+}
+
+.font-size-category {
+    display: none;
+}
+
 
 /* Spacing */
 
@@ -287,6 +296,13 @@ main {
     }
     .body-text-paragraph__text {
         max-width: 60ch;
+    }
+    .font-size {
+        display: flex;
+        justify-content: center;
+    }
+    .font-size-category {
+        display: block;
     }
     /* Spacing */
     .margin-left,
