@@ -226,70 +226,30 @@ main {
 
 /* Containers */
 
-.dis-flex {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.flex-child,
+.jus-cen-child,
+.jus-start-child,
+.jus-end-child {
+    height: 30px;
 }
 
-.flex-container-parent {
-    width: 350px;
-    height: 50px;
-    border: 1px solid black;
-}
-
-.flex-child {
-    border: 1px solid black;
-}
-
-.dis-grid {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.grid-container-parent {
-    width: 400 px;
-    height: 150px;
-    border: 1px solid black;
-}
-
-.grid-child {
-    border: 1px solid black;
-}
-
+.dis-flex,
+.dis-grid,
+.jus-end,
+.jus-start,
 .jus-cen {
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.jus-cen-parent {
-    width: 400 px;
+.flex-container-parent,
+.grid-container-parent,
+.jus-cen-parent,
+.jus-start-parent,
+.jus-end-parent {
+    width: 400px;
     height: 150px;
-    border: 1px solid black;
-}
-
-.jus-cen-child {
-    border: 1px solid black;
-    height: 30px;
-}
-
-.jus-start {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.jus-start-parent {
-    width: 400 px;
-    height: 150px;
-    border: 1px solid black;
-}
-
-.jus-start-child {
-    border: 1px solid black;
-    height: 30px;
 }
 
 @media (min-width:600px) {
@@ -424,51 +384,32 @@ main {
         align-items: center;
         justify-content: center;
     }
-    .flex-container-parent {
-        width: 400 px;
-        height: 50px;
-        border: 1px solid black;
-    }
-    .flex-child {
-        border: 1px solid black;
-    }
     .dis-grid {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-    }
-    .grid-container-parent {
-        width: 400 px;
-        height: 150px;
-        border: 1px solid black;
-    }
-    .grid-child {
-        border: 1px solid black;
     }
     .jus-cen {
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    .jus-cen-parent {
-        width: 400 px;
-        height: 150px;
-        border: 1px solid black;
-    }
-    .jus-cen-child {
-        border: 1px solid black;
-    }
     .jus-start {
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    .jus-start-parent {
-        width: 400 px;
-        height: 150px;
-        border: 1px solid black;
+    .jus-end {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
-    .jus-start-child {
-        border: 1px solid black;
+    .flex-container-parent,
+    .grid-container-parent,
+    .jus-cen-parent,
+    .jus-start-parent,
+    .jus-end-parent {
+        width: 400px;
+        height: 150px;
     }
 }

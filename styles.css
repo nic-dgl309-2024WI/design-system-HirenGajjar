@@ -3190,3 +3190,10 @@ body {
 .l-max-width-080 {
     max-width: 80%;
 }
+
+
+/* 1 px solid black border */
+
+.l-border-black-001 {
+    border: 1px solid black;
+}
