@@ -190,7 +190,8 @@ main {
     max-width: 40ch;
 }
 
-.font-size {
+.font-size,
+.font-weight {
     display: flex;
     justify-content: center;
 }
@@ -297,7 +298,8 @@ main {
     .body-text-paragraph__text {
         max-width: 60ch;
     }
-    .font-size {
+    .font-size,
+    .font-weight {
         display: flex;
         justify-content: center;
     }
