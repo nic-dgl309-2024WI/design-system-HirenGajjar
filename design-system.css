@@ -227,8 +227,9 @@ main {
 /* Containers */
 
 .dis-flex {
-    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-container-parent {
@@ -238,6 +239,22 @@ main {
 }
 
 .flex-child {
+    border: 1px solid black;
+}
+
+.dis-grid {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container-parent {
+    width: 400 px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.grid-child {
     border: 1px solid black;
 }
 
@@ -369,16 +386,29 @@ main {
     }
     /* Containers */
     .dis-flex {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
     .flex-container-parent {
-        width: 700px;
+        width: 400 px;
         height: 50px;
         border: 1px solid black;
     }
     .flex-child {
+        border: 1px solid black;
+    }
+    .dis-grid {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .grid-container-parent {
+        width: 400 px;
+        height: 150px;
+        border: 1px solid black;
+    }
+    .grid-child {
         border: 1px solid black;
     }
 }
