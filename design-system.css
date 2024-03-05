@@ -223,6 +223,24 @@ main {
     border: 1px solid black;
 }
 
+
+/* Containers */
+
+.dis-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-parent {
+    width: 350px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.flex-child {
+    border: 1px solid black;
+}
+
 @media (min-width:600px) {
     nav .menu-links {
         display: block;
@@ -348,5 +366,19 @@ main {
         flex-direction: row;
         justify-content: center;
         gap: 10rem;
+    }
+    /* Containers */
+    .dis-flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-container-parent {
+        width: 700px;
+        height: 50px;
+        border: 1px solid black;
+    }
+    .flex-child {
+        border: 1px solid black;
     }
 }
