@@ -3197,3 +3197,14 @@ body {
 .l-border-black-001 {
     border: 1px solid black;
 }
+
+
+/* Grid layout classes */
+
+.l-grid-rows-auto {
+    grid-template-rows: auto;
+}
+
+.l-grid-cols-auto {
+    grid-template-columns: auto;
+}
