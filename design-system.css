@@ -241,6 +241,10 @@ main {
     height: 150px;
 }
 
+.code-shadow {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
 @media (min-width:600px) {
     nav .menu-links {
         display: block;
