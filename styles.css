@@ -3222,6 +3222,10 @@ body {
     width: 80%;
 }
 
+.l-width-80-vw {
+    max-width: 80%;
+}
+
 .l-height-75 {
     height: 75vh;
 }
