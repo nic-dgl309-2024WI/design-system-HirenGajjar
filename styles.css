@@ -3202,6 +3202,11 @@ body {
     border: 1px solid black;
 }
 
+.l-border-desktop-003 {
+    border: 3px solid #4D4D4D;
+    border-radius: 5px;
+}
+
 
 /* Grid layout classes */
 
@@ -3211,4 +3216,12 @@ body {
 
 .l-grid-cols-auto {
     grid-template-columns: auto;
+}
+
+.l-width-full {
+    width: 80%;
+}
+
+.l-height-75 {
+    height: 75vh;
 }
