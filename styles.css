@@ -2748,6 +2748,10 @@ body {
 
 /* gap property layout classes */
 
+.l-gap-normal {
+    gap: normal;
+}
+
 .l-gap-inherit {
     gap: var(--gap-inherit)
 }
