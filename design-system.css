@@ -123,19 +123,8 @@ main {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
-#clr1,
-#clr2 {
-    width: 100px;
-}
-
-#clr4,
-#clr3 {
-    width: 45px;
-}
-
-#clr5,
-#clr6 {
-    width: 18px;
+.l-clr-plt-width {
+    width: 50px;
 }
 
 .colour-context-colors__circle {
@@ -287,20 +276,9 @@ main {
     .colour-combo-card {
         width: 25%;
     }
-    #clr1,
-    #clr2 {
-        width: 400px;
-        height: 300px;
-    }
-    #clr3,
-    #clr4 {
-        width: 90px;
-        height: 300px;
-    }
-    #clr5,
-    #clr6 {
-        width: 36px;
-        height: 300px;
+    .l-clr-plt-width {
+        width: 150px;
+        height: 200px;
     }
     /* Typography */
     .typography__type {
