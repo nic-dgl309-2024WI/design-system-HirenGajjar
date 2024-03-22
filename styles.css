@@ -430,6 +430,13 @@ body {
 }
 
 
+/* Box shadow */
+
+.u-box-shadow-001 {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
 /**********Layout class***********/
 
 
@@ -3197,6 +3204,34 @@ body {
 
 .l-width-full {
     width: 100%;
+}
+
+.l-width-010 {
+    width: 10%;
+}
+
+.l-width-020 {
+    width: 20%;
+}
+
+.l-width-030 {
+    width: 30%;
+}
+
+.l-width-040 {
+    width: 40%;
+}
+
+.l-width-050 {
+    width: 50%;
+}
+
+.l-width-060 {
+    width: 60%;
+}
+
+.l-width-070 {
+    width: 70%;
 }
 
 
