@@ -3195,6 +3195,10 @@ body {
     max-width: 80%;
 }
 
+.l-width-full {
+    width: 100%;
+}
+
 
 /* 1 px solid black border */
 
@@ -3229,3 +3233,6 @@ body {
 .l-height-75 {
     height: 75vh;
 }
+
+
+/* Home page style */
