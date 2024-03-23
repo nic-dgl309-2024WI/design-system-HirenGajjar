@@ -447,6 +447,10 @@ body {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
+.u-box-shadow-003 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
 
 /**********Layout class***********/
 
@@ -3538,8 +3542,5 @@ body {
     .desk-links__list a:hover {
         color: var(--clr-accent);
         text-decoration: underline;
-    }
-    .resources-box__container {
-        background-color: red;
     }
 }
