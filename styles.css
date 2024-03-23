@@ -3522,6 +3522,9 @@ body {
     .u-desk-header-fs-300 {
         font-size: 3rem;
     }
+    .u-desk-header-fs-200 {
+        font-size: 2rem;
+    }
     /* Navigation */
     .home-nav__mob {
         display: none;
@@ -3535,5 +3538,8 @@ body {
     .desk-links__list a:hover {
         color: var(--clr-accent);
         text-decoration: underline;
+    }
+    .resources-box__container {
+        background-color: red;
     }
 }
