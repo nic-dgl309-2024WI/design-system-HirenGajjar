@@ -214,6 +214,10 @@ body {
     line-height: 1.5rem;
 }
 
+.u-line-height-010 {
+    line-height: 1;
+}
+
 
 /* Background colour utility classes */
 
@@ -868,6 +872,10 @@ body {
 
 
 /* 0 margin top */
+
+.l-mt-10vh {
+    margin-top: 10vh;
+}
 
 .l-mt-00 {
     margin-top: 0;
@@ -3265,9 +3273,19 @@ body {
     border: 1px solid black;
 }
 
+.l-border-button {
+    border: 2px solid var(--clr-accent-lighter);
+    border-radius: 50px;
+    transition: 0.3s all ease-in-out;
+}
+
 .l-border-desktop-003 {
     border: 3px solid #4D4D4D;
     border-radius: 5px;
+}
+
+.l-border-under {
+    border-bottom: 1px solid black;
 }
 
 
@@ -3327,6 +3345,15 @@ body {
 }
 
 
+/* Hover state classes */
+
+.l-border-button:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+
 /* Home page style */
 
 .home-nav__mob-links {
@@ -3347,6 +3374,9 @@ body {
 }
 
 
+/* Main */
+
+
 /* Desktop */
 
 @media (min-width:500px) {
@@ -3362,5 +3392,11 @@ body {
     .desk-links__list a:hover {
         color: var(--clr-accent);
         text-decoration: underline;
+    }
+    /* Main */
+    /* Hero */
+    .hero-header h1 {
+        font-size: 84px;
+        max-width: 20ch;
     }
 }
