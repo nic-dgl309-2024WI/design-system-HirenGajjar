@@ -3479,6 +3479,9 @@ body {
     .l-desk-height-80vh {
         height: 80vh;
     }
+    .l-desk-height-90vh {
+        height: 90vh;
+    }
     .l-desk-height-100 {
         width: 100%;
     }
