@@ -393,6 +393,9 @@ body {
 }
 
 
+/* Mob font size */
+
+
 /* Utility classes for font kerning */
 
 .u-fk-auto {
@@ -472,6 +475,17 @@ body {
 
 .l-display-inline-block {
     display: var(--display-inline-block);
+}
+
+
+/* Mobile screen display */
+
+.l-mob-display-none {
+    display: none;
+}
+
+.l-mob-display-block {
+    display: block;
 }
 
 
@@ -3410,6 +3424,16 @@ body {
 /* Desktop */
 
 @media (min-width:600px) {
+    .l-desk-display-none {
+        display: none;
+    }
+    .l-desk-display-block {
+        display: block;
+    }
+    .u-desk-header-fs-300 {
+        font-size: 3rem;
+    }
+    /* Navigation */
     .home-nav__mob {
         display: none;
     }
@@ -3429,7 +3453,8 @@ body {
         font-size: 6rem;
         max-width: 20ch;
     }
-    .products-top__header {
-        font-size: 3rem;
+    /* Product */
+    .l-desk-flex-direction-row {
+        flex-direction: row;
     }
 }
