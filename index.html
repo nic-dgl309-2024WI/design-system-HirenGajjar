@@ -53,7 +53,7 @@
             </ul>
         </div>
         <!-- Navigation Desktop -->
-        <div class="home-nav__desk">
+        <div class="home-nav__desk l-position-fixed l-width-100 u-bg-clr-primary">
             <div class="home-nav__desk-wrapper l-display-flex l-align-center l-jc-space-around u-box-shadow-001">
                 <!-- Logo -->
                 <div class="home-nav__desk-logo l-p-150 u-text-accent u-text-transform-uppercase u-fw-700 l-width-020">
@@ -89,7 +89,7 @@
     <!-- Main -->
     <main class="main l-pt-10vh">
         <!-- Hero -->
-        <div class="hero">
+        <div class="hero l-py-400">
             <!--Hero Wrapper -->
             <div class="hero-wrapper l-max-width-080 l-mx-auto ">
                 <!-- Hero header -->
@@ -114,6 +114,7 @@
                     <!-- Prudcts header -->
                     <div class="products-top l-display-flex l-jc-space-between l-align-center l-mb-200">
                         <h2 class="products-top__header u-fs-xxxl u-fw-700  u-text-transform-uppercase u-text-secondary u-desk-header-fs-300 ">Products</h2>
+
                         <a href="coming-soon.html" class="products-top__cta l-border-button  l-py-025 l-px-075 u-text-accent u-text-clr-accent-lighter u-fw-500 u-text-transform-capitalize">Explore diversity! &#127758;</a>
                     </div>
                     <!-- Products cards -->
@@ -149,7 +150,7 @@
             <!-- Services -->
             <div class="services u-bg-clr-primary-lighter   ">
                 <!-- Services wrapper -->
-                <div class="services-wrapper l-max-width-080 l-mx-auto l-desk-display-flex l-heigth-80">
+                <div class="services-wrapper l-max-width-080 l-mx-auto l-desk-display-flex l-desk-height-80vh">
                     <!-- Services header -->
                     <div class="services__header l-my-auto">
                         <!-- services header mob -->
@@ -157,25 +158,41 @@
                             <h2 class="services__header__mob-text u-fs-xxxl u-fw-700  u-text-transform-uppercase u-text-secondary l-py-400 u-desk-header-fs-300">Services</h2>
                         </div>
                         <!--services header desk  -->
-                        <div class="services__header__desk l-mob-display-none l-desk-display-block u-line-height-010 ">
+                        <div class="services__header__desk l-mob-display-none l-desk-display-block u-line-height-010 l-desk-width-500">
                             <h2 class="services__header__mob-text u-fs-xxxl u-fw-700  u-text-transform-uppercase u-text-secondary l-py-400 u-desk-header-fs-300">our <br>tree-rific <br>services</h2>
                         </div>
+                    </div>
+                    <!-- Services Cards -->
+                    <div class="services-cards l-desk-width-80 l-desk-height-100 l-desk-display-grid l-desk-grid-temp-row-4-1fr l-desk-grid-temp-col-4-1fr l-gap-050">
+                        <!-- Services Card item 1 -->
+                        <div class="services-cards__item l-display-flex l-m-auto l-flex-direction-column l-gap-050 l-desk-grid-22">
+                            <div class="services-cards__item-img l-mx-auto"><img src="./images/tree-icon.png" alt="A tree icon" class="l-icon-width-100 l-icon-height-100">
+                            </div>
+                            <div class="services-cards__item-link l-display-flex l-jc-center">
+                                <a href="coming-soon.html" class="services-cards__item-link__text u-text-accent u-text-clr-accent-lighter u-fw-500 u-text-transform-capitalize l-pr-050 ">Tree-mail Magic!</a>
+                                <span class="products-card__item__link-arrow u-text-accent u-text-clr-accent-lighter  u-text-transform-capitalize s-hover-effect">&rarr;</span>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
             <!-- Experts section -->
-            <div class="experts">
+            <div class="experts ">
                 <!-- Experts wrapper -->
-                <div class="experts-wrapper l-max-width-080 l-mx-auto l-pt-400">
+                <div class="experts-wrapper l-max-width-080 l-mx-auto l-pt-400 ">
                     <!-- Experts Header -->
-                    <div class="experts-top  l-mb-200">
-                        <h2 class="experts-top__header u-fs-xxxl u-fw-700  u-text-transform-uppercase u-text-secondary u-desk-header-fs-300 u-line-height-010">Need an <br> expert?</h2>
+                    <div class="experts-top l-mb-200 ">
+                        <h2 class="experts-top__header u-fs-xxxl u-fw-700 u-text-transform-uppercase u-text-secondary u-desk-header-fs-300 u-line-height-010 ">Need an <br> expert?</h2>
                     </div>
+                    <!-- Experts content -->
+
                 </div>
             </div>
         </div>
     </main>
-    <script src="main.js"></script>
+    <script src="main.js "></script>
 </body>
 
 </html>

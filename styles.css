@@ -3400,14 +3400,6 @@ body {
     border: 2px solid blue;
 }
 
-.products-card__item__link:hover .products-card__item__link-arrow {
-    transform: translateX(5px);
-}
-
-.services__items-card__link:hover .services__items-card__link-arrow {
-    transform: translateX(5px);
-}
-
 
 /* Home page style */
 
@@ -3428,9 +3420,28 @@ body {
     text-decoration: underline;
 }
 
+
+/* Products */
+
+.products-card__item__link:hover .products-card__item__link-arrow {
+    transform: translateX(5px);
+}
+
 .products-card__item__link-text:hover {
     color: var(--clr-accent);
     text-decoration: underline;
+}
+
+
+/* Services */
+
+.services-cards__item-link__text:hover {
+    color: var(--clr-accent);
+    text-decoration: underline;
+}
+
+.services-cards__item-link:hover .products-card__item__link-arrow {
+    transform: translateX(5px);
 }
 
 
@@ -3444,6 +3455,9 @@ body {
 /* Desktop */
 
 @media (min-width:600px) {
+    .l-desk-width-500 {
+        width: 500px;
+    }
     .l-desk-display-none {
         display: none;
     }
@@ -3455,6 +3469,49 @@ body {
     }
     .l-desk-display-flex {
         display: flex;
+    }
+    .l-desk-width-100 {
+        width: 100%;
+    }
+    .l-desk-width-80 {
+        width: 80%;
+    }
+    .l-desk-height-80vh {
+        height: 80vh;
+    }
+    .l-desk-height-100 {
+        width: 100%;
+    }
+    .l-desk-display-grid {
+        display: grid;
+    }
+    .l-desk-grid-temp-col-2-1fr {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .l-desk-grid-temp-col-4-1fr {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .l-desk-grid-temp-row-4-1fr {
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .l-desk-grid-22 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .l-desk-grid-23 {
+        grid-row: 2;
+        grid-column: 3;
+    }
+    .l-desk-grid-32 {
+        grid-row: 3;
+        grid-column: 2;
+    }
+    .l-desk-grid-33 {
+        grid-row: 3;
+        grid-column: 3;
+    }
+    .l-desk-flex-direction-row {
+        flex-direction: row;
     }
     .u-desk-header-fs-600 {
         font-size: 6rem;
@@ -3475,14 +3532,5 @@ body {
     .desk-links__list a:hover {
         color: var(--clr-accent);
         text-decoration: underline;
-    }
-    /* Main */
-    /* Product */
-    .l-desk-flex-direction-row {
-        flex-direction: row;
-    }
-    /* Services */
-    .services__items {
-        background-color: red;
     }
 }
