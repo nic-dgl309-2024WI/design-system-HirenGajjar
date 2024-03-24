@@ -3235,6 +3235,10 @@ body {
 
 /* Max width classes */
 
+.l-mw-mobile-030-ch {
+    max-width: 30ch;
+}
+
 .l-mw-mobile-040-ch {
     max-width: 40ch;
 }
@@ -3304,6 +3308,22 @@ body {
 
 .l-icon-height-100 {
     height: 100px;
+}
+
+.l-icon-width-050 {
+    width: 50px;
+}
+
+.l-icon-height-050 {
+    height: 50px;
+}
+
+.l-icon-width-025 {
+    width: 25px;
+}
+
+.l-icon-height-025 {
+    height: 25px;
 }
 
 
@@ -3377,8 +3397,28 @@ body {
     position: fixed;
 }
 
+.l-position-relative {
+    position: relative;
+}
+
+.l-position-absolute {
+    position: absolute;
+}
+
+.l-right-000 {
+    right: 0;
+}
+
+.l-top-000 {
+    top: 0;
+}
+
 
 /* Z index classes */
+
+.u-z-n-01 {
+    z-index: -1;
+}
 
 .u-z-01 {
     z-index: 1;
@@ -3565,5 +3605,21 @@ body {
     .desk-links__list a:hover {
         color: var(--clr-accent);
         text-decoration: underline;
+    }
+}
+
+
+/* Special css for hero image */
+
+@media (min-width:1400px) {
+    .l-wide-desk-display-block {
+        display: block;
+    }
+    .hero-desk-side-img {
+        margin-right: -550px;
+        margin-top: 80px;
+    }
+    #heroDeskImg img {
+        transition: opacity 0.5s ease;
     }
 }
