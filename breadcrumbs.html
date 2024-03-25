@@ -224,22 +224,57 @@
                 </p>
             </div>
         </div>
-        <!-- Usage -->
+        <!-- Usage for hierarchical website-->
         <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-150 l-mx-auto">
             <h2 class="notation__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Usage</h2>
         </div>
+        <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-150 l-mx-auto">
+            <h4 class="notation__header  u-fw-700 u-fs-xl u-text-clr-secondary-darker l-mx-auto">For Hierarchical Website</h4>
+        </div>
+        <!-- HTML Copiable code -->
         <div class="notation dis-flex-header l-display-flex l-mx-auto  l-jc-center ">
-            <p class="notation__text l-mw-mobile-040-ch  l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> HTML Structure
+            <p class="notation__text l-mw-mobile-040-ch   l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> HTML Structure
                 <span class="notation__span u-fw-700 u-text-clr-accent-lighter">(add to each page.) </span>
 
             </p>
         </div>
-        <!-- HTML Copiable code -->
-        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 l-mb-150">
             <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
                 &lt;div id="breadcrumb"&gt;&lt;/div&gt;
             </div>
         </div>
+        <!-- Javascript Copiable code -->
+        <div class="notation dis-flex-header l-display-flex l-mx-auto  l-jc-center ">
+            <p class="notation__text l-mw-mobile-040-ch   l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> JavaScript
+                <span class="notation__span u-fw-700 u-text-clr-accent-lighter"></span>
+
+            </p>
+        </div>
+        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                <pre>
+                    <code>
+                        function generateBreadcrumb() {
+                            var url = window.location.pathname;
+                            var urlSegments = url.split('/').filter(segment => segment !== '');                                 
+                            var breadcrumbHTML = '&lt;a href="/"&gt;Home&lt;/a&gt;';
+                            
+                            var currentUrl = '/';
+                            for (var i = 0; i &lt; urlSegments.length; i++) {
+                                currentUrl += urlSegments[i] + '/';
+                                var segment = urlSegments[i].charAt(0).toUpperCase() + urlSegments[i].slice(1); 
+                                breadcrumbHTML += ' / &lt;a href="' + currentUrl + '"&gt;' + segment + '&lt;/a&gt;'; 
+                            }
+                            
+                            document.getElementById('breadcrumb').innerHTML = breadcrumbHTML;
+                        }
+            
+                        window.onload = generateBreadcrumb;
+                    </code>
+                </pre>
+            </div>
+        </div>
+        <!-- Usage for Single page website-->
         <!-- Code copy notification -->
         <div class="copyNotification u-text-primary" id="copyNotification">Copied!</div>
     </main>
