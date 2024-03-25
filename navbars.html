@@ -214,18 +214,33 @@
         <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-100 l-mx-auto l-pt-100">
             <h2 class="notation__header l-mb-150 u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Example</h2>
         </div>
-        <div class="nav-demo l-mx-auto l-display-flex l-mb-200 l-jc-space-around">
-            <div class="nav-demo__logo u-text-accent u-text-transform-uppercase u-fw-700 l-width-050 l-display-flex l-align-center l-pl-200">
-                <a class="u-text-clr-accent u-fs-l" href="#">Logo</a>
-            </div>
-            <div class="nav-demo__links u-text-accent u-text-transform-uppercase u-fw-700  l-display-flex l-align-center   l-gap-200 ">
-                <a class="u-text-clr-accent u-fs-l" href="#">Link 1</a>
-                <a class="u-text-clr-accent u-fs-l" href="#">Link 2</a>
-                <a class="u-text-clr-accent u-fs-l" href="#">Link 3</a>
-                <a class="u-text-clr-accent u-fs-l" href="#">Link 4</a>
+        <!-- Desktop -->
+        <div class="nav-demo-wrapper l-mob-display-none l-desk-display-block">
+            <div class="nav-demo l-mx-auto l-display-flex l-mb-200 l-jc-space-around ">
+                <div class="nav-demo__logo u-text-accent u-text-transform-uppercase u-fw-700 l-width-050 l-display-flex l-align-center l-pl-200">
+                    <a class="u-text-clr-accent u-fs-l" href="#">Logo</a>
+                </div>
+                <div class="nav-demo__links u-text-accent u-text-transform-uppercase u-fw-700  l-display-flex l-align-center   l-gap-200 ">
+                    <a class="u-text-clr-accent u-fs-l" href="#">Link 1</a>
+                    <a class="u-text-clr-accent u-fs-l" href="#">Link 2</a>
+                    <a class="u-text-clr-accent u-fs-l" href="#">Link 3</a>
+                    <a class="u-text-clr-accent u-fs-l" href="#">Link 4</a>
+                </div>
             </div>
         </div>
-
+        <!-- Mobile -->
+        <div class="nav-mob-wrapper l-mob-display-block l-desk-display-none">
+            <div class="nav-demo-mob l-mx-auto l-display-flex l-mb-200 l-jc-space-around l-align-center">
+                <div class="nav-demo__logo u-text-accent u-text-transform-uppercase u-fw-700 l-width-050 l-display-flex l-align-center ">
+                    <a class="u-text-clr-accent u-fs-l" href="#">Logo</a>
+                </div>
+                <div class="nav-demo__menu l-display-flex l-gap-025 s-cursor-pointer">
+                    <div class="nav-demo__menu__item home-nav__mob-menu-icon__item u-menu-icon-logo"></div>
+                    <div class="nav-demo__menu__item home-nav__mob-menu-icon__item u-menu-icon-logo"></div>
+                    <div class="nav-demo__menu__item home-nav__mob-menu-icon__item u-menu-icon-logo"></div>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="design-system.js"></script>
 </body>

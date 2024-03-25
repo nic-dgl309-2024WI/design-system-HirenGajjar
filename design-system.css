@@ -234,6 +234,12 @@ main {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+.nav-demo-mob {
+    width: 450px;
+    height: 100px;
+    background-color: #f9f9f9;
+}
+
 @media (min-width:600px) {
     nav .menu-links {
         display: block;
