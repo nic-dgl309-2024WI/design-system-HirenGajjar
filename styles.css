@@ -532,6 +532,21 @@ body {
     flex-direction: column;
 }
 
+.l-mob-py-400 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.l-mob-py-800 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.l-mob-my-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Justify content  */
 
@@ -3664,6 +3679,14 @@ body {
     .l-desk-text-max-width-130ch {
         max-width: 130ch;
     }
+    .l-desk-py-000 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .l-desk-py-050 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
     .l-desk-display-flex {
         display: flex;
     }
@@ -3754,11 +3777,6 @@ body {
     }
 }
 
-.footer__bottom__list {
-    width: 100%;
-}
-
 .footer__bottom__list-item-link:hover {
-    color: white;
     text-decoration: underline;
 }
