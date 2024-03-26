@@ -71,6 +71,7 @@
     --display-grid: grid;
     --display-inline: inline;
     --display-inline-block: inline-block;
+    --display-inline-flex: inline-flex;
     /* Justify content */
     --justify-content-center: center;
     --justify-content-flex-end: flex-end;
@@ -288,6 +289,25 @@ body {
 }
 
 
+/* Text align class */
+
+.u-t-a-center {
+    text-align: var(--text-align-center);
+}
+
+.u-t-a-left {
+    text-align: var(--text-align-left);
+}
+
+.u-t-a-right {
+    text-align: var(--text-align-right);
+}
+
+.u-t-a-justify {
+    text-align: var(--text-align-justify);
+}
+
+
 /*Utility classes for Font weight */
 
 .u-fw-100 {
@@ -481,6 +501,10 @@ body {
     display: var(--display-inline-block);
 }
 
+.l-display-inline-flex {
+    display: var(--display-inline-flex);
+}
+
 
 /* Mobile screen display */
 
@@ -490,6 +514,14 @@ body {
 
 .l-mob-display-block {
     display: block;
+}
+
+.l-mob-height-90vh {
+    height: 90vh;
+}
+
+.l-mob-width-1500 {
+    width: 1500px;
 }
 
 
@@ -3327,6 +3359,13 @@ body {
 }
 
 
+/* Overflow class */
+
+.l-overflow-hidden {
+    overflow: hidden;
+}
+
+
 /* Card width and height */
 
 .c-card-wdth {
@@ -3335,6 +3374,14 @@ body {
 
 .c-card-height {
     height: 500px;
+}
+
+.c-card-width-400 {
+    width: 400px;
+}
+
+.c-card-height-600 {
+    height: 600px;
 }
 
 
@@ -3413,6 +3460,18 @@ body {
     top: 0;
 }
 
+.l-bottom-005 {
+    bottom: 5px;
+}
+
+.l-left-050 {
+    left: 50%;
+}
+
+.l-transfrom-translatex-50 {
+    transform: translateX(-50%);
+}
+
 
 /* Z index classes */
 
@@ -3441,6 +3500,10 @@ body {
 
 .u-menu-icon-logo:hover {
     background-color: var(--clr-accent-lighter);
+}
+
+.u-menu-slider-active {
+    background-color: var(--clr-accent-lighter) !important;
 }
 
 
@@ -3514,6 +3577,9 @@ body {
 .products-card__item__img {
     background-color: gray;
 }
+
+
+/* Experts */
 
 
 /* Desktop */

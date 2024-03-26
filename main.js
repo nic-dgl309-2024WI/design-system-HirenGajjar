@@ -33,3 +33,39 @@ window.addEventListener('scroll', () => {
         ticking = true;
     }
 });
+
+//carousel
+let slide = document.getElementById('slider');
+let sliderBtn1 = document.getElementById('btn1');
+let sliderBtn2 = document.getElementById('btn2');
+let sliderBtn3 = document.getElementById('btn3');
+let sliderBtn4 = document.getElementById('btn4');
+
+sliderBtn1.onclick = function() {
+    slide.style.transform = "translateX(0px)";
+    sliderBtn1.classList.add("u-menu-slider-active");
+    sliderBtn2.classList.remove("u-menu-slider-active");
+    sliderBtn3.classList.remove("u-menu-slider-active");
+    sliderBtn4.classList.remove("u-menu-slider-active");
+};
+sliderBtn2.onclick = function() {
+    slide.style.transform = "translateX(-366px)";
+    sliderBtn1.classList.remove("u-menu-slider-active");
+    sliderBtn2.classList.add("u-menu-slider-active");
+    sliderBtn3.classList.remove("u-menu-slider-active");
+    sliderBtn4.classList.remove("u-menu-slider-active");
+};
+sliderBtn3.onclick = function() {
+    slide.style.transform = "translateX(-732px)";
+    sliderBtn1.classList.remove("u-menu-slider-active");
+    sliderBtn2.classList.remove("u-menu-slider-active");
+    sliderBtn3.classList.add("u-menu-slider-active");
+    sliderBtn4.classList.remove("u-menu-slider-active");
+};
+sliderBtn4.onclick = function() {
+    slide.style.transform = "translateX(-1098px)";
+    sliderBtn1.classList.remove("u-menu-slider-active");
+    sliderBtn2.classList.remove("u-menu-slider-active");
+    sliderBtn3.classList.remove("u-menu-slider-active");
+    sliderBtn4.classList.add("u-menu-slider-active");
+};
