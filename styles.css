@@ -3275,6 +3275,10 @@ body {
     max-width: 40ch;
 }
 
+.l-mw-mobile-050-ch {
+    max-width: 50ch;
+}
+
 .l-max-width-080 {
     max-width: 80%;
 }
@@ -3376,6 +3380,14 @@ body {
     height: 500px;
 }
 
+.c-card-height-400 {
+    height: 400px;
+}
+
+.c-card-height-300 {
+    height: 300px;
+}
+
 .c-card-width-400 {
     width: 400px;
 }
@@ -3389,6 +3401,10 @@ body {
 
 .l-border-black-001 {
     border: 1px solid black;
+}
+
+.l-border-blue-001 {
+    border: 1px solid blue;
 }
 
 .l-border-rounded-005 {
@@ -3569,6 +3585,15 @@ body {
 
 .resources-box__content-cta:hover .resources-box__content-cta__link-arrow {
     transform: translateX(5px);
+}
+
+.resources-mob-card__img:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.resources-mob-card__img:hover {
+    background-color: blue;
 }
 
 
