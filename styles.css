@@ -3776,7 +3776,3 @@ body {
         transition: opacity 0.5s ease;
     }
 }
-
-.footer__bottom__list-item-link:hover {
-    text-decoration: underline;
-}
