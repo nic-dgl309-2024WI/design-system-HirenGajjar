@@ -3287,6 +3287,10 @@ body {
     max-width: 80%;
 }
 
+.l-max-width-090 {
+    max-width: 90%;
+}
+
 .l-width-100 {
     width: 100%;
 }
