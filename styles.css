@@ -219,6 +219,10 @@ body {
     line-height: 1;
 }
 
+.u-line-height-012 {
+    line-height: 1.2;
+}
+
 
 /* Background colour utility classes */
 
@@ -3327,6 +3331,10 @@ body {
     height: 10vh;
 }
 
+.l-heigth-70 {
+    height: 70vh;
+}
+
 .l-heigth-80 {
     height: 80vh;
 }
@@ -3407,6 +3415,10 @@ body {
     border: 1px solid blue;
 }
 
+.l-border-blue-light-001 {
+    border: 1px solid var(--clr-accent-lighter);
+}
+
 .l-border-rounded-005 {
     border-radius: 5px;
 }
@@ -3451,6 +3463,10 @@ body {
 
 .l-height-75 {
     height: 75vh;
+}
+
+.l-max-height-0 {
+    max-height: 0;
 }
 
 
@@ -3599,12 +3615,21 @@ body {
 
 /* Image */
 
-.products-card__item__img {
-    background-color: gray;
+.products-card__item__img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.products-card__item__img:hover img {
+    transform: scale(1.1);
 }
 
 
-/* Experts */
+/* Accordian */
+
+.faq-acc__ans.expand {
+    max-height: fit-content;
+}
 
 
 /* Desktop */

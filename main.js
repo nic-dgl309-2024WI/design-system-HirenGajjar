@@ -40,7 +40,9 @@ let sliderBtn1 = document.getElementById('btn1');
 let sliderBtn2 = document.getElementById('btn2');
 let sliderBtn3 = document.getElementById('btn3');
 let sliderBtn4 = document.getElementById('btn4');
-
+window.onload = function() {
+    sliderBtn1.classList.add("u-menu-slider-active");
+};
 sliderBtn1.onclick = function() {
     slide.style.transform = "translateX(0px)";
     sliderBtn1.classList.add("u-menu-slider-active");
@@ -69,3 +71,26 @@ sliderBtn4.onclick = function() {
     sliderBtn3.classList.remove("u-menu-slider-active");
     sliderBtn4.classList.add("u-menu-slider-active");
 };
+
+//Accordian
+
+let acc = document.querySelectorAll('.faq-acc');
+
+acc.forEach(accordian => {
+    let accIcon = accordian.querySelector('.faq-acc__que-icon');
+    let accAns = accordian.querySelector('.faq-acc__ans');
+
+    accordian.addEventListener('click', () => {
+
+        acc.forEach(otherAccordion => {
+            if (otherAccordion !== accordian) {
+                otherAccordion.querySelector('.faq-acc__ans').classList.remove('expand');
+                otherAccordion.querySelector('.faq-acc__que-icon').textContent = '+';
+            }
+        });
+
+
+        accAns.classList.toggle('expand');
+        accIcon.textContent = accIcon.textContent === '+' ? '-' : '+';
+    });
+});
