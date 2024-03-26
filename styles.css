@@ -3658,6 +3658,10 @@ body {
     max-height: fit-content;
 }
 
+.footer-mob__products-list a:hover {
+    text-decoration: underline;
+}
+
 
 /* Desktop */
 
