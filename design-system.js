@@ -27,3 +27,27 @@ copyClass.forEach(paragraph => {
 
     });
 });
+
+
+//Accordian
+
+let acc = document.querySelectorAll('.faq-acc');
+
+acc.forEach(accordian => {
+    let accIcon = accordian.querySelector('.faq-acc__que-icon');
+    let accAns = accordian.querySelector('.faq-acc__ans');
+
+    accordian.addEventListener('click', () => {
+
+        acc.forEach(otherAccordion => {
+            if (otherAccordion !== accordian) {
+                otherAccordion.querySelector('.faq-acc__ans').classList.remove('expand');
+                otherAccordion.querySelector('.faq-acc__que-icon').textContent = '+';
+            }
+        });
+
+
+        accAns.classList.toggle('expand');
+        accIcon.textContent = accIcon.textContent === '+' ? '-' : '+';
+    });
+});
