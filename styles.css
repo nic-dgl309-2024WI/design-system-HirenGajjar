@@ -3322,6 +3322,10 @@ body {
     width: 20%;
 }
 
+.l-width-025 {
+    width: 25%;
+}
+
 .l-width-030 {
     width: 30%;
 }
@@ -3452,6 +3456,14 @@ body {
 
 .l-border-bottom-white-001 {
     border-bottom: 1px solid white;
+}
+
+.l-border-top-white-001 {
+    border-top: 1px solid white;
+}
+
+.l-border-left-white-001 {
+    border-left: 1px solid white;
 }
 
 .l-border-button {
