@@ -3722,6 +3722,9 @@ body {
     .l-desk-height-90vh {
         height: 90vh;
     }
+    .l-desk-height-10vh {
+        height: 10vh;
+    }
     .l-desk-height-100 {
         width: 100%;
     }
@@ -3778,6 +3781,10 @@ body {
     .desk-links__list a:hover {
         color: var(--clr-accent);
         text-decoration: underline;
+    }
+    /* Experts */
+    .experts-desk__wrapper {
+        height: 600px;
     }
 }
 
