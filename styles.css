@@ -528,6 +528,10 @@ body {
     width: 1500px;
 }
 
+.l-mob-flex-direction-col {
+    flex-direction: column;
+}
+
 
 /* Justify content  */
 
@@ -3748,4 +3752,13 @@ body {
     #heroDeskImg img {
         transition: opacity 0.5s ease;
     }
+}
+
+.footer__bottom__list {
+    width: 100%;
+}
+
+.footer__bottom__list-item-link:hover {
+    color: white;
+    text-decoration: underline;
 }
