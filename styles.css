@@ -3653,6 +3653,9 @@ body {
     .l-text-max-width-20ch {
         max-width: 20ch;
     }
+    .l-desk-text-max-width-130ch {
+        max-width: 130ch;
+    }
     .l-desk-display-flex {
         display: flex;
     }
