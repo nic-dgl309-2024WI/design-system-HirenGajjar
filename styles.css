@@ -286,6 +286,45 @@ body {
 }
 
 
+/* List style classes */
+
+.u-list-style-type-disc {
+    list-style-type: var(--list-style-type-disc);
+}
+
+.u-list-style-type-circle {
+    list-style-type: var(--list-style-type-circle);
+}
+
+.u-list-style-type-square {
+    list-style-type: var(--list-style-type-square);
+}
+
+.u-list-style-type-decimal {
+    list-style-type: var(--list-style-type-decimal);
+}
+
+.u-list-style-type-lower-roman {
+    list-style-type: var(--list-style-type-lower-roman);
+}
+
+.u-list-style-type-upper-roman {
+    list-style-type: var(--list-style-type-upper-roman);
+}
+
+.u-list-style-type-lower-alpha {
+    list-style-type: var(--list-style-type-lower-alpha);
+}
+
+.u-list-style-type-upper-alpha {
+    list-style-type: var(--list-style-type-upper-alpha);
+}
+
+.u-list-style-type-none {
+    list-style-type: var(--list-style-type-none);
+}
+
+
 /* Primary, secondary and accent text */
 
 .u-text-primary {
