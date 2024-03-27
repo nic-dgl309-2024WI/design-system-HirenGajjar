@@ -3498,6 +3498,15 @@ body {
     border: 1px solid blue;
 }
 
+.l-border-white-001 {
+    border: 1px solid white;
+}
+
+.l-border-top-bottom-white-01 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
 .l-border-blue-light-001 {
     border: 1px solid var(--clr-accent-lighter);
 }
@@ -3518,12 +3527,26 @@ body {
     border-top: 1px solid white;
 }
 
+.l-border-top-white-002 {
+    border-top: 2px solid white;
+}
+
+.l-border-bottom-white-002 {
+    border-bottom: 2px solid white;
+}
+
 .l-border-left-white-001 {
     border-left: 1px solid white;
 }
 
 .l-border-button {
     border: 2px solid var(--clr-accent-lighter);
+    border-radius: 50px;
+    transition: 0.3s all ease-in-out;
+}
+
+.l-border-button-white {
+    border: 2px solid var(--clr-primary);
     border-radius: 50px;
     transition: 0.3s all ease-in-out;
 }
@@ -3641,6 +3664,12 @@ body {
 /* Hover state classes */
 
 .l-border-button:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+.l-border-button-white:hover {
     background-color: blue;
     color: white;
     border: 2px solid blue;
@@ -3880,4 +3909,12 @@ body {
     #heroDeskImg img {
         transition: opacity 0.5s ease;
     }
+}
+
+.u-border-none {
+    border: none;
+}
+
+.u-outline-none {
+    outline: none;
 }
