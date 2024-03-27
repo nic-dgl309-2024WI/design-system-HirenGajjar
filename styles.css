@@ -3591,6 +3591,10 @@ body {
     bottom: 5px;
 }
 
+.l-bottom-n-05 {
+    bottom: -5px;
+}
+
 .l-left-050 {
     left: 50%;
 }
@@ -3778,6 +3782,9 @@ body {
     .l-desk-height-90vh {
         height: 90vh;
     }
+    .l-desk-height-100-vh {
+        height: 100vh;
+    }
     .l-desk-height-10vh {
         height: 10vh;
     }
@@ -3841,6 +3848,21 @@ body {
     /* Experts */
     .experts-desk__wrapper {
         height: 600px;
+    }
+    .l-desk-height-70 {
+        height: 70vh;
+    }
+    .l-desk-height-75 {
+        height: 75vh;
+    }
+    .l-desk-width-1400 {
+        width: 1400px;
+    }
+    .l-desk-width-1500 {
+        width: 1500px;
+    }
+    .l-desk-width-1800 {
+        width: 1800px;
     }
 }
 
