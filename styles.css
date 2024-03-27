@@ -63,6 +63,7 @@
     --list-style-type-circle: circle;
     --list-style-type-square: square;
     --list-style-type-decimal: decimal;
+    --list-style-type-decimal-leading-zero: decimal-leading-zero;
     --list-style-type-lower-roman: lower-roman;
     --list-style-type-upper-roman: upper-roman;
     --list-style-type-lower-alpha: lower-alpha;
@@ -300,6 +301,10 @@ body {
     list-style-type: var(--list-style-type-square);
 }
 
+.u-list-style-type-decimal-leading-zero {
+    list-style-type: var(--list-style-type-decimal-leading-zero);
+}
+
 .u-list-style-type-decimal {
     list-style-type: var(--list-style-type-decimal);
 }
@@ -322,6 +327,10 @@ body {
 
 .u-list-style-type-none {
     list-style-type: var(--list-style-type-none);
+}
+
+.u-list-style-type-roman {
+    list-style-type: var(--list-style-type-roman);
 }
 
 
