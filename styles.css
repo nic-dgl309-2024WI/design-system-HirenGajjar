@@ -3531,8 +3531,8 @@ body {
     border-top: 2px solid white;
 }
 
-.l-border-bottom-white-002 {
-    border-bottom: 2px solid white;
+.l-border-bottom-white-001 {
+    border-bottom: 1px solid white;
 }
 
 .l-border-left-white-001 {
@@ -3657,6 +3657,10 @@ body {
 }
 
 .u-menu-slider-active {
+    background-color: var(--clr-accent-lighter) !important;
+}
+
+.u-menu-slider-desk-active {
     background-color: var(--clr-accent-lighter) !important;
 }
 
