@@ -59,6 +59,14 @@
     --word-spacing-normal: normal;
     /* List property variables */
     --list-style-type-none: none;
+    --list-style-type-disc: disc;
+    --list-style-type-circle: circle;
+    --list-style-type-square: square;
+    --list-style-type-decimal: decimal;
+    --list-style-type-lower-roman: lower-roman;
+    --list-style-type-upper-roman: upper-roman;
+    --list-style-type-lower-alpha: lower-alpha;
+    --list-style-type-upper-alpha: upper-alpha;
     /* Text Transform Variables */
     --text-transform-uppercase: uppercase;
     --text-transform-lowercase: lowercase;
