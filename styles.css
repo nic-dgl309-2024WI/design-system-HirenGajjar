@@ -3460,6 +3460,10 @@ body {
     overflow: hidden;
 }
 
+.l-top-n-15 {
+    top: -15px;
+}
+
 
 /* Card width and height */
 
@@ -3500,6 +3504,10 @@ body {
 
 .l-border-white-001 {
     border: 1px solid white;
+}
+
+.l-border-white-002 {
+    border: 2px solid white;
 }
 
 .l-border-top-bottom-white-01 {
@@ -3674,6 +3682,16 @@ body {
 }
 
 .l-border-button-white:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+.s-transition-effect {
+    transition: all 0.3s ease-in-out;
+}
+
+.conatct__form__box-btn:hover {
     background-color: blue;
     color: white;
     border: 2px solid blue;
