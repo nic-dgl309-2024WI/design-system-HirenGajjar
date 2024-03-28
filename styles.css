@@ -3539,6 +3539,10 @@ body {
     border-top: 2px solid white;
 }
 
+.l-border-right-white-002 {
+    border-right: 2px solid white;
+}
+
 .l-border-bottom-white-001 {
     border-bottom: 1px solid white;
 }
