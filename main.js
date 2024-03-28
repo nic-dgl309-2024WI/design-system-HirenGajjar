@@ -2,8 +2,18 @@ let iconHome = document.querySelector("#home-menu-icon");
 iconHome.addEventListener('click', () => {
     if (window.innerWidth < 600) {
         document.querySelector(".home-nav__mob-links").classList.toggle("open");
+
     }
 });
+let mobSideBar = document.querySelector(".home-nav__mob-links");
+let leftArr = document.getElementById("close");
+leftArr.addEventListener('click', () => {
+
+    if (mobSideBar.classList.contains("open")) {
+        mobSideBar.classList.remove("open");
+    }
+});
+
 
 //Hero image
 const heroDeskImg = document.getElementById('heroDeskImg');

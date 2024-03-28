@@ -3734,6 +3734,10 @@ body {
     display: none;
 }
 
+.home-nav__mob-close-icon:hover {
+    color: blue;
+}
+
 .home-nav__mob-links.open {
     display: block;
 }
@@ -3975,4 +3979,9 @@ body {
 
 .u-outline-none {
     outline: none;
+}
+
+.hero-example__wrapper {
+    height: 500px;
+    width: 1300px;
 }
