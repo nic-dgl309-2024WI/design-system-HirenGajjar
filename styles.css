@@ -3669,6 +3669,10 @@ body {
     z-index: 3;
 }
 
+.u-z-099 {
+    z-index: 99;
+}
+
 .u-menu-icon-logo {
     width: 10px;
     height: 10px;
