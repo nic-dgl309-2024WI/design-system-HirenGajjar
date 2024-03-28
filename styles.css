@@ -3453,6 +3453,14 @@ body {
     height: 25px;
 }
 
+.l-icon-width-010 {
+    width: 10px;
+}
+
+.l-icon-height-010 {
+    height: 10px;
+}
+
 
 /* Overflow class */
 
@@ -3634,6 +3642,10 @@ body {
     left: 50%;
 }
 
+.l-top-050 {
+    top: 50%;
+}
+
 .l-transfrom-translatex-50 {
     transform: translateX(-50%);
 }
@@ -3676,10 +3688,24 @@ body {
     background-color: var(--clr-accent-lighter) !important;
 }
 
+.s-transform-translate-50 {
+    transform: translate(-50%, -50%);
+}
+
+.u-opacity-0 {
+    opacity: 0;
+}
+
 
 /* Hover state classes */
 
 .l-border-button:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+.grow-text:hover {
     background-color: blue;
     color: white;
     border: 2px solid blue;
@@ -3776,6 +3802,12 @@ body {
 
 .products-card__item__img:hover img {
     transform: scale(1.1);
+    filter: blur(2px);
+}
+
+.products-card__item__img:hover .grow-text {
+    z-index: 1;
+    opacity: 1;
 }
 
 
