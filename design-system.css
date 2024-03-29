@@ -366,4 +366,8 @@ main {
         height: 100px;
         background-color: #f9f9f9;
     }
+    .links-demo:hover{
+        text-decoration: underline;
+        color: var(--clr-accent);
+    }
 }
