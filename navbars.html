@@ -264,6 +264,33 @@
     
     </div>
 </div>
+ <!-- JS -->
+ <div class="notation dis-flex-header l-display-flex l-mx-auto  l-jc-center ">
+    <p class="notation__text l-mw-mobile-040-ch   l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> JavaScript
+    </p>
+</div>
+<div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 l-mb-150 ">
+    <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow l-max-width-080">
+        <code>     
+            let iconHome = document.querySelector("#home-menu-icon"); <br>
+            iconHome.addEventListener('click', () =&gt; { <br>
+                &nbsp;&nbsp; if (window.innerWidth &lt; 600) { <br>
+                    &nbsp;&nbsp;document.querySelector(".home-nav__mob-links").classList.toggle("open"); <br>
+            
+                    &nbsp;&nbsp; } <br>
+                    &nbsp;&nbsp; }); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;  let mobSideBar = document.querySelector(".home-nav__mob-links"); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;   let leftArr = document.getElementById("close"); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;    leftArr.addEventListener('click', () =&gt; { <br>
+            
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      if (mobSideBar.classList.contains("open")) { <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           mobSideBar.classList.remove("open"); <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;      } <br>
+            }); <br>
+            
+        </code>
+    </div>
+</div>
         <!-- Copiable code notification -->
         <div class="copyNotification u-text-primary" id="copyNotification">Copied!</div>
     </main>
