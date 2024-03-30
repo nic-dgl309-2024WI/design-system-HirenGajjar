@@ -548,6 +548,9 @@
     .l-max-width-1300{
         max-width: 1300px;
     }
+    .l-max-width-400{
+        max-width: 400px;
+    }
     .l-mob-flex-direction-col {
         flex-direction: column;
     }
