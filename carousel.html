@@ -362,7 +362,7 @@
         const deskSlider = document.getElementById('carousel-slider'); <br>
         &nbsp;&nbsp;&nbsp;&nbsp;const deskBtns = Array.from(document.querySelectorAll('[id^="car-btn"]')); <br>
         &nbsp;&nbsp;&nbsp;&nbsp;deskBtns.forEach((btn, index) =&gt;{ <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; btn.onclick = () ==&gt; { <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; btn.onclick = () =&gt; { <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  deskSlider.style.transform = `translateX(-${index * 110}px)`; <br>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   deskBtns.forEach(b =&gt; b.classList.remove("u-menu-slider-desk-active")); <br>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   btn.classList.add("u-menu-slider-desk-active"); <br>
@@ -370,6 +370,8 @@
 });
 </div>
     </div>
+     <!-- Code copy notification -->
+     <div class="copyNotification u-text-primary" id="copyNotification">Copied!</div>
 </main>
     <script src="design-system.js"></script>
 </body>
