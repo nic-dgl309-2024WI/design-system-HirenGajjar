@@ -2683,6 +2683,12 @@
     .l-icon-width-100 {
         width: 100px;
     }
+    .l-img-width-240{
+        width: 240px;
+    }
+    .l-img-height-300{
+        height: 300px;
+    }
     
     .l-icon-height-100 {
         height: 100px;
