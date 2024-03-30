@@ -371,3 +371,7 @@ main {
         color: var(--clr-accent);
     }
 }
+.hero-example__wrapper {
+    height: 500px;
+    width: 1300px;
+}

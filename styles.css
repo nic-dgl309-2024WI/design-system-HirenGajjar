@@ -3041,7 +3041,7 @@
     }
     /* Accordian */
     
-    .faq -acc__ans.expand {
+    .faq-acc__ans.expand {
         max-height: fit-content;
     }
     
@@ -3185,8 +3185,9 @@
             display: block;
         }
         .hero-desk-side-img {
-            margin-right: -550px;
+            margin-right: -470px;
             margin-top: 80px;
+            
         }
         #heroDeskImg img {
             transition: opacity 0.5s ease;
@@ -3201,7 +3202,7 @@
         outline: none;
     }
     
-    .hero-example__wrapper {
-        height: 500px;
-        width: 1300px;
-    }
+  
+
+
+   
