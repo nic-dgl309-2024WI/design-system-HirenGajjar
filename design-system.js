@@ -51,3 +51,55 @@ acc.forEach(accordian => {
         accIcon.textContent = accIcon.textContent === '+' ? '-' : '+';
     });
 });
+
+
+
+
+window.onload = function() {
+    sliderBtn1.classList.add("u-menu-slider-active")
+    deskBtn1.classList.add("u-menu-slider-desk-active");
+};
+
+
+
+//Desk
+let deskSlider = document.getElementById('carousel-slider');
+let deskBtn1 = document.getElementById('car-btn1');
+let deskBtn2 = document.getElementById('car-btn2');
+let deskBtn3 = document.getElementById('car-btn3');
+let deskBtn4 = document.getElementById('car-btn4');
+
+window.onload = function() {
+    
+    deskBtn1.classList.add("u-menu-slider-desk-active");
+};
+
+
+deskBtn1.onclick = function() {
+    deskSlider.style.transform = "translateX(0)";
+    deskBtn1.classList.add("u-menu-slider-desk-active");
+    deskBtn2.classList.remove("u-menu-slider-desk-active");
+    deskBtn3.classList.remove("u-menu-slider-desk-active");
+    deskBtn4.classList.remove("u-menu-slider-desk-active");
+};
+deskBtn2.onclick = function() {
+    deskSlider.style.transform = "translateX(-100px)";
+    deskBtn1.classList.remove("u-menu-slider-desk-active");
+    deskBtn2.classList.add("u-menu-slider-desk-active");
+    deskBtn3.classList.remove("u-menu-slider-desk-active");
+    deskBtn4.classList.remove("u-menu-slider-desk-active");
+};
+deskBtn3.onclick = function() {
+    deskSlider.style.transform = "translateX(-200px)";
+    deskBtn1.classList.remove("u-menu-slider-desk-active");
+    deskBtn2.classList.remove("u-menu-slider-desk-active");
+    deskBtn3.classList.add("u-menu-slider-desk-active");
+    deskBtn4.classList.remove("u-menu-slider-desk-active");
+};
+deskBtn4.onclick = function() {
+    deskSlider.style.transform = "translateX(-300px)";
+    deskBtn1.classList.remove("u-menu-slider-desk-active");
+    deskBtn2.classList.remove("u-menu-slider-desk-active");
+    deskBtn3.classList.remove("u-menu-slider-desk-active");
+    deskBtn4.classList.add("u-menu-slider-desk-active");
+};
