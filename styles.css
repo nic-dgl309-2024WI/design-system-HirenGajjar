@@ -2602,7 +2602,9 @@
     .l-mw-mobile-030-ch {
         max-width: 30ch;
     }
-    
+    .l-mob-hero-width{
+        width: 400px;
+    }
     .l-mw-mobile-040-ch {
         max-width: 40ch;
     }
