@@ -2037,9 +2037,9 @@
     }
     /* Set align-items property to its revert value */
     
-    .l-align-revert {
+    /* .l-align-revert {
         align-items: var(--align-revert);
-    }
+    } */
     /* Set align-items property to its revert-layer value */
     
     .l-align-revert-layer {
@@ -2083,10 +2083,10 @@
         flex: var(--flex-inherit);
     }
     
-    .l-flex-revert {
+    /* .l-flex-revert {
         flex: var(--flex-revert);
     }
-    
+     */
     .l-flex-revert-layer {
         flex: var(--flex-revert-layer);
     }
@@ -2113,10 +2113,10 @@
     }
     /* Flex-shrink */
     
-    .l-flex-shrink-inherit {
+    /* .l-flex-shrink-inherit {
         flex-shrink: var(--flex-shrink-inherit);
     }
-    
+     */
     .l-flex-shrink-initial {
         flex-shrink: var(--flex-shrink-initial);
     }
@@ -2158,9 +2158,9 @@
         flex-wrap: var(--flex-wrap-revert);
     }
     
-    .l-flex-wrap-revert-layer {
+    /* .l-flex-wrap-revert-layer {
         flex-wrap: var(--flex-wrap-revert-layer);
-    }
+    } */
     
     .l-flex-wrap-unset {
         flex-wrap: var(--flex-wrap-unset);
@@ -2207,10 +2207,10 @@
         flex-flow: var(--flex-flow-revert);
     }
     
-    .l-flex-flow-revert-layer {
+    /* .l-flex-flow-revert-layer {
         flex-flow: var(--flex-flow-revert-layer);
     }
-    
+     */
     .l-flex-flow-unset {
         flex-flow: var(--flex-flow-unset);
     }
@@ -2228,9 +2228,9 @@
         flex-grow: var(--flex-grow-revert);
     }
     
-    .l-flex-grow-revert-layer {
+    /* .l-flex-grow-revert-layer {
         flex-grow: var(--flex-grow-revert-layer);
-    }
+    } */
     
     .l-flex-grow-unset {
         flex-grow: var(--flex-grow-unset);
@@ -2264,11 +2264,11 @@
     .l-flex-direction-revert {
         flex-direction: var(--flex-direction-revert);
     }
-    
+/*     
     .l-flex-direction-revert-layer {
         flex-direction: var(--flex-direction-revert-layer);
     }
-    
+     */
     .l-flex-direction-unset {
         flex-direction: var(--flex-direction-unset);
     }
@@ -2290,10 +2290,10 @@
         gap: var(--gap-revert)
     }
     
-    .l-gap-revert-layer {
+    /* .l-gap-revert-layer {
         gap: var(--gap-revert-layer)
     }
-    
+     */
     .l-gap-unset {
         gap: var(--gap-unset)
     }
@@ -2403,9 +2403,9 @@
         row-gap: var(--row-gap-revert);
     }
     
-    .l-row-gap-revert-layer {
+    /* .l-row-gap-revert-layer {
         row-gap: var(--row-gap-revert-layer);
-    }
+    } */
     
     .l-row-gap-unset {
         row-gap: var(--row-gap-unset);
@@ -2504,10 +2504,10 @@
         column-gap: var(--column-gap-revert);
     }
     
-    .l-column-gap-revert-layer {
+    /* .l-column-gap-revert-layer {
         column-gap: var(--column-gap-revert-layer);
     }
-    
+     */
     .l-column-gap-unset {
         column-gap: var(--column-gap-unset);
     }
