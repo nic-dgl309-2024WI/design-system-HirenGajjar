@@ -482,9 +482,9 @@
     }
     /* Line height utility class */
     
-    .u-text-line-height-normal {
+    /* .u-text-line-height-normal {
         line-height: var(--line-height-normal);
-    }
+    } */
     /* Box shadow */
     
     .u-box-shadow-001 {
@@ -1918,42 +1918,42 @@
     }
     /* Layout classes to set padding  */
     /* Padding auto */
-    
+/*     
     .l-p-auto {
         padding: auto;
-    }
+    } */
     /* Padding-top auto */
     
-    .l-pt-auto {
+    /* .l-pt-auto {
         padding-top: auto;
-    }
+    } */
     /* Padding-bottom auto */
     
-    .l-pb-auto {
+    /* .l-pb-auto {
         padding-bottom: auto;
-    }
+    } */
     /* Padding-left auto */
     
-    .l-pl-auto {
+    /* .l-pl-auto {
         padding-left: auto;
-    }
+    } */
     /* Padding-right auto */
     
-    .l-pr-auto {
+    /* .l-pr-auto {
         padding-right: auto;
-    }
+    } */
     /* Padding-x auto */
     
-    .l-px-auto {
+    /* .l-px-auto {
         padding-left: auto;
         padding-right: auto;
-    }
+    } */
     /* Padding-y auto */
     
-    .l-py-auto {
+    /* .l-py-auto {
         padding-top: auto;
         padding-bottom: auto;
-    }
+    }  */
     /* Align item property layout class */
     /* Align items normally */
     
@@ -2042,9 +2042,9 @@
     } */
     /* Set align-items property to its revert-layer value */
     
-    .l-align-revert-layer {
+    /* .l-align-revert-layer {
         align-items: var(--align-revert-layer);
-    }
+    } */
     /* Unset align-items property */
     
     .l-align-unset {
@@ -2087,9 +2087,9 @@
         flex: var(--flex-revert);
     }
      */
-    .l-flex-revert-layer {
+    /* .l-flex-revert-layer {
         flex: var(--flex-revert-layer);
-    }
+    } */
     
     .l-flex-unset {
         flex: var(--flex-unset);
@@ -2124,10 +2124,10 @@
     .l-flex-shrink-revert {
         flex-shrink: var(--flex-shrink-revert);
     }
-    
+/*     
     .l-flex-shrink-revert-layer {
         flex-shrink: var(--flex-shrink-revert-layer);
-    }
+    } */
     
     .l-flex-shrink-unset {
         flex-shrink: var(--flex-shrink-unset);
