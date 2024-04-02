@@ -123,7 +123,7 @@
         --flex-basis-min-content: min-content;
         --flex-basis-fit-content: fit-content;
         --flex-basis-content: content;
-        /* Flex shrink layour variables */
+        /* Flex shrink layout variables */
         --flex-shrink-inherit: inherit;
         --flex-shrink-initial: initial;
         --flex-shrink-revert: revert;
