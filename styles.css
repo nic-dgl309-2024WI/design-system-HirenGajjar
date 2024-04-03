@@ -3063,7 +3063,7 @@
     }
     /* Desktop */
     
-    @media (min-width:600px) {
+    @media (min-width:600px) and (max-width: 1800px){
         .l-desk-max-width-80ch {
             max-width: 80ch;
         }
