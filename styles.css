@@ -3157,6 +3157,10 @@
         .l-desk-flex-direction-row {
             flex-direction: row;
         }
+
+        .l-desk-width-30-ch{
+            width: 30ch;
+        }
         .u-desk-header-fs-600 {
             font-size: 6rem;
         }
