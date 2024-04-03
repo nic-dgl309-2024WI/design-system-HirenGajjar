@@ -3063,7 +3063,7 @@
     }
     /* Desktop */
     
-    @media (min-width:600px) and (max-width: 1800px){
+    @media (min-width:600px) and (max-width: 2400px){
         .l-desk-max-width-80ch {
             max-width: 80ch;
         }
@@ -3101,6 +3101,9 @@
         }
         .l-desk-width-80 {
             width: 80%;
+        }
+        .l-desk-height-60vh{
+            height: 60vh;
         }
         .l-desk-height-80vh {
             height: 80vh;
