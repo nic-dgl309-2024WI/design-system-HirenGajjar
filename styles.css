@@ -2787,7 +2787,9 @@
     .l-border-rounded-020 {
         border-radius: 20px;
     }
-    
+    .l-border-rounded-full{
+        border-radius: 50%;
+    }
     .l-border-bottom-white-001 {
         border-bottom: 1px solid white;
     }
@@ -2878,7 +2880,7 @@
     .l-top-000 {
         top: 0;
     }
-    
+   
     .l-bottom-005 {
         bottom: 5px;
     }
@@ -3128,6 +3130,12 @@
         }
         .l-desk-display-grid {
             display: grid;
+        }
+        .l-desk-width-50{
+            width: 50%;
+        }
+        .l-desk-width-70{
+            width: 70%;
         }
         .l-desk-grid-temp-col-2-1fr {
             grid-template-columns: repeat(2, 1fr);
