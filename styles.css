@@ -3117,17 +3117,17 @@
         border: 1px solid var(--clr-accent);
     }
 
-    .l-border-white-001 {
-        border: 1px solid white;
+    .l-border-primary-001 {
+        border: 1px solid var(--clr-primary);
     }
 
-    .l-border-white-002 {
-        border: 2px solid white;
+    .l-border-primary-002 {
+        border: 2px solid var(--clr-primary);
     }
 
-    .l-border-top-bottom-white-01 {
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
+    .l-border-top-bottom-primary-01 {
+        border-top: 1px solid var(--clr-primary);
+        border-bottom: 1px solid var(--clr-primary);
     }
 
     .l-border-accent-light-001 {
@@ -3146,28 +3146,28 @@
         border-radius: 50%;
     }
 
-    .l-border-bottom-white-001 {
-        border-bottom: 1px solid white;
+    .l-border-bottom-primary-001 {
+        border-bottom: 1px solid var(--clr-primary);
     }
 
-    .l-border-top-white-001 {
-        border-top: 1px solid white;
+    .l-border-top-primary-001 {
+        border-top: 1px solid var(--clr-primary);
     }
 
-    .l-border-top-white-002 {
-        border-top: 2px solid white;
+    .l-border-top-primary-002 {
+        border-top: 2px solid var(--clr-primary);
     }
 
-    .l-border-right-white-002 {
-        border-right: 2px solid white;
+    .l-border-right-primary-002 {
+        border-right: 2px solid var(--clr-primary);
     }
 
-    .l-border-bottom-white-001 {
-        border-bottom: 1px solid white;
+    .l-border-bottom-primary-001 {
+        border-bottom: 1px solid var(--clr-primary);
     }
 
-    .l-border-left-white-001 {
-        border-left: 1px solid white;
+    .l-border-left-primary-001 {
+        border-left: 1px solid var(--clr-primary);
     }
 
     .l-border-button {
@@ -3176,7 +3176,7 @@
         transition: 0.3s all ease-in-out;
     }
 
-    .l-border-button-white {
+    .l-border-button-primary {
         border: 2px solid var(--clr-primary);
         border-radius: 50px;
         transition: 0.3s all ease-in-out;
@@ -3312,19 +3312,19 @@
 
     .l-border-button:hover {
         background-color: var(--clr-accent);
-        color: white;
+        color: var(--clr-primary);
         border: 2px solid var(--clr-accent);
     }
 
     .grow-text:hover {
         background-color: var(--clr-accent);
-        color: white;
+        color: var(--clr-primary);
         border: 2px solid var(--clr-accent);
     }
 
-    .l-border-button-white:hover {
+    .l-border-button-primary:hover {
         background-color: var(--clr-accent);
-        color: white;
+        color: var(--clr-primary);
         border: 2px solid var(--clr-accent);
     }
 
@@ -3334,7 +3334,7 @@
 
     .conatct__form__box-btn:hover {
         background-color: var(--clr-accent);
-        color: white;
+        color: var(--clr-primary);
         border: 2px solid var(--clr-accent);
     }
 
