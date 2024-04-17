@@ -3643,6 +3643,18 @@
         .l-desk-width-1800 {
             width: 1800px;
         }
+
+        .l-desk-max-width-50 {
+            max-width: 50%;
+        }
+
+        .l-desk-max-width-60ch {
+            max-width: 60ch;
+        }
+
+        .l-desk-max-width-50ch {
+            max-width: 50ch;
+        }
     }
 
     /* Special css for hero image */

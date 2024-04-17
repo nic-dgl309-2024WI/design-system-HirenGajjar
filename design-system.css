@@ -244,6 +244,7 @@ main {
     nav .menu-links {
         display: block;
     }
+
     .desktop-sidebar {
         display: block;
         z-index: 2;
@@ -252,40 +253,50 @@ main {
         padding-top: 3vh;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
+
     nav #menu-icon {
         display: none;
     }
+
     .mobile-sidebar {
         display: none;
     }
+
     .desktop-sidebar {
         margin-top: 20px;
         height: 94vh;
     }
+
     .desktop-sidebar ul li a:hover {
         color: var(--clr-accent);
         text-decoration: underline;
     }
+
     /* Main */
     .main {
         right: 0;
         max-width: 82vw;
     }
+
     .colour-context {
         display: flex;
         flex-wrap: wrap;
     }
+
     .colour-context-colors {
         width: 25%;
         margin: 0 auto;
     }
+
     .colour-combo-card {
         width: 25%;
     }
+
     .l-clr-plt-width {
         width: 150px;
         height: 200px;
     }
+
     /* Typography */
     .typography__type {
         width: 100%;
@@ -293,30 +304,37 @@ main {
         flex-direction: row;
         justify-content: space-around;
     }
+
     .typography__alphabates {
         max-width: 26ch;
         display: flex;
         flex-direction: column;
     }
+
     .use-headings-box {
         gap: 4rem;
     }
+
     .body-text-paragraph {
         display: flex;
         flex-direction: row;
         gap: 2rem;
     }
+
     .body-text-paragraph__text {
         max-width: 60ch;
     }
+
     .font-size,
     .font-weight {
         display: flex;
         justify-content: center;
     }
+
     .font-size-category {
         display: block;
     }
+
     /* Spacing */
     .margin-left,
     .margin-right,
@@ -327,6 +345,7 @@ main {
         display: flex;
         align-items: center;
     }
+
     .margin-left__example,
     .margin-right__example,
     .padding-left__example,
@@ -336,51 +355,59 @@ main {
         width: 400px;
         display: flex;
     }
+
     /* About me page */
     .about-me-header__main-header {
         font-size: 48px;
         line-height: 0.7;
     }
+
     .about-me {
         max-width: 70%;
         margin: 0 auto;
         padding-top: 5rem;
     }
+
     .about-me-more__text {
         max-width: 80ch;
     }
+
     .about-me-list {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 10rem;
     }
+
     /* Containers */
     .l-desktop-container {
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
+
     .nav-demo {
         width: 1100px;
         height: 100px;
         background-color: #f9f9f9;
     }
-    .links-demo:hover{
+
+    .links-demo:hover {
         text-decoration: underline;
         color: var(--clr-accent);
     }
 }
+
 .hero-example__wrapper {
     height: 500px;
     width: 1300px;
 }
 
 
-.carousel-demo__wrapper{
-    
+.carousel-demo__wrapper {
+
     width: 1400px;
     height: 600px;
-    
+
 
 }
