@@ -3109,11 +3109,9 @@
         height: 600px;
     }
 
-    /* 1 px solid black border */
 
-    .l-border-black-001 {
-        border: 1px solid black;
-    }
+
+
 
     .l-border-accent-001 {
         border: 1px solid var(--clr-accent);
@@ -3190,7 +3188,7 @@
     }
 
     .l-border-under {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid var(--clr-secondary);
     }
 
     /* Grid layout classes */
