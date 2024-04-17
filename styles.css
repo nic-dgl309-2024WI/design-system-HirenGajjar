@@ -593,6 +593,12 @@
         margin-right: auto;
     }
 
+    .l-mob-max-width-90 {
+        max-width: 90%;
+    }
+
+
+
     /* Justify content  */
 
     .l-jc-center {
@@ -2961,6 +2967,10 @@
 
     .l-mw-mobile-040-ch {
         max-width: 40ch;
+    }
+
+    .l-mw-mobile-045-ch {
+        max-width: 45ch;
     }
 
     .l-mw-mobile-050-ch {
